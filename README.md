@@ -15,7 +15,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Geovanne Marco Correa da Silva
 * Saory Nayara Vieira Nakabori
 * Fernanda Marques Assis
-* 
+* Danrley Gustavo Martins De Paula
 
 ## Orientador
 
