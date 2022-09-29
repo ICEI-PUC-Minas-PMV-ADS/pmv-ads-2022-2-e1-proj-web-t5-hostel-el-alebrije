@@ -1,6 +1,6 @@
 # TÍTULO DO PROJETO
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`
 
 `DISCIPLINA`
 
@@ -12,7 +12,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 * Gabrielle Oliveira Santana
 * Gabriella Bradley Cusnir
-* Nome completo do aluno 3
+* Geovanne Marco Correa da Silva
 * Nome completo do aluno 4
 
 ## Orientador
