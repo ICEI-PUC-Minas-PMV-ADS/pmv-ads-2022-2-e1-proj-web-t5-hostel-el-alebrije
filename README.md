@@ -13,7 +13,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Gabrielle Oliveira Santana
 * Gabriella Bradley Cusnir
 * Geovanne Marco Correa da Silva
-* Nome completo do aluno 4
+* Saory Nayara Vieira Nakabori
 * Nome completo do aluno 5
 
 ## Orientador
