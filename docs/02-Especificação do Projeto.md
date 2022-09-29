@@ -50,6 +50,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------|----|
 |RF-001| Um breve cadastro de cada pessoa que permite o hostel ter informações importantes do cliente, principalmente para um check-in e check-out online. Assim, ele poderá se adiantar com toda a documentação.| ALTA | 
 |RF-002| Um serviço de disponibilidade de camas e quartos, para que o cliente possa escolher a cama e o quarto que deseja e não ocorra reservas acima da capacidade do hostel. | ALTA |
+|RF-003| Disponibilizar para o cliente todos os atrativos da região com descrições de cada atividade e com uma opção do hóspede se inscrever para participar das atividades dentro e fora do hostel. | MÉDIA |
+|RF-004| O sistema deve permitir as seguintes opções de pagamento da estadia no hotel: 1) à vista (em dinheiro, cheque ou cartão de crédito); 2) faturado em 30 dias. | MÉDIA |
+|RF-005| O sistema deve permitir as seguintes opções de pagamento da estadia no hotel: 1) à vista (em dinheiro, cheque ou cartão de crédito); 2) faturado em 30 dias. | BAIXA |
+
 
 
 ### Requisitos não Funcionais
