@@ -7,8 +7,38 @@ Definição do problema e ideia de solução a partir da perspectiva do usuário
 Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
 ## Personas
+Persona 1 – Viajantes entre 18 e 29 anos
+Nome: Ana;
+Idade: 18;
+Gênero: Feminino;
+ 
+Motivações para viajar: Conhecer novos lugares e pessoas; 
+Postar novas fotos no feed;
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+Medos ao planejar uma viagem: Sofrer assédio;
+Errar as rotas da hospedagem, em caso da ausência de translado;
+Ficar fora do orçamento;
+Relação custo x benefício ser ruim;
+
+Frustrações ao buscar por acomodações: Custo alto para alta temporada; Falta de informações claras a respeito do total de gastos em relação a hospedagem, café da manhã e outros serviços, nos sites das empresas de hospedagens;
+
+Ferramentas utilizadas para encontrar uma acomodação: 1º Instagram, 2ª Indicação de familiares, amigos ou famosos; 3º Airbnb;
+
+Três coisas que você mais procura ao buscar por hospedagens: Estadia ser o mais próximo possível das áreas de lazer, preços acessíveis,Segurança;
+
+Problemas durante uma viagem: Perda de identidade e pertences em festas; 
+
+Três coisas que tornam uma acomodação aconchegante: Toque clean e minimalista;
+
+Preferência ao viajar: Sozinha, amigos e familiares;
+
+Você geralmente se hospeda em: Hotel, Casa de amigos, Hostel;
+
+Hobbies: Sair com os amigos, Dançar, Conhecer novas pessoas;
+
+
+
+
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
@@ -48,12 +78,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Um breve cadastro de cada pessoa que permite o hostel ter informações importantes do cliente, principalmente para um check-in e check-out online. Assim, ele poderá se adiantar com toda a documentação.| ALTA | 
-|RF-002| Um serviço de disponibilidade de camas e quartos, para que o cliente possa escolher a cama e o quarto que deseja e não ocorra reservas acima da capacidade do hostel. | ALTA |
-|RF-003| Disponibilizar para o cliente todos os atrativos da região com descrições de cada atividade e com uma opção do hóspede se inscrever para participar das atividades dentro e fora do hostel. | MÉDIA |
-|RF-004| O sistema deve permitir as seguintes opções de pagamento da estadia no hotel: 1) à vista (em dinheiro, cheque ou cartão de crédito); 2) faturado em 30 dias. | MÉDIA |
-|RF-005| O sistema deve permitir as seguintes opções de pagamento da estadia no hotel: 1) à vista (em dinheiro, cheque ou cartão de crédito); 2) faturado em 30 dias. | BAIXA |
-
+|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
+|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
 
 
 ### Requisitos não Funcionais
