@@ -36,6 +36,62 @@ Você geralmente se hospeda em: Hotel, Casa de amigos, Hostel;
 
 Hobbies: Sair com os amigos, Dançar, Conhecer novas pessoas;
 
+Persona 2 – Mochileiros entre 18 e 29 anos
+Nome: Matheus;
+Idade: 26;
+Gênero: Masculino;
+ 
+Motivações para viajar: Fazer amizades, aprender sobre a cultura do destino escolhido;
+
+Medos ao planejar uma viagem: Gastar mais dinheiro que o esperado; 
+Frustrações ao buscar por acomodações: Dividir quartos, a fim de economizar dinheiro, estadia ser longe das áreas de lazer;
+Ferramentas utilizadas para encontrar uma acomodação: 1º Instagram, 2ª Indicação de mochileiros e amigos, 3º Google;
+
+Três coisas que você mais procura ao buscar por hospedagens: Estadia ser o mais próximo possível das áreas de lazer, preços acessíveis, Atividades noturnas;
+Problemas durante uma viagem: Extravio de bagagem;
+
+Três coisas que tornam uma acomodação aconchegante: Boa recepção/acolhimento no local;
+
+Preferência ao viajar: Sozinho ou com amigos; 
+
+Você geralmente se hospeda em: Hostel, casa de amigos, couchsurfing, Camping;
+
+Hobbies: Sair com os amigos, Fazer trilha, Conhecer novos lugares;
+
+Persona 3 – Mochileiras entre 29 e 39 anos
+Nome: Adriana;
+Idade: 30;
+Gênero: Feminino;
+ 
+Motivações para viajar: Sair da rotina/zona de conforto, praticar a língua local e aprender com ela;
+
+Medos ao planejar uma viagem: Sofrer com as barreiras linguísticas;
+
+Frustrações ao buscar por acomodações: Ter um serviço ruim durante a estadia; ter um péssimo atendimento;
+Ferramentas utilizadas para encontrar uma acomodação: 1º Site próprio;
+2ª Indicação de mochileiros, amigos e familiares;
+3º HostelWorld;
+Três coisas que você mais procura ao buscar por hospedagens: 
+Bom atendimento e serviços hoteleiros;
+Diversidade de pessoas;
+Problemas durante uma viagem: 
+Intoxicação alimentar durante a estadia e falta de assistência devida para o caso;
+Três coisas que tornam uma acomodação aconchegante:
+Informalidade (aspecto mais caseiro) e diversidade de pessoas;
+Preferência ao viajar: 
+Sozinho ou com amigos e família;
+Você geralmente se hospeda em... 
+Hotel – Quando viajo em família;
+Hostel;
+Casa de amigos;
+Couchsurfing;
+Camping;
+Hobbies: 
+Acampar;
+Explorar novos ambientes;
+Conhecer novas pessoas;
+
+
 
 
 
