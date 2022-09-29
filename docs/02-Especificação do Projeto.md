@@ -48,8 +48,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Um breve cadastro de cada pessoa que permite o hostel ter informações importantes do cliente, principalmente para um check-in e check-out online. Assim, ele poderá se adiantar com toda a documentação.| ALTA | 
+|RF-002| Um serviço de disponibilidade de camas e quartos, para que o cliente possa escolher a cama e o quarto que deseja e não ocorra reservas acima da capacidade do hostel. | ALTA |
 
 
 ### Requisitos não Funcionais
