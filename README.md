@@ -11,7 +11,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 ## Integrantes
 
 * Gabrielle Oliveira Santana
-* Nome completo do aluno 2
+* Gabriella Bradley Cusnir
 * Nome completo do aluno 3
 * Nome completo do aluno 4
 
