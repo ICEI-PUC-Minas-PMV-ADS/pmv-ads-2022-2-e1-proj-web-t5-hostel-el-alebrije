@@ -114,8 +114,29 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Ana                 | Relação custo x benefício boa      | Não esquecer de fazê-las               |
+|Ana                 | Segurança ao viajar                | Gosta de viajar sozinha e tem medo de sofrer assédio |
+|Ana                 | Informações mais claras a respeito do total de gastos com a hospedagem, café da manhã e outros serviços | Não ficar fora do orçamento |
+|Matheus             | Estadia ser o mais próximo possível das áreas de lazer | Conhecer mais pessoas e fazer amizades |
+|Matheus             | Custo mais baixo para alta temporada | Não ter que dividir quartos, a fim de economizar dinheiro |
+|Matheus             | Fazer trilha                       | Conhecer novos lugares                  |
+|Adriana             | Praticar a língua local            | Não sofrer com barreiras linguísticas, durante os mochilões  |
+|Adriana             | Hostel mais informal/caseiro       | Criar amizades em a diversidade de pessoas  |
+|Adriana             | Acampar                            | Sair da rotina  |
+|Roberto             | Dirigir pela cidade                | Permitir que possam administrar contas |
+|Roberto             | Bom atendimento por parte dos funcionários da hospedagem  | Não sentir que está sem suporte ou auxílio, se situações adversas ocorrerem |
+|Roberto             | Fazer check-in e check-out online               | Antecipar a documentação |
+|Roberto             | Ter atividades que permitem o convívio entre os hóspedes, como: festas, jogos e passeios | Aprender com os choques culturais entre a diversidade de pessoas |
+|Maria               | Acomodações com filtro sonoro      | Meditação               |
+|Maria               | Viajar com mais frequência         | Aprender com as diferentes gastronomias           |
+|Maria               | Mais facilidade na hora de obter a documentação necessária, para a solicitação de serviços fora da hospedagem  | Alugar carros para locomoção, durante a viagem     |
+|Maria               | Mais transparência e veracidade nas informações passadas durante as reservas    | Não cair em propagandas enganosas (pagar por algo e obter algo diferente do apresentado/vendido               |
+|Paulo               | Um check-list de turístico de quais são as atrações mais próximas da hospedagem      | Visitar museus e monumentos históricos               |
+|Paulo               | Flexibilidade em relação a compra, como mudança de datas, etc     | Caso ocorra imprevistos ou tenha que gastar menos dinheiro               |
+|Paulo               | A hospedagem tome medidas judiciais e fiscalização constante contra preconceitos raciais      | Hospedes negros ou de outras nacionalidades não se sintam diminuídos |
+|Victor (Donos)      | Dar mais assistência e bem-estar ao hóspedes      | Ter uma hospedagem com mais aderência no mercado               |
+|Victor (Donos)      | Aprender com os feedbacks dos ex-hóspedes      | Suprir os medos e frustrações de seus clientes com soluções em suas hospedagens               |
+|Victor (Donos)      | Trazer um atendimento mais humano para seus hóspedes  | Fidelizar mais clientes               |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
