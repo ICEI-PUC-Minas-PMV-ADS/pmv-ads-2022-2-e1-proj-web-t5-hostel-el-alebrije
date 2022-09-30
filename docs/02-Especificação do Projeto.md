@@ -146,6 +146,15 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-010| O sistema deve permitir a inclusão, alteração, remoção ou flexibilização em relação ao consumo do hóspede, mudança de datas/hospedagens ou cancelamento de pacotes, mesmo após aprovação da reserva | ALTA |
 |RF-011| O sistema será traslado em três línguas: português, espanhol e inglês | ALTA | 
 |RF-012| A reserva somente deve ser feita se existirem vagas suficientes para atendê-la. Ademais, deverá ser mostrada uma mensagem alertando que não há disponibilidade de acomodações para o período indicado| ALTA |
+|RF-013| O sistema deve permitir diversas formas de pagamento e fazer com que o hóspede escolha a mesma | ALTA | 
+|RF-014| A interface gráfica deve ser de fácil entendimento e o usuário deve conseguir usar com facilidade | MÉDIA |
+|RF-015| O cadastro de novos usuários, será validado através de um e-mail de confirmação | MÉDIA | 
+|RF-016| Deve ser possível ao usuário solicitar a redefinição de sua senha, informando o e-mail cadastrado | MÉDIA |
+|RF-017| O site deverá apresentar links redirecionando às outras redes da empresa, como: Instagram, Youtube, Facebook e afins | BAIXA | 
+|RF-018| Deve ser possível ao usuário solicitar a redefinição de sua senha, informando o e-mail cadastrado | ALTA |
+|RF-019| O sistema deve permitir o cancelamento de reservas | BAIXA | 
+|RF-020| O sistema deve permitir uma aba para “Reclamações e Denúncias Anônimas”, para casos de preconceitos raciais ou demais crimes e situações adversas, ocorridas durante a hospedagem | ALTA |
+|RF-021| O sistema deve permitir uma aba para apresentar na tela o total a pagar, a soma das diárias, acrescentando-se os consumos e subtraindo-se o desconto, se houver | ALTA |
 
 ### Requisitos não Funcionais
 
