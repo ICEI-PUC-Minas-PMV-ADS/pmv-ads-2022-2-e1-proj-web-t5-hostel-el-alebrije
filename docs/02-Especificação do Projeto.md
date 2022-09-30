@@ -68,28 +68,22 @@ Motivações para viajar: Sair da rotina/zona de conforto, praticar a língua lo
 Medos ao planejar uma viagem: Sofrer com as barreiras linguísticas;
 
 Frustrações ao buscar por acomodações: Ter um serviço ruim durante a estadia; ter um péssimo atendimento;
-Ferramentas utilizadas para encontrar uma acomodação: 1º Site próprio;
-2ª Indicação de mochileiros, amigos e familiares;
-3º HostelWorld;
-Três coisas que você mais procura ao buscar por hospedagens: 
-Bom atendimento e serviços hoteleiros;
-Diversidade de pessoas;
-Problemas durante uma viagem: 
-Intoxicação alimentar durante a estadia e falta de assistência devida para o caso;
-Três coisas que tornam uma acomodação aconchegante:
-Informalidade (aspecto mais caseiro) e diversidade de pessoas;
-Preferência ao viajar: 
-Sozinho ou com amigos e família;
-Você geralmente se hospeda em... 
-Hotel – Quando viajo em família;
-Hostel;
-Casa de amigos;
-Couchsurfing;
-Camping;
-Hobbies: 
-Acampar;
-Explorar novos ambientes;
-Conhecer novas pessoas;
+
+Ferramentas utilizadas para encontrar uma acomodação: 1º Site próprio, 2ª Indicação de mochileiros, amigos e familiares, 3º HostelWorld;
+
+Três coisas que você mais procura ao buscar por hospedagens: Bom atendimento e serviços hoteleiros, Diversidade de pessoas;
+
+Problemas durante uma viagem: Intoxicação alimentar durante a estadia e falta de assistência devida para o caso;
+
+Três coisas que tornam uma acomodação aconchegante: Informalidade (aspecto mais caseiro) e diversidade de pessoas;
+
+Preferência ao viajar: Sozinho ou com amigos e família;
+
+Você geralmente se hospeda em: Hotel – Quando viajo em família, Hostel, Casa de amigos, Couchsurfing,Camping;
+
+Hobbies: Acampar, Explorar novos ambientes, Conhecer novas pessoas;
+
+
 
 
 
