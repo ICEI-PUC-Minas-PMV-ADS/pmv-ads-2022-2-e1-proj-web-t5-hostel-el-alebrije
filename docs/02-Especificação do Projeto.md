@@ -160,8 +160,22 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| O site deverá rodar em qualquer plataforma, possibilitando seu uso em dispositivos com O.S. Windows, Linux, Mac OS, Android, Chrome OS e IOS | ALTA | 
+|RNF-002| O site deverá ser desenvolvido na linguagem Javascript, HTML e CSS |  ALTA | 
+|RNF-003| O site deverá atender às normas legais, tais como padrões e Lei de Dados | MÉDIA | 
+|RNF-004| O sistema não apresentará aos usuários quaisquer dados de cunho privativo |  MÉDIA | 
+|RNF-005| Um relatório de acompanhamento deverá ser fornecido toda segunda-feira | ALTA | 
+|RNF-006| O site deve responder a consultas online em menos de 5 segundos |  BAIXA | 
+|RNF-007| O sistema deve ter capacidade para recuperar os dados perdidos da última operação que realizou em caso de falha | MÉDIA | 
+|RNF-008| O site deve possuir senhas de acesso e identificação para diferentes tipos de usuários: administrador do sistema, funcionários do hostel e clientes que têm acesso ao sistema no hostel |  BAIXA | 
+|RNF-009| As informações pessoais dos usuários não poderão ser vistas pelos operadores do sistema | MÉDIA | 
+|RNF-010| O site deve ser escalável o suficiente para suportar 1.000.000 de visitas ao mesmo tempo, mantendo o desempenho ideal |  BAIXA | 
+|RNF-011| O sistema deve funcionar sem falhas em 95% dos casos de uso durante um mês | MÉDIA | 
+|RNF-012| Os usuários não precisarão de treinamento prévio para utilizar todas as funções do site |  BAIXA | 
+|RNF-013| Portabilidade para novos hardwares e sistemas operacionais (quando forem lançadas novas versões de sistema operacional) |  MÉDIA | 
+|RNF-014| Utilizar Scrum como Metodologia de Desenvolvimento | MÉDIA | 
+|RNF-015| O site deverá ser fácil de usar, eficiente e acessível |  ALTA | 
+|RNF-015| Os usuários devem ser ajudados adequadamente a preencher os campos obrigatórios, em caso de entrada inválida |  MÉDIA | 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
