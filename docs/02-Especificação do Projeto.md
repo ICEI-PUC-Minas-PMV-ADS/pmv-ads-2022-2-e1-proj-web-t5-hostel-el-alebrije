@@ -134,9 +134,18 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-
+|RF-001| Um breve cadastro de cada pessoa que permite o hostel ter informações importantes do cliente, principalmente para um check-in e check-out online. Assim, ele poderá se adiantar com toda a documentação | ALTA | 
+|RF-002| Um serviço de disponibilidade de camas e quartos, para que o cliente possa escolher a cama e o quarto que deseja e não ocorra reservas acima da capacidade do hostel | ALTA |
+|RF-003| Disponibilizar para o cliente todos os atrativos da região com descrições de cada atividade e com uma opção do hóspede se inscrever para participar das atividades dentro e fora do hoste | MÉDIA | 
+|RF-004| O sistema deve permitir as seguintes opções de pagamento da estadia no hotel: 1) à vista (em dinheiro, cheque ou cartão de crédito); 2) faturado em 30 dias| MÉDIA |
+|RF-005| O sistema deve permitir ao hóspede imprimir um histórico de suas estadias no hostel, agilizando o processo de hospedagem pelo cadastro já ter sido previamente feito | BAIXA | 
+|RF-006| O sistema deve possuir uma área de feedback e dicas de antigos hóspedes para orientação de estrangeiros, a fim de que o hóspede saiba o que vale a pena investir ou não e tenha uma boa estadia | MÉDIA |
+|RF-007| O site deverá ter uma página “Sobre nós”, explicando sobre o empreendimento. E, uma para "Dúvidas'', a fim de obter uma comunicação clara e objetiva do funcionamento e hospedagem do hostel, para a diminuição de pesquisas para obter informações em sites de terceiros | MÉDIA | 
+|RF-008| O site deverá conter uma imagem correspondente para as diferenças de acomodações e demais serviços prestados aos hóspedes | BAIXA |
+|RF-009| O sistema deve permitir a impressão de um relatório contendo as faturas em atraso no período (por exemplo, semanal ou quinzenal), contendo, para cada dia do período, o nome do hóspede, a data de vencimento e o valor devido pelo hóspede | MÉDIA | 
+|RF-010| O sistema deve permitir a inclusão, alteração, remoção ou flexibilização em relação ao consumo do hóspede, mudança de datas/hospedagens ou cancelamento de pacotes, mesmo após aprovação da reserva | ALTA |
+|RF-011| O sistema será traslado em três línguas: português, espanhol e inglês | ALTA | 
+|RF-012| A reserva somente deve ser feita se existirem vagas suficientes para atendê-la. Ademais, deverá ser mostrada uma mensagem alertando que não há disponibilidade de acomodações para o período indicado| ALTA |
 
 ### Requisitos não Funcionais
 
