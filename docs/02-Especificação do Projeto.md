@@ -198,9 +198,11 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
+|01| O projeto deverá ser entregue no final  do  semestre  letivo,  não  podendo extrapolar a data de 11/12/2022 |
+|02| O site deve-se restringir às tecnologias básicas da Web no Front-end        |
+|03| A equipe não pode subcontratar o desenvolvimento do trabalho |
+|04| No projeto, não será utilizado banco de dados       |
+|05| No sistema, será utilizado, uma API de reservas paga, feita por terceiros |
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
