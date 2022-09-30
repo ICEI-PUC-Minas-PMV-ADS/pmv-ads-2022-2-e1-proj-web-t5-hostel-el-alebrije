@@ -83,24 +83,82 @@ Você geralmente se hospeda em: Hotel – Quando viajo em família, Hostel, Casa
 
 Hobbies: Acampar, Explorar novos ambientes, Conhecer novas pessoas;
 
+Persona 4 – Viajantes entre 29 e 39 anos
+Nome: Roberto;
+Idade: 38;
+Gênero: Masculino;
+ 
+Motivações para viajar: Conhecer as diferentes arquiteturas dos prédios e casas, Aprender com os choques culturais;
 
+Medos ao planejar uma viagem: Me perder durante as escolhas de acomodações e tipos de hospedagens;
 
+Frustrações ao buscar por acomodações: Fazer check-in e check-out presencial, por não ter uma boa assistência pelo site da hospedagem;
 
+Ferramentas utilizadas para encontrar uma acomodação: 1º Site próprio, 2º Booking, 3º Airbnb;
 
+Três coisas que você mais procura ao buscar por hospedagens: Conforto, Lazer, Culturas diferentes;
 
+Problemas durante uma viagem: Mal atendimento por parte dos funcionários da hospedagem;
 
+Três coisas que tornam uma acomodação aconchegante: Ter atividades que permitem o convívio entre os hóspedes, como: festas, jogos e passeios;
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+Preferência ao viajar: Sozinho ou com amigos e família;
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+Você geralmente se hospeda em: Hotel, Casa de amigos;
+
+Hobbies: Praticar atividades físicas, Dirigir pela cidade, Passar tempo com familiares e amigos;
+
+Persona 5 – Viajantes entre 40 e 50 anos
+Nome: Maria;
+Idade: 48;
+Gênero: Feminino;
+ 
+Motivações para viajar: Descansar, passar mais tempo em família, Aprender com as diferentes gastronomias;
+
+Medos ao planejar uma viagem: Desfrutar de um péssimo serviço de acomodação, limpeza e organização da hospedagem ser insuficiente, acomodações sem filtro sonoro;
+Frustrações ao buscar por acomodações: Sites próprios sem as opções de tradução automática, propagandas enganosas (pagar por algo e obter algo diferente do apresentado/vendido), falta de informações claras a respeito de aluguel de carros;
+
+Ferramentas utilizadas para encontrar uma acomodação: 1º Site próprio, 2ª Booking, 3º CVC;
+
+Três coisas que você mais procura ao buscar por hospedagens: Acomodações com filtro sonoro para meditação, Segurança, Boas e novas experiências;
+
+Problemas durante uma viagem: Dificuldade de obter a documentação necessária, para a solicitação de serviços fora da hospedagem, como aluguel de carros;
+
+Três coisas que tornam uma acomodação aconchegante: Limpeza frequente do local, bom atendimento e convívio com os moradores;
+
+Preferência ao viajar: Sempre com a família;
+
+Você geralmente se hospeda em: Hotel;
+
+Hobbies: Sair com os amigos, meditar, Conhecer novas pessoas;
+
+Persona 6 – Donos de Hospedagens
+Nome: Victor;
+Idade: 40;
+Gênero: Masculino;
+
+Motivações para viajar (Visão dos hóspedes): Conhecer pessoas, provar da culinária do local, ir em museus ou monumentos históricos, registrar momentos, sair da rotina/zona de conforto;
+
+Medos ao planejar uma viagem (Visão dos hóspedes): Desfrutar de um péssimo serviço de acomodação, limpeza e organização da hospedagem ser insuficiente, não obter informações suficientes por nossos serviços e se sentir desamparados(as), Sentir barreiras linguísticas em nossos estabelecimentos;
+
+Frustrações ao buscar por acomodações (Visão dos hóspedes): Sites próprios sem as opções de tradução automática, propagandas enganosas (pagar por algo e obter algo diferente do apresentado/vendido); falta de informações claras a respeito de aluguel de carros ou outros serviços prestados pela hospedagem, hospedagem mal localizada;
+
+Ferramentas utilizadas para encontrar uma acomodação (Visão dos hóspedes): 1º Site próprio, 2º Instagram, 3ª Indicação de familiares, mochileiros, amigos ou famosos, 4º Airbnb, 5º CVC;
+
+Três coisas que você mais procura ao buscar por hospedagens acomodação (Visão dos hóspedes): Flexibilidade em relação a compra, como mudança de datas etc. ,conforto, segurança, bom atendimento e limpeza, organização e clareza de informações, boa organização para voos/hospedagem, ter atividades que permitem o convívio entre os hóspedes, como: festas, jogos e passeios;
+
+Problemas durante uma viagem (Visão dos hóspedes): Preconceitos raciais entre hóspedes, sofrer assédio dentro ou fora da hospedagem, problemas com aluguéis de carros;
+Documentação incompleta para check-in e check-out, quartos compartilhados e falta de privacidade, barreiras linguísticas, mal atendimento por parte dos funcionários da hospedagem, extravio de bagagem, intoxicação alimentar e falta de assistência devida, errar as rotas da hospedagem, em caso da ausência de translado;
+
+Três coisas que tornam uma acomodação aconchegante (Visão dos hóspedes): Boa vista do quarto da hospedagem, limpeza frequente do local, aspecto caseiro/informal, Hospedagem com tudo aquilo que foi prometido durante a compra, bom atendimento e convívio com os moradores, Comunicação clara e organização;
+
+Preferência ao viajar (Visão dos hóspedes): 1ª Família, 2º Sozinho, 3º Amigos;
+
+Você geralmente se hospeda em (Visão dos hóspedes): 1º Hotel, 2ª Casa de amigos, 3º Hostel, 4º Couchsurfing, 5º Expedia;
+
+Hobbies (Visão dos hóspedes): Ler, praticar atividades físicas, Pintura, Trilha, Nadar;
+
+Cite a importância de conhecer seus hóspedes (Visão dos donos): Melhorar no ramo hoteleiro, fidelizar clientes, trazer uma melhor experiência para o cliente, Se tornar referência em atendimento, cuidado e segurança, tanto dos funcionários, quanto dos hóspedes;
 
 ## Histórias de Usuários
 
@@ -133,13 +191,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Victor (Donos)      | Trazer um atendimento mais humano para seus hóspedes  | Fidelizar mais clientes               |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
 
@@ -192,21 +243,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-015| O site deverá ser fácil de usar, eficiente e acessível |  ALTA | 
 |RNF-015| Os usuários devem ser ajudados adequadamente a preencher os campos obrigatórios, em caso de entrada inválida |  MÉDIA | 
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
@@ -216,7 +252,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |01| O projeto deverá ser entregue no final  do  semestre  letivo,  não  podendo extrapolar a data de 11/12/2022 |
 |02| O site deve-se restringir às tecnologias básicas da Web no Front-end        |
 |03| A equipe não pode subcontratar o desenvolvimento do trabalho |
-|04| No projeto, não será utilizado banco de dados       |
+|04| No projeto, não será utilizado banco de dados |
 |05| No sistema, será utilizado, uma API de reservas paga, feita por terceiros |
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
