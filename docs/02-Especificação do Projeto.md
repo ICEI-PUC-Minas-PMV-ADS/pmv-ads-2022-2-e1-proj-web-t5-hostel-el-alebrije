@@ -190,7 +190,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Victor (Donos)      | Aprender com os feedbacks dos ex-hóspedes      | Suprir os medos e frustrações de seus clientes com soluções em suas hospedagens               |
 |Victor (Donos)      | Trazer um atendimento mais humano para seus hóspedes  | Fidelizar mais clientes               |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
 ## Requisitos
 
