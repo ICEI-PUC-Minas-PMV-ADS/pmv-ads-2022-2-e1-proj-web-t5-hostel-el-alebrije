@@ -1,10 +1,7 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
+<span style="color:red">Link para Documento:<a href="https://docs.google.com/document/d/1mVxuc7Acsyz67KX7SQFmKibPA7D_GCvk/edit?usp=sharing&ouid=112382429511448685103&rtpof=true&sd=true"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
 ## Personas
 Persona 1 – Viajantes entre 18 e 29 anos
