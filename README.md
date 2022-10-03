@@ -6,7 +6,8 @@
 
 `PRIMEIRO SEMESTRE`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto desenvolvido, refere-se uma aplicação web funcional, para o Hostal El Alebrije, da cidade de Valle de Brabo, no México. 
+Tem como principais objetivos, promover um processo comunicacional adequado entre o Hostal El Alebrije e seus clientes no processo de reservas para férias e viagens, bem como minar as comissões pagas a terceiros, a fim de trazer mais aderência ao mercado de holtels.
 
 ## Integrantes
 
