@@ -43,6 +43,19 @@ A equipe está organizada da seguinte maneira:
 O quadro de tarefas foi desenvolvido na ferramenta de gerenciamento de projetos Notion e é apresentado, no estado atual, na Figura X:
 ![image](https://user-images.githubusercontent.com/95951195/193952291-17a4539a-589b-485c-8e04-d12c59017fb9.png)
 
+As ferramentas empregadas no projeto são:
+- Editor de código.
+- Ferramentas de comunicação
+- Ferramentas de desenho de tela (_wireframing_)
+
+| Ferramenta     | Descrição da Ferraments  |
+|-------|-------------------------|
+|GitHub e Git | Usada para documentação e versionamento do código | 
+|Figma | Usada para o design e desenhos das telas (wireframing) | 
+|Teams | Ferramenta utilizada para comunicação entre o grupo | 
+|Drive | Usado para salvar e editar os documentos | 
+|Notion | Ferramenta utilizada para organização da metodologia ágil aplicada pela equipe (Scrum) | 
+
 <!-- 
 As ferramentas empregadas no projeto são:
 
