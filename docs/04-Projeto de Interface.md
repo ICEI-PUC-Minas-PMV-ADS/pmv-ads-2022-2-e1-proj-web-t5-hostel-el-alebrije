@@ -6,7 +6,6 @@
 > **Link para o nosso projeto 🧳🌌🌅**:
 > > - [Figma]([https://www.figma.com/](https://www.figma.com/file/qO2M99ABwqkSpM25lPzdxO/Hostel-El-Alebrije?node-id=23%3A2))
 
-![image](https://user-images.githubusercontent.com/95951195/193952291-17a4539a-589b-485c-8e04-d12c59017fb9.png)
 
 <!-- 
 ![Exemplo de UserFlow](img/userflow.jpg)
