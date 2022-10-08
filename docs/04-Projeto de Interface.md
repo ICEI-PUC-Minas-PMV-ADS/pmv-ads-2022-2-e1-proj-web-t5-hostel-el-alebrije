@@ -7,6 +7,7 @@
 > > - [Figma]([https://www.figma.com/](https://www.figma.com/file/qO2M99ABwqkSpM25lPzdxO/Hostel-El-Alebrije?node-id=23%3A2))
 
 ### 1.1. Home-Page
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t5-hostel-el-alebrije/issues/1#issue-1401998259
 ### 1.2.
 ### 1.3.
 ### 1.4.
