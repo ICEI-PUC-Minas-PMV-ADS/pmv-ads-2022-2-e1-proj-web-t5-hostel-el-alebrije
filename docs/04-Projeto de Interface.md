@@ -18,10 +18,17 @@
 ### 1.4. Tela: Segurança
 ![4-Segurança - Portugues](https://user-images.githubusercontent.com/95951195/194718416-dc2e5960-fc74-46aa-972e-975bdc09c829.png)
 
+### 1.5. Tela: Reclamações
 
+### 1.6. Tela: Reservas
 
+### 1.7. Tela: Avaliações
 
+### 1.8. Tela: Escolha seu quarto
 
+### 1.9. Tela: Revise seus dados
+
+### 1.10. Tela: Confirmação
 
 <!-- 
 ![Exemplo de UserFlow](img/userflow.jpg)
