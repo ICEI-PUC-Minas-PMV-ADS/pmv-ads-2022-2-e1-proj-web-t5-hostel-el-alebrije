@@ -6,11 +6,12 @@
 > **Link para o nosso projeto 🧳🌌🌅**:
 > > - [Figma]([https://www.figma.com/](https://www.figma.com/file/qO2M99ABwqkSpM25lPzdxO/Hostel-El-Alebrije?node-id=23%3A2))
 
-### 1.1. Home-Page
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t5-hostel-el-alebrije/issues/1#issue-1401998259
-### 1.2.
-### 1.3.
-### 1.4.
+### 1.1. Tela: Home-Page
+![1-Home](https://user-images.githubusercontent.com/95951195/194717957-389b51d9-15f2-405c-93d6-b318d7e3c985.png)
+
+### 1.2. Tela: Criar Conta
+### 1.3. Tela: Dados Pessoais
+### 1.4. Tela: Segurança
 
 
 
