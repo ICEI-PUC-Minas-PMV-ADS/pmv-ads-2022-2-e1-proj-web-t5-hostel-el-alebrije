@@ -10,8 +10,13 @@
 ![1-Home](https://user-images.githubusercontent.com/95951195/194717957-389b51d9-15f2-405c-93d6-b318d7e3c985.png)
 
 ### 1.2. Tela: Criar Conta
+![2-Criar Conta - Portugues](https://user-images.githubusercontent.com/95951195/194718378-9657e773-25c2-4c43-8305-eab71a3d2a3b.png)
+
 ### 1.3. Tela: Dados Pessoais
+![3 -Dados Pessoais - Portugues](https://user-images.githubusercontent.com/95951195/194718397-d2d87692-4ab1-43f8-aaf6-ac150e18efd9.png)
+
 ### 1.4. Tela: Segurança
+![4-Segurança - Portugues](https://user-images.githubusercontent.com/95951195/194718416-dc2e5960-fc74-46aa-972e-975bdc09c829.png)
 
 
 
