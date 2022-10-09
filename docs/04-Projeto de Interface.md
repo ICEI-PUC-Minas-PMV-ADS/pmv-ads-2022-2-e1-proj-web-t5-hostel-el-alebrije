@@ -24,9 +24,18 @@ A tela home page apresenta os serviços que podem ser executados através do sit
 
 ![1](https://user-images.githubusercontent.com/95951195/194770545-6aef5ecf-f0fb-445a-8057-219e0b8cc4bc.jpeg)</br></br></br>
 
-### 1.1. Tela – Sobre
+### 1.2. Tela – Sobre
 A tela “Sobre” apresenta a história do Hostel para o usuário.
 ![2](https://user-images.githubusercontent.com/95951195/194770600-5419fd8a-b6a3-46b3-90c5-96cfc172ead4.jpeg) </br></br></br>
+
+
+### 1.3. Tela – Fotos
+A tela “Fotos” apresenta fotos do hostel para o usuário, nessa tela ele consegue navegar em um slide que contém fotos de todos os quartos e áreas internas e externas do hostel.
+![3](https://user-images.githubusercontent.com/95951195/194770664-8001c35d-d3ad-4850-b5a1-f7f5077df7d6.jpeg)</br></br></br>
+
+### 1.4. Tela - Acomodações
+
+
 
 
 
