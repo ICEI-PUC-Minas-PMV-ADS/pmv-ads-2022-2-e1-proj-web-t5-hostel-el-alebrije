@@ -96,16 +96,16 @@ A tela ‘’Reserve agora” fica disponível para o usuário fazer as reservas
 ![5](https://user-images.githubusercontent.com/95951195/194771793-6f353e6c-1fef-469d-b790-61a79585732e.jpeg)</br>
 
 #### Reservas
-![6](https://user-images.githubusercontent.com/95951195/194771826-63acb6ef-3d31-46d6-9fef-3784135a8dd1.jpeg)</br></br>
+![1](https://user-images.githubusercontent.com/95951195/194772271-2b694d1e-abe3-40ed-94b9-eb613018b160.jpeg)</br></br>
 Acessando a tela de reservas o usuário irá escolher a “Acomodação” e quantidade de “Hóspedes” e logo terá o valor a ser pago por cada hóspede e um indicador com a data de entrada e saída do hostel e por fim o total a ser pago.</br></br>
 
 #### Identificação e formas de pagamentos
 Após confirmar os quartos e quantidades de hóspedes o usuário será direcionado para tela de “Identificação” onde já irá aparecer os seus dados cadastrados previamente e selecionar a forma de pagamento. </br>
-![7](https://user-images.githubusercontent.com/95951195/194771896-f6e96a46-f3ec-463e-b71e-5622707f01fd.jpeg)</br>
+![2](https://user-images.githubusercontent.com/95951195/194772313-6f99076f-5afa-4639-a4d7-bbfa740f70f4.jpeg)</br>
 
 #### Confirmação
 Finalizando a tela de “Identificação” o usuário será direcionado para tela de “Confirmação” tela essa que informa ao usuário os dados da reserva e informações de pagamento, e caso o usuário tenha ficado com alguma dúvida tem um link disponível para um contato direto no WhatsApp do hostel. </br>
-![7](https://user-images.githubusercontent.com/95951195/194771896-f6e96a46-f3ec-463e-b71e-5622707f01fd.jpeg)</br>
+![confirmação](https://user-images.githubusercontent.com/95951195/194772385-b3300d07-6a13-4b5a-a63f-855295d8fdae.jpeg)</br>
 
 ### 1.11 Tela após fazer login
 Após o usuário se cadastrar e efetuar login no site ele terá acesso a configuração de sua conta.
