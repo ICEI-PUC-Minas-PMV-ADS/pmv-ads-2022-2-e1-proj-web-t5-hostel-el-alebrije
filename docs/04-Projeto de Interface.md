@@ -117,11 +117,42 @@ Após o usuário se cadastrar e efetuar login no site ele terá acesso a configu
 •	Componente de “Segurança”, que permite ao usuário alterar a senha cadastrada;</br></br>
 
 ### 1.12 Tela Dados Cadastrais
-A tela “Dados cadastrais” é liberar após o cliente efetuar o login no site acessando a opção de “Configurações” de sua.
-![8](https://user-images.githubusercontent.com/95951195/194772128-73923e37-8d07-4b17-a9f7-90d201673b9f.jpeg)
+A tela “Dados cadastrais” é liberar após o cliente efetuar o login no site acessando a opção de “Configurações” de sua.</br></br>
+![8](https://user-images.githubusercontent.com/95951195/194772128-73923e37-8d07-4b17-a9f7-90d201673b9f.jpeg)</br></br>
+Acessando a opção de “Configurações” o usuário terá acesso aos “Dados cadastrais” onde pode alterar a foto de perfil e fazer as alterações de; Nome, sobrenome, nome de exibição, e-mail cadastrado, telefone, data de aniversário, gênero, endereço e passaporte, pra confirmar as alterações o usuário deve clicar em “Salvar”. </br></br>
+![dados](https://user-images.githubusercontent.com/95951195/194772454-34723d4a-4ade-4af9-8345-cf304e0ba34b.jpeg)</br></br>
 
+### 1.13 Tela Reservas
+A tela “Reservas” permite que o usuário verifique suas reservas ativas e também disponibiliza um botão para “Cancelar reserva”.</br></br>
+![reserva](https://user-images.githubusercontent.com/95951195/194772493-6603ea05-96e9-40c1-9955-698cd27c0478.jpeg)
+</br></br>
 
+### 1.14 Tela Avaliações 
+A tela “Avaliações” permite que o usuário faça um comentário sobre os passeios e estadia no hostel;</br></br>
+![avalia](https://user-images.githubusercontent.com/95951195/194772522-a15776ee-2747-48eb-9094-f82193945161.jpeg)
+</br></br>
 
+### 1.15 Tela Reclamações anônimas
+Tela “reclamações anônimas” permite ao usuário fazer reclamações sobre sua estadia no hostel;</br></br>
+![reclama](https://user-images.githubusercontent.com/95951195/194772559-0d8700cd-7316-4586-9e48-b4286737dac9.jpeg)
+</br></br>
+
+### 1.16 Tela Dados de pagamentos
+Tela “Dados de pagamentos” permite ao usuário verificar os seus meios de pagamentos cadastrado no site;
+</br></br>
+![paga](https://user-images.githubusercontent.com/95951195/194772591-e1618b21-5941-47bf-a004-5ad9ad0d5c00.jpeg)
+</br></br>
+
+### 1.17 Tela Segurança
+Tela “Segurança” permite ao usuário alterar sua senha;
+</br></br>
+![aaaa](https://user-images.githubusercontent.com/95951195/194772638-eb3c75e2-1c4c-4acd-9086-d5b200a5f62e.jpeg)
+</br></br>
+
+#### Rodapé 
+![rodape](https://user-images.githubusercontent.com/95951195/194772666-c08a346f-6241-460c-9ca5-09312f9147cc.jpeg)
+</br></br>
+</br></br>
 
 ## Fluxo de usuários
 #### Visão geral de como os usuários irão interagir com nosso site:
