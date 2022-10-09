@@ -51,7 +51,11 @@ A tela “Explore” apresenta ao usuário passeios e pontos turísticos na regi
 Clicando sobre alguma dessas opções de passeio irá abrir uma aba com algumas informações e fotos do passeio selecionado. </br></br>
 ![9](https://user-images.githubusercontent.com/95951195/194771045-3089ea46-e62b-4d1c-a6b2-c583c30e2796.jpeg)</br></br>
 
-### 1.8. Tela - Avaliações
+#### Opções de linguagens: 
+Na área superior à direita do usuário tem disponível 3 idiomas “Português” “Espanhol” e “Inglês” o idioma é alterado de acordo com a bandeira que o usuário selecionar.</br></br> 
+![10](https://user-images.githubusercontent.com/95951195/194771111-5a7631a2-ce54-49ca-a5e2-8babfcf8872b.jpeg)</br></br>
+
+### 1.8. Tela - Opções de linguagens 
 
 
 
