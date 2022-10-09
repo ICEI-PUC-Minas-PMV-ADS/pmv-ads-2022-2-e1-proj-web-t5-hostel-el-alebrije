@@ -1,6 +1,26 @@
 # Arquitetura da Solução
+Paginas Web utilizando HTML, CSS, e JavaScript visando a praticidade, funcionalidade do sistema e design atrativo e responsivo para maior acessibilidade das pessoas nos mais diversos dispositivos
+### Armazenamento local – Conjunto de informações de desenvolvimento web front- end
+Cadastro de Usuários – Informações dos usuários utilizadas para gerir reservas e compartilhar experiencias como um todo.
+### Fotos – Imagens sobre a estádia para atrair clientes e remover suas duvidas a respeito do local hospedado
+Explorar – uma aba com atrações locais para reduzir a procura em outros sites por atividades de lazer na locais.
+### Hospedagem – O site será hospedado em um servidor Web
+### Api de Localização -  para traçar rotas até o local de hospedagem do hostel e ter uma visão ampla e técnica da cidade como um todo
+### Api de Reservas paga – para sistema de pagamentos através do site aumentando a acessibilidade dos clientes 
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
+## Tecnologias Utilizadas
+- HTML, CSS, Javascript utilizadas no desenvolvimento da aplicação web de forma funcional
+- Figma como desenvolvimento no projeto de interface do Usuário/Administrador de forma visual
+- Notion para organização de tarefas dos desenvolvedores
+- Api de localização do google maps para traças rotas. checar localização da estadia e ter um entendimento maior a respeito da cidade do estabelecimento
+- Api de sistema de reservas dos usuários cadastrados no site
+
+# Diagrama de Componentes
+Componentes que fazem parte da solução de uma forma simplificada e de fácil entendimento
+</br>
+![geo](https://user-images.githubusercontent.com/95951195/194772698-51d9539f-baab-4bd0-b278-4fcb34638c80.jpeg)
+
+<!-- <span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
 
 Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
 
@@ -74,4 +94,4 @@ Explique como a hospedagem e o lançamento da plataforma foi feita.
 > - [Website com GitHub Pages](https://pages.github.com/)
 > - [Programação colaborativa com Repl.it](https://repl.it/)
 > - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
+> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html) -->
