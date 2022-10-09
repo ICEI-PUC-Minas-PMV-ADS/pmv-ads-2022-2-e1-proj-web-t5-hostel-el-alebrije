@@ -38,8 +38,20 @@ A tela “Acomodações” apresenta ao usuário as opções de quartos do hoste
 ![4](https://user-images.githubusercontent.com/95951195/194770767-06bd9bf7-9996-411c-9274-feec73df8133.jpeg)
 
 ### 1.5. Tela - Localização
+A tela “Localização” permite que o usuário veja a localização exata do hostel com opção de abrir no google mapas “Ver localização no google” ou que possa traçar uma rota a partir de um endereço de partida “Traçar rota no mapa”.
 ![6](https://user-images.githubusercontent.com/95951195/194770824-6f7aa22d-e868-4019-929e-df1dfd6b7dd0.jpeg)</br></br>
 
+### 1.6. Tela - Avaliações
+A tela “Avaliações” quando o usuário está deslogado do sistema permite que ele veja as avaliações de outros usuários, caso ele esteja deslogado e clique em “Deixar um comentário” será redirecionado para tela de login e após o login para a aba “Publicar Avaliações”.</br></br>
+![7](https://user-images.githubusercontent.com/95951195/194770912-0edfc7ce-e979-4323-95b1-2609415abba1.jpeg)</br></br>
+
+### 1.7. Tela - Explore
+A tela “Explore” apresenta ao usuário passeios e pontos turísticos na região do hostel. </br></br>
+![8](https://user-images.githubusercontent.com/95951195/194770948-f8253a38-1a3f-462c-a0b8-86c91798f9e5.jpeg)</br></br>
+Clicando sobre alguma dessas opções de passeio irá abrir uma aba com algumas informações e fotos do passeio selecionado. </br></br>
+![9](https://user-images.githubusercontent.com/95951195/194771045-3089ea46-e62b-4d1c-a6b2-c583c30e2796.jpeg)</br></br>
+
+### 1.8. Tela - Avaliações
 
 
 
