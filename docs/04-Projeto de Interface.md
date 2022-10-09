@@ -34,8 +34,11 @@ A tela “Fotos” apresenta fotos do hostel para o usuário, nessa tela ele con
 ![3](https://user-images.githubusercontent.com/95951195/194770664-8001c35d-d3ad-4850-b5a1-f7f5077df7d6.jpeg)</br></br></br>
 
 ### 1.4. Tela - Acomodações
+A tela “Acomodações” apresenta ao usuário as opções de quartos do hostel entre compartilhados e privados.</br></br>
+![4](https://user-images.githubusercontent.com/95951195/194770767-06bd9bf7-9996-411c-9274-feec73df8133.jpeg)
 
-
+### 1.5. Tela - Localização
+![6](https://user-images.githubusercontent.com/95951195/194770824-6f7aa22d-e868-4019-929e-df1dfd6b7dd0.jpeg)</br></br>
 
 
 
