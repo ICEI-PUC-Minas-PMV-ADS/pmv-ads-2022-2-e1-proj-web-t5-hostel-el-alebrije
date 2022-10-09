@@ -62,8 +62,50 @@ Permite ao usuário acessar as redes sociais oficiais do hostel como Instagram e
 #### Instagram
 ![2](https://user-images.githubusercontent.com/95951195/194771256-afd4aa1f-33be-45b5-a920-00b1e8426201.jpeg)
 
+#### Facebook
+![3](https://user-images.githubusercontent.com/95951195/194771289-a80ab961-11d9-401e-8617-481d7da0e6a0.jpeg)
 
-### 1.8. Tela - Opções de linguagens 
+#### Booking.com
+![4](https://user-images.githubusercontent.com/95951195/194771300-0a3355e3-f70a-4887-9b84-6d0abbf38bca.jpeg)
+
+#### WhatsApp
+![5](https://user-images.githubusercontent.com/95951195/194771318-652cbf08-a87a-4789-a26f-18520ff59fc3.jpeg)
+
+#### Bloco central – Verificar disponibilidade 
+A função “Verificar disponibilidade” permite que usuários possam verificar disponibilidade a partir de uma data selecionada pra entrada e saída, o usuário clica em “Check-in” escolhe a data que deseja para dar entrada no hostel e “Checkout” para dá saída no hostel e clica em “Verificar disponibilidade” para verificar se há vaga pra data selecionada. </br>
+![6](https://user-images.githubusercontent.com/95951195/194771341-288f917e-1f07-40e5-a09f-030117e1d898.jpeg)
+
+### 1.8. Tela – Cadastrar
+A tela “Cadastrar” permite ao usuário fazer o cadastrado no site onde ele vai preencher na área de cadastra com e-mail, nome, sobrenome e senha. 
+</br>
+![1](https://user-images.githubusercontent.com/95951195/194771610-95a6209b-1fad-4e62-b8b6-c041a35e6215.jpeg)</br>
+
+### 1.9. Tela – Entrar
+A tela “Entrar” permite ao usuário realizar o login no site validando seus dados cadastrados previamente.</br>
+![2](https://user-images.githubusercontent.com/95951195/194771658-50cdf089-b6ba-40e5-af9c-353db854708e.jpeg)</br>
+
+ #### Recuperar senha
+ Caso ocorra de o usuário esquecer a senha ele pode clicar na opção “Esqueceu a senha?”  e ele será redirecionado para pagina de recuperação, onde é necessário ele  informar o e-mail cadastrado e clicar em “Enviar” para que seja enviado o link de redefinição de senha. 
+ ![3](https://user-images.githubusercontent.com/95951195/194771706-fd1203ae-7a66-4308-8a5a-a790820ecfb8.jpeg)</br>
+ 
+ Após receber o link enviado para o e-mail e acessando esse link o usuário será redirecionado para a tela de “Redefinição de senha”, preenchendo os campos com a nova senha e confirmando a nova senha ele clica em “Salvar” para confirmar a atualização de senha.</br>
+ ![4](https://user-images.githubusercontent.com/95951195/194771754-31e66689-f870-44dc-83bf-f77a74605222.jpeg)</br></br></br>
+
+### 1.10 Tela – Reserve agora
+A tela ‘’Reserve agora” fica disponível para o usuário fazer as reservas após se cadastrar no site, caso ele clique neste botão sem estar logado será redirecionado para tela de cadastro.</br>
+![5](https://user-images.githubusercontent.com/95951195/194771793-6f353e6c-1fef-469d-b790-61a79585732e.jpeg)</br>
+
+#### Reservas
+![6](https://user-images.githubusercontent.com/95951195/194771826-63acb6ef-3d31-46d6-9fef-3784135a8dd1.jpeg)</br></br>
+Acessando a tela de reservas o usuário irá escolher a “Acomodação” e quantidade de “Hóspedes” e logo terá o valor a ser pago por cada hóspede e um indicador com a data de entrada e saída do hostel e por fim o total a ser pago.</br></br>
+
+#### Identificação e formas de pagamentos
+Após confirmar os quartos e quantidades de hóspedes o usuário será direcionado para tela de “Identificação” onde já irá aparecer os seus dados cadastrados previamente e selecionar a forma de pagamento. </br>
+![7](https://user-images.githubusercontent.com/95951195/194771896-f6e96a46-f3ec-463e-b71e-5622707f01fd.jpeg)</br>
+
+#### Confirmação
+Finalizando a tela de “Identificação” o usuário será direcionado para tela de “Confirmação” tela essa que informa ao usuário os dados da reserva e informações de pagamento, e caso o usuário tenha ficado com alguma dúvida tem um link disponível para um contato direto no WhatsApp do hostel. </br>
+![8](https://user-images.githubusercontent.com/95951195/194771922-7014be54-7a8e-469b-bd1b-ff543f1f5fe3.jpeg)</br>
 
 
 
