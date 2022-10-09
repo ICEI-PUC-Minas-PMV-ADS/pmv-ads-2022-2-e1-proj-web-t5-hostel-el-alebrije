@@ -1,12 +1,12 @@
 # Arquitetura da Solução
-Paginas Web utilizando HTML, CSS, e JavaScript visando a praticidade, funcionalidade do sistema e design atrativo e responsivo para maior acessibilidade das pessoas nos mais diversos dispositivos
-### Armazenamento local – Conjunto de informações de desenvolvimento web front- end
-Cadastro de Usuários – Informações dos usuários utilizadas para gerir reservas e compartilhar experiencias como um todo.
-### Fotos – Imagens sobre a estádia para atrair clientes e remover suas duvidas a respeito do local hospedado
-Explorar – uma aba com atrações locais para reduzir a procura em outros sites por atividades de lazer na locais.
-### Hospedagem – O site será hospedado em um servidor Web
-### Api de Localização -  para traçar rotas até o local de hospedagem do hostel e ter uma visão ampla e técnica da cidade como um todo
-### Api de Reservas paga – para sistema de pagamentos através do site aumentando a acessibilidade dos clientes 
+#### Paginas Web utilizando HTML, CSS, e JavaScript visando a praticidade, funcionalidade do sistema e design atrativo e responsivo para maior acessibilidade das pessoas nos mais diversos dispositivos
+-  Armazenamento local – Conjunto de informações de desenvolvimento web front- end
+- Cadastro de Usuários – Informações dos usuários utilizadas para gerir reservas e compartilhar experiencias como um todo.
+-  Fotos – Imagens sobre a estádia para atrair clientes e remover suas duvidas a respeito do local hospedado
+- Explorar – uma aba com atrações locais para reduzir a procura em outros sites por atividades de lazer na locais.
+- Hospedagem – O site será hospedado em um servidor Web
+ - Api de Localização -  para traçar rotas até o local de hospedagem do hostel e ter uma visão ampla e técnica da cidade como um todo
+ - Api de Reservas paga – para sistema de pagamentos através do site aumentando a acessibilidade dos clientes 
 
 ## Tecnologias Utilizadas
 - HTML, CSS, Javascript utilizadas no desenvolvimento da aplicação web de forma funcional
