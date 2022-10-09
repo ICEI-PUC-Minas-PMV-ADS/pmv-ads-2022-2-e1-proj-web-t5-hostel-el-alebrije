@@ -105,7 +105,21 @@ Após confirmar os quartos e quantidades de hóspedes o usuário será direciona
 
 #### Confirmação
 Finalizando a tela de “Identificação” o usuário será direcionado para tela de “Confirmação” tela essa que informa ao usuário os dados da reserva e informações de pagamento, e caso o usuário tenha ficado com alguma dúvida tem um link disponível para um contato direto no WhatsApp do hostel. </br>
-![8](https://user-images.githubusercontent.com/95951195/194771922-7014be54-7a8e-469b-bd1b-ff543f1f5fe3.jpeg)</br>
+![7](https://user-images.githubusercontent.com/95951195/194771896-f6e96a46-f3ec-463e-b71e-5622707f01fd.jpeg)</br>
+
+### 1.11 Tela após fazer login
+Após o usuário se cadastrar e efetuar login no site ele terá acesso a configuração de sua conta.
+• Componente de “Dados cadastrais”, que permite ao usuário fazer alteração ou atualização de informações pessoais;</br>
+•	Componente de “Reservas”, que permite o usuário consultar reservas ou cancelar reservas;</br>
+•	Componente de “Avaliações”, que permite ao usuário fazer avaliações;</br>
+•	Componente de “Reclamações”, que permite ao usuário fazer reclamações de forma anônimas;</br>
+•	Componente de “Dados de pagamento”, que permite ao usuário verificar a forma de pagamento cadastrada no site;</br>
+•	Componente de “Segurança”, que permite ao usuário alterar a senha cadastrada;</br></br>
+
+### 1.12 Tela Dados Cadastrais
+A tela “Dados cadastrais” é liberar após o cliente efetuar o login no site acessando a opção de “Configurações” de sua.
+![8](https://user-images.githubusercontent.com/95951195/194772128-73923e37-8d07-4b17-a9f7-90d201673b9f.jpeg)
+
 
 
 
@@ -113,29 +127,3 @@ Finalizando a tela de “Identificação” o usuário será direcionado para te
 #### Visão geral de como os usuários irão interagir com nosso site:
 ![Fluxo-Usuário](https://user-images.githubusercontent.com/95951195/194763716-a0bbfb54-305b-4fc9-a0c4-8f67d91501e6.png)
 
-<!-- 
-![Exemplo de UserFlow](img/userflow.jpg)
-
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
-
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
-
-
-## Wireframes
-
-![Exemplo de Wireframe](img/wireframe-example.png)
-
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
- -->
