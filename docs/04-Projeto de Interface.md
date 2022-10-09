@@ -8,19 +8,19 @@
 
 ### 1.1. Tela - Home-Page
 A tela home page apresenta os serviços que podem ser executados através do site desde da reserva até os comentários de outros usuários que já se hospedaram no local. A home conta com um cabeçalho e bloco central para verificar disponibilidade. 
-•	Cabeçalho da home-page traz doze elementos distintos:
-•	Componente de “Sobre”, que permite o usuário conhecer mais sobre a história do hostel;
-•	Componente de “Fotos”, que permite o usuário ver fotos reais do hostel;
-•	Componente de “Acomodações”, que permite o usuário ver fotos reais das acomodações do hostel;
-•	Componente de “Localização”, que permite que o usuário veja a localização exata do hostel e se desejar fazer a navegação a partir de sua localização;
-•	Componente de “Avaliações”, que permite que o usuário veja ou faça avaliações sobre o hostel;
-•	Componente de “Explore”, que permite o usuário verificar passeios e pontos turísticos na região do hostel;
-•	Componente de “Linguagens”, que permite o usuário fazer a tradução para três tipos de idioma português, inglês e espanhol;
-•	Componente de “Redes socias”, que permite ao usuário acessar as principais redes sociais do hostel e entrar em contato via WhatsApp;
-•	Componente de “Verificar disponibilidade”, que permite ao usuário verificar disponibilidades check-in e checkout;
-•	Componente de “Cadastrar”;
-•	Componente de “Entrar”;
-•	Componente de “Reserve agora”, que permite ao usuário fazer reservas (é necessário estar logado no site).
+•	Cabeçalho da home-page traz doze elementos distintos:</br>
+•	Componente de “Sobre”, que permite o usuário conhecer mais sobre a história do hostel;</br>
+•	Componente de “Fotos”, que permite o usuário ver fotos reais do hostel;</br>
+•	Componente de “Acomodações”, que permite o usuário ver fotos reais das acomodações do hostel;</br>
+•	Componente de “Localização”, que permite que o usuário veja a localização exata do hostel e se desejar fazer a navegação a partir de sua localização;</br>
+•	Componente de “Avaliações”, que permite que o usuário veja ou faça avaliações sobre o hostel;</br>
+•	Componente de “Explore”, que permite o usuário verificar passeios e pontos turísticos na região do hostel;</br>
+•	Componente de “Linguagens”, que permite o usuário fazer a tradução para três tipos de idioma português, inglês e espanhol;</br>
+•	Componente de “Redes socias”, que permite ao usuário acessar as principais redes sociais do hostel e entrar em contato via WhatsApp;</br>
+•	Componente de “Verificar disponibilidade”, que permite ao usuário verificar disponibilidades check-in e checkout;</br>
+•	Componente de “Cadastrar”;</br>
+•	Componente de “Entrar”;</br>
+•	Componente de “Reserve agora”, que permite ao usuário fazer reservas (é necessário estar logado no site).</br>
 
 ![1](https://user-images.githubusercontent.com/95951195/194770545-6aef5ecf-f0fb-445a-8057-219e0b8cc4bc.jpeg)</br></br></br>
 
@@ -30,7 +30,7 @@ A tela “Sobre” apresenta a história do Hostel para o usuário.
 
 
 ### 1.3. Tela – Fotos
-A tela “Fotos” apresenta fotos do hostel para o usuário, nessa tela ele consegue navegar em um slide que contém fotos de todos os quartos e áreas internas e externas do hostel.
+A tela “Fotos” apresenta fotos do hostel para o usuário, nessa tela ele consegue navegar em um slide que contém fotos de todos os quartos e áreas internas e externas do hostel.</br></br>
 ![3](https://user-images.githubusercontent.com/95951195/194770664-8001c35d-d3ad-4850-b5a1-f7f5077df7d6.jpeg)</br></br></br>
 
 ### 1.4. Tela - Acomodações
