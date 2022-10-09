@@ -18,8 +18,7 @@
 # Diagrama de Componentes
 Componentes que fazem parte da solução de uma forma simplificada e de fácil entendimento
 </br>
-![geo](https://user-images.githubusercontent.com/95951195/194772698-51d9539f-baab-4bd0-b278-4fcb34638c80.jpeg)
-
+![image](https://user-images.githubusercontent.com/95951195/194772910-037920d3-7560-4a44-ac89-ff47a60a6965.png)
 <!-- <span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
 
 Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
