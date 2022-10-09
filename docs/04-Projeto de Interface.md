@@ -6,35 +6,30 @@
 > **Link para o nosso projeto 🧳🌌🌅**:
 > > - [Figma]([https://www.figma.com/](https://www.figma.com/file/qO2M99ABwqkSpM25lPzdxO/Hostel-El-Alebrije?node-id=23%3A2))
 
-### 1.1. Tela: Home-Page
-![1-Home](https://user-images.githubusercontent.com/95951195/194717957-389b51d9-15f2-405c-93d6-b318d7e3c985.png)<br/><br/><br/>
+### 1.1. Tela - Home-Page
+A tela home page apresenta os serviços que podem ser executados através do site desde da reserva até os comentários de outros usuários que já se hospedaram no local. A home conta com um cabeçalho e bloco central para verificar disponibilidade. 
+•	Cabeçalho da home-page traz doze elementos distintos:
+•	Componente de “Sobre”, que permite o usuário conhecer mais sobre a história do hostel;
+•	Componente de “Fotos”, que permite o usuário ver fotos reais do hostel;
+•	Componente de “Acomodações”, que permite o usuário ver fotos reais das acomodações do hostel;
+•	Componente de “Localização”, que permite que o usuário veja a localização exata do hostel e se desejar fazer a navegação a partir de sua localização;
+•	Componente de “Avaliações”, que permite que o usuário veja ou faça avaliações sobre o hostel;
+•	Componente de “Explore”, que permite o usuário verificar passeios e pontos turísticos na região do hostel;
+•	Componente de “Linguagens”, que permite o usuário fazer a tradução para três tipos de idioma português, inglês e espanhol;
+•	Componente de “Redes socias”, que permite ao usuário acessar as principais redes sociais do hostel e entrar em contato via WhatsApp;
+•	Componente de “Verificar disponibilidade”, que permite ao usuário verificar disponibilidades check-in e checkout;
+•	Componente de “Cadastrar”;
+•	Componente de “Entrar”;
+•	Componente de “Reserve agora”, que permite ao usuário fazer reservas (é necessário estar logado no site).
 
-### 1.2. Tela: Criar Conta
-![2-Criar Conta - Portugues](https://user-images.githubusercontent.com/95951195/194718378-9657e773-25c2-4c43-8305-eab71a3d2a3b.png)<br/><br/><br/>
+![1](https://user-images.githubusercontent.com/95951195/194770545-6aef5ecf-f0fb-445a-8057-219e0b8cc4bc.jpeg)</br></br></br>
 
-### 1.3. Tela: Dados Pessoais
-![3 -Dados Pessoais - Portugues](https://user-images.githubusercontent.com/95951195/194718397-d2d87692-4ab1-43f8-aaf6-ac150e18efd9.png)<br/><br/><br/>
+### 1.1. Tela – Sobre
+A tela “Sobre” apresenta a história do Hostel para o usuário.
+![2](https://user-images.githubusercontent.com/95951195/194770600-5419fd8a-b6a3-46b3-90c5-96cfc172ead4.jpeg) </br></br></br>
 
-### 1.4. Tela: Segurança
-![4-Segurança - Portugues](https://user-images.githubusercontent.com/95951195/194718416-dc2e5960-fc74-46aa-972e-975bdc09c829.png)<br/><br/><br/>
 
-### 1.5. Tela: Reclamações
-![5- Reclamações - Portugues](https://user-images.githubusercontent.com/95951195/194718842-03af6d3f-96a6-4328-91b8-9c79aafae771.png)<br/><br/><br/>
 
-### 1.6. Tela: Reservas
-![6-Reservas - Portugues](https://user-images.githubusercontent.com/95951195/194718877-c18f7f45-13d4-4f1e-8f02-6fd56745948e.png)<br/><br/><br/>
-
-### 1.7. Tela: Avaliações
-![7-Avaliações - Portugues](https://user-images.githubusercontent.com/95951195/194718885-388157ac-f54d-4c9d-91bb-fb9e6b1016f3.png)<br/><br/><br/>
-
-### 1.8. Tela: Escolha seu quarto
-![8-Escolha seu quarto - Portugues](https://user-images.githubusercontent.com/95951195/194718893-3b13f7f5-a26d-4647-b11d-5576f771f55b.png)<br/><br/><br/>
-
-### 1.9. Tela: Revise seus dados
-![9-Revise seus dados - Portugues](https://user-images.githubusercontent.com/95951195/194718935-d12a8d07-c8fc-426e-8d32-6f158183e171.png)<br/><br/><br/>
-
-### 1.10. Tela: Confirmação
-![10-Confirmação - Portugues](https://user-images.githubusercontent.com/95951195/194718953-004a597d-83af-489f-9643-905b8cfdf239.png)<br/><br/><br/>
 
 ## Fluxo de usuários
 #### Visão geral de como os usuários irão interagir com nosso site:
