@@ -37,6 +37,7 @@
 ![10-Confirmação - Portugues](https://user-images.githubusercontent.com/95951195/194718953-004a597d-83af-489f-9643-905b8cfdf239.png)<br/><br/><br/>
 
 ## Fluxo de usuários
+#### Visão geral de como os usuários irão interagir com nosso site:
 ![Fluxo-Usuário](https://user-images.githubusercontent.com/95951195/194763716-a0bbfb54-305b-4fc9-a0c4-8f67d91501e6.png)
 
 <!-- 
