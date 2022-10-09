@@ -55,6 +55,14 @@ Clicando sobre alguma dessas opções de passeio irá abrir uma aba com algumas 
 Na área superior à direita do usuário tem disponível 3 idiomas “Português” “Espanhol” e “Inglês” o idioma é alterado de acordo com a bandeira que o usuário selecionar.</br></br> 
 ![10](https://user-images.githubusercontent.com/95951195/194771111-5a7631a2-ce54-49ca-a5e2-8babfcf8872b.jpeg)</br></br>
 
+#### Redes sociais:
+Permite ao usuário acessar as redes sociais oficiais do hostel como Instagram e Facebook, o perfil do hostel na página do Booking.com e clicando no botão “WhatsApp” o usuário será redirecionado ao chat do aplicativo onde ele pode fazer contato diretamente com o hostel.</br></br>
+![1](https://user-images.githubusercontent.com/95951195/194771231-e2f45d64-34d3-4746-ae83-e2e51b6337a1.jpeg)</br></br>
+
+#### Instagram
+![2](https://user-images.githubusercontent.com/95951195/194771256-afd4aa1f-33be-45b5-a920-00b1e8426201.jpeg)
+
+
 ### 1.8. Tela - Opções de linguagens 
 
 
