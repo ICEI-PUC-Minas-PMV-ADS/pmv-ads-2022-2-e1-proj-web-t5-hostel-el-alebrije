@@ -1,24 +1,29 @@
 # Arquitetura da Solução
 #### Paginas Web utilizando HTML, CSS, e JavaScript visando a praticidade, funcionalidade do sistema e design atrativo e responsivo para maior acessibilidade das pessoas nos mais diversos dispositivos
--  Armazenamento local – Conjunto de informações de desenvolvimento web front- end
-- Cadastro de Usuários – Informações dos usuários utilizadas para gerir reservas e compartilhar experiencias como um todo.
--  Fotos – Imagens sobre a estádia para atrair clientes e remover suas duvidas a respeito do local hospedado
-- Explorar – uma aba com atrações locais para reduzir a procura em outros sites por atividades de lazer na locais.
-- Hospedagem – O site será hospedado em um servidor Web
- - Api de Localização -  para traçar rotas até o local de hospedagem do hostel e ter uma visão ampla e técnica da cidade como um todo
- - Api de Reservas paga – para sistema de pagamentos através do site aumentando a acessibilidade dos clientes 
+- HTML, CSS e JavaScript – Linguagem utilizada no desenvolvimento da aplicação web.
+- Armazenamento local – Conjunto de informações desenvolvidas na web front end utilizando HTML, CSS, JavaScript e imagens mantidas em um servidor interno.
+- Servidor de Hospedagem – Local onde as paginas web são mantidas para serem acessadas por um navegador de internet.
+- Paginas Web – Conjunto de arquivos HTML, CSS, JavaScript e imagens, que contém as funcionalidades do sistema no qual pode ser executada através de um navegador de internet
+- API - Conjunto de padrões de uma interface que auxiliam na criação de uma plataforma
+- 	Google Maps:  responsável por fornecer inteligência de localização
+- Reservas e pagamentos: responsável por gerenciar reservas e os pagamentos através da pagina web.
+
 
 ## Tecnologias Utilizadas
-- HTML, CSS, Javascript utilizadas no desenvolvimento da aplicação web de forma funcional
-- Figma como desenvolvimento no projeto de interface do Usuário/Administrador de forma visual
-- Notion para organização de tarefas dos desenvolvedores
-- Api de localização do google maps para traças rotas. checar localização da estadia e ter um entendimento maior a respeito da cidade do estabelecimento
-- Api de sistema de reservas dos usuários cadastrados no site
+- Word - Documentação de contexto do projeto
+- Figma - Desenvolvimento do projeto de interface do Usuário/Administrador, de forma visual
+- Notion - Para organização de tarefas dos desenvolvedores.
+- API Google Maps - Para traças rotas. checar localização da estadia e ter um entendimento maior a respeito da cidade do estabelecimento.
+- API Sistema de Reservas e Pagamentos 
+- Whimsical – Utilizado para criação do diagrama de componentes.
+
 
 # Diagrama de Componentes
-Componentes que fazem parte da solução de uma forma simplificada e de fácil entendimento
-</br>
-![image](https://user-images.githubusercontent.com/95951195/194772910-037920d3-7560-4a44-ac89-ff47a60a6965.png)
+Modelagem física de um sistema e visão de seus componentes incluindo suas relações.</br>
+![bbbb](https://user-images.githubusercontent.com/95951195/194786169-7835fada-5ed3-4695-a9b4-81112ffb57f7.jpeg)
+
+
+
 <!-- <span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
 
 Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
