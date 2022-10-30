@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reservas</title>
+  <link rel="stylesheet" type="text/css" href="./assets/footer.css" />
+  <link rel="stylesheet" href="./assets/reservas.css">
+
+</head>
+
+<body>
+  <!-- Footer -->
+  <div class="footer">
+    <div style="display: flex; margin-left: 1rem; align-items: center">
+      <a href="https://www.facebook.com/alebrijehostal/" target="_blank" rel="noopener">
+        <img src="./assets/img/fb.svg" alt="facebook" />
+      </a>
+      <a href="https://instagram.com/alebrije_hostaal?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener">
+        <img src="./assets/img/insta.svg" alt="insta" />
+      </a>
+      <a href="https://www.booking.com/hotel/mx/hostal-el-alebrije.en-gb.html" target="_blank" rel="noopener">
+        <img src="./assets/img/booking.svg" alt="bookin" />
+      </a>
+    </div>
+    <span>&#169 ElAlebrije <span id="ano">2022</span> - Todos os direitos reservados</span>
+    <div className="footerSide">
+      <a href="https://api.whatsapp.com/send?phone=5217223960938" target="_blank" rel="noopener">
+        <img src="./assets/img/wpp.svg" alt="whatsapp" />
+      </a>
+    </div>
+  </div>
+
+
+  <form class="forms">
+    <h1>Reservas</h1>
+    <label for="pessoas">Número de hóspedes</label>
+    <select name="pessoas" id="pessoas">
+      <option value="um">1 pessoa</option>
+      <option value="dois">2 pessoas</option>
+      <option value="tres">3 pessoas</option>
+      <option value="mais">Mais que 3 pessoas</option>
+    </select>
+    <label for="dataInicio">Início</label>
+    <input type="date" name="dataInicio" id="dataInicio">
+    <label for="dataFinal">Final</label>
+    <input type="date" name="dataFinal" id="dataFinal">
+    <button id="clear">Cancelar</button>
+  </form>
+
+  <script>
+    // Definindo o valor 
+    // Caso não tenho vai zerar
+    if (localStorage.pessoas) {
+      document.getElementById('pessoas').value = localStorage.pessoas;
+    }
+    if (localStorage.dataInicio) {
+      document.getElementById('dataInicio').value = localStorage.dataInicio;
+    }
+    if (localStorage.dataFinal) {
+      document.getElementById('dataFinal').value = localStorage.dataFinal;
+    }
+
+    // Salvando no localStorage
+    var salvarData = function () {
+      var pessoas = document.getElementById('pessoas').value;
+      var dataInicio = document.getElementById('dataInicio').value;
+      var dataFinal = document.getElementById('dataFinal').value;
+      // console.log(pessoas + dataInicio + dataFinal);
+
+      localStorage.setItem('pessoas', pessoas);
+      localStorage.setItem('dataInicio', dataInicio);
+      localStorage.setItem('dataFinal', dataFinal);
+    }
+    // Ativando o função quando houver alteração no documento
+    document.onchange = salvarData;
+
+    // Botão limpar
+    if (clear) {
+      localStorage.clear();
+    }
+
+    console.log(localStorage.dataFinal)
+
+
+
+  </script>
+</body>
+
+</html>
