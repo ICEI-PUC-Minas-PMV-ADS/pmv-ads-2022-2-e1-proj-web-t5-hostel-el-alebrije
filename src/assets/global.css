@@ -29,11 +29,8 @@
 
 body {
   background: #f2f0f0;
-  height: auto;
   width: 100%;
-  max-width: 1366px;
-  margin: 7rem auto;
-  padding: 2.5rem 2rem;
+  margin: 0 0 7rem 0;
 }
 
 .title {
