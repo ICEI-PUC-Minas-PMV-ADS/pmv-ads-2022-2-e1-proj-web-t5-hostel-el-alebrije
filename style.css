@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.superior {
+    background-color: black;
+}
+body {
+    margin: 0%;
+    background: #f3F3F3;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    color: #fFFFFF;
+    width: 100%;
+    flex-direction: row;
+    background-color: #9e2fba;
+    height: 110px;
+
+}
+.Hostel {
+    display: flex;
+    font-size: 15px;
+    padding-left: 14px;
+    font-family: 'Inter' sans-serif;
+    font-style: italic;
+    
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    align-items: center;
+}
+.LOGO {
+    padding-left: 10px;
+}
+
+.nomehostel {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    position: fixed;
+
+}
+
+.Elalebrije {
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    padding-left: 15px;
+    font-family: 'Inter' sans-serif;
+    font-style: 'normal';
+    align-items: center;
+}
+.cabeçalhoselecionavel {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 18px;
+    padding-left: 350px;
+    font-family: "Inter" sans-serif;
+    font-style: normal;
+
+
+}
+
+
+section{
+    display: flex;
+    text-align: center;
+    flex-wrap: initial;
+    gap: 10px;
+    color: #818181;
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding-top: 30px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+}
+
+h2{
+    font-size: 29px;
+    display: flex;
+    flex-direction: row;
+    flex-flow:column;
+    align-items: center;
+    text-align: center;
+    font-style: italic;
+    font-weight: 200;
+    line-height: 39px;
+    font-family: 'Inter', sans-serif;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 30px;
+    
+}
+
+.texto {
+    display: flex;
+}
+
+h3 {
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    padding-top: 70px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+}
+
+.corpo {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.login{
+    display: flex;
+    font-size: 20px;
+    gap: 18px;
+    padding-left: 80px;
+    padding-top: 7px;
+}
+
+
+.cadastrar {
+    display: flex;
+    font-size: 12px;
+    font-family: 'Inter';
+
+}
+.reserveagora {
+    display: flex;
+    font-size: 20px;
+    font-family: "Inter";
+}
+.bandeira {
+    display: flex;
+    gap: 35px;
+}
+
+.bandeiraagora {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column-reverse;
+    gap: 30px;
+    padding-left: 80px;
+}
+
+nav {
+    display: flex;
+    font-family: "Inter", sans-serif;
+}
+
+.navegação a {
+    display: flex;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0px 28px 0px;
+    position: relative;
+}
+
+footer {
+    display: flex;
+    background: #9e2fba;
+    color: #fFFFFF;
+    width: 100%;
+    bottom: 0%;
+    left: 0;
+    position: fixed;
+    margin-bottom: px;
+    height: 90px;
+}
+
+.logorodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 60px;
+
+}
+
+.fb {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2px;
+    
+
+}
+
+.ig {
+    display: flex;
+    padding-left: 20px;
+    padding-top: 0px;
+}
+
+.booking{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 2px;
+}
+
+.direitosautorais {
+    font-size: 16px;
+    padding-left: 90px;
+    font-family: 'Inter';
+}
+
+.sobrerodape {
+    display: flex;
+    flex-flow: column;
+    font-size: 12px;
+    justify-content: center;
+    padding-left: 380px;
+    padding-bottom: 10px;
+}
+
+.sobrecontato {
+    display: flex;
+    font-size: 22px;
+}
+
+.wpp {
+    display: flex;
+    padding-left: 620px;
+    padding-top: 2px;
+}
+
+
+.imagens li img {
+    width: 110px;
+}
+
+ul {
+    list-style-type: none;
+    float: left;
+}
+
+.imagens {
+    display: flex;
+    width: 1800px;
+    position: absolute;
+    padding-top: 80px;
+}
+
+#trocarimg {
+    margin-left: 300px;
+    margin-top: 0px;
+}
+
+.fotogrande {
+    display: flex;
+    
+    
+}
+
+.imgpequena {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    align-items: center;
+}
+
+
+.ulnova {
+    display: flex;
+    list-style-type: none;
+    float: right;
+    padding-left: 300px;
+    padding-top: 1px;
+    flex-flow: column;
+    justify-content: center;
+}
