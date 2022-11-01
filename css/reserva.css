@@ -1,0 +1,19 @@
+body{
+    overflow-x: hidden;
+    background-color: rgb(252, 252, 252);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.botaoProximo {
+    width: 100%;
+    border-radius: 20px;
+    background-color: #9e2fba;
+    color: white;
+}
+
+.backgroundWhite{
+    background-color: white;
+}

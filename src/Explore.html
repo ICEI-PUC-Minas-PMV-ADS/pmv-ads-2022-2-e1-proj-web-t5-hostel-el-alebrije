@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliações</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+      crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/global.css">
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/footer.css">
+    <script>
+      const ano = document.getElementById("ano");
+      const anoAtual = new Date();
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="center">
+          <div class="logo">
+              <h3><img src="./assets/img/hostal.png" width="103">
+          </div><!--center-->
+      <div class="hostal">
+          <h3 style="font-size: 14px;"><i>&nbsp;&nbsp; Hostal<p><b>El Alebrije</b></i></h3></p>
+      </div><!--hostal-->
+      <div class="menu-container">
+          <a class="active-menu" href="">SOBRE</a>
+          <a href="">FOTOS</a>
+          <a href="">ACOMODAÇÕES</a>
+          <a href="">LOCALIZAÇÃO</a>
+          <a href="">AVALIÇÕES</a>
+          <a href="">EXPLORE</a>
+      </div><!--menu-container-->
+      </div>
+      <div class="btn">
+          <button class="btn-enter" style="font-size: 20px;"><b><a href=" " style="color:#9e2fba;">ENTRAR</b></a></div>
+          <button class="btn-cad"style="font-size: 12px;"><b><a href=" " style="color:#9e2fba;">CADASTRAR</b></a></div>
+      </div>
+    </header>
+
+    <div class="translate">
+        <a href=""><img src="./assets/img/Br.jpg"/></a>
+    </div>
+
+    <div class="translate1">
+        <a href=""><img src="./assets/img/esp.png"/></a>
+    </div>
+
+    <div class="translate2">
+        <a href=""><img src="./assets/img/us.png"/></a>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="title col-md-12">
+          <h3>Explore</h3>
+          <hr class="line-localization">
+        </div>
+        <a href="./ExploreView.html" target="_self" rel="noopener" style="text-decoration: none; margin: 0; color: #000">
+          <div id="explore" class="row"></div>
+        </a>
+        <div class="footer">
+          <div style="display: flex; margin-left: 1rem; align-items:
+            center">
+            <a href="https://www.facebook.com/alebrijehostal/" target="_blank"
+              rel="noopener">
+              <img class="footer-img" src="./assets/img/fb.svg" alt="facebook">
+            </a>
+            <a href="https://instagram.com/alebrije_hostaal?igshid=YmMyMTA2M2Y="
+              target="_blank" rel="noopener">
+              <img class="footer-img" src="./assets/img/insta.svg" alt="insta">
+            </a>
+            <a
+              href="https://www.booking.com/hotel/mx/hostal-el-alebrije.en-gb.html"
+              target="_blank" rel="noopener">
+              <img class="footer-img" src="./assets/img/booking.svg" alt="bookin">
+            </a>
+          </div>
+          <span class="text-copyright">&#169 ElAlebrije
+            <span id="ano">2022</span>
+            - Todos os direitos
+            reservados
+          </span>
+          <div className="footerSide">
+            <a href="https://api.whatsapp.com/send?phone=5217223960938"
+              targ class="footer-img" src="./assets/img/wpp.svg" alt="whatsapp">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const data = [
+        {
+          img: './assets/img/explore/veu-noiva.svg',
+          nome: 'Cachoeira véu de Noiva',
+          descricao: "Excelente lugar para visitar! É uma ótima opção para as pessoas que gostam de natureza e liberdade... Cachoeira com um bela queda d'agua.",
+          tipo: 'Cachoeiras'
+        },
+        {
+          img: './assets/img/explore/santuário-borboletas.svg',
+          nome: 'santuário de Borboletas-monarca',
+          descricao: "Todos os anos, borboletas monarcas migram até 3.000 milhas do Canadá para o México. Veja o fenômeno com seus próprios olhos em uma excursão de um dia a um santuário de borboletas.",
+          tipo: 'Natureza e vida selvagem'
+        },
+        {
+          img: './assets/img/explore/image18.svg',
+          nome: 'Mirante La peña',
+          descricao: "Se você deseja se aventurar e sair da rotina, Mirador La Peña é para você! Escale essa imensa montanha e aprecie uma das melhores vistas de toda a região.",
+          tipo: 'Mirantes'
+        },
+        {
+          img: './assets/img/explore/Rectangle60.svg',
+          nome: 'Centro de Espiritualidad Carmel Maranatha',
+          descricao: "A casa de Carmel Maranatha é uma casa de oração ou de exercícios espirituais, desde 1985. O seu objetivo é oferecer um espaço para favorecer o encontro pessoal e com Deus, através do silêncio, da oração e dos retratos espirituais",
+          tipo: 'Locais religiosos'
+        },
+        {
+          img: './assets/img/explore/Rectangle59.svg',
+          nome: 'Great Stupa Valle de Bravo',
+          descricao: "A casa Tibet, localizada na Cidade do México, é uma das principais organizações budistas do país. Devido à localização do Valle de Bravo como um dos Pueblos Mágicos mais próximos da capital, tornou-se um centro de espiritualidade para os habitantes da megalópole.",
+          tipo: 'Locais religiosos, Pontos de interesse'
+        },
+        {
+          img: './assets/img/explore/image19.svg',
+          nome: 'Paroquia de São Francisco de Asís',
+          descricao: "Dedicada ao padroeiro São Francisco de Asís, a Paróquia de São Francisco de Asís abriga obras escultóricas do século XVII. É o templo mais alto do Estado do México. Sua construção começou em 1880 e foi concluída mais de um século depois, em 1994.",
+          tipo: 'Igrejas e catedrais'
+        },
+
+      ];
+
+      document.getElementById('explore').innerHTML = data.map(user =>
+        `
+          <div class="col-md-4">
+            <div
+              style="
+                margin-top: 1.6rem;
+                width: auto;
+                height: 480px;
+                max-width: 390px;
+                border: 1px solid #C6C6C6;
+                border-radius: 8px;
+                box-shadow:0px 5px 10px rgba(0, 0, 0, 0.1);
+              "
+            >
+              <img src=${user.img} style="height: 222px;" />
+              <div style="display: flex; flex-direction: column; align-items: canter; padding: 2rem;">
+                <span style="color: #9E2FBA; font-size: 16px; text-align: center">${user.nome}</span>
+                <span style="margin-top: 1.5rem; font-size: 14px; text-align: justify;">${user.descricao}</span>
+              </div>
+              <div style="padding: 3rem 2rem; position: absolute; bottom: -2rem">
+                <span style="font-size: 14px; color: #919191; ">${user.tipo}</span>
+              </div>
+            </div>
+          </div>
+
+        `
+      ).join('')
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+  </body>
+</html>

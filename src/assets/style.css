@@ -1,0 +1,143 @@
+.center {
+  position: absolute;
+  width: 100%;
+  /* padding: 0 2%; */
+  display: flex;
+  margin: 0;
+}
+
+.button {
+  text-decoration: none;
+}
+
+.btn-enter a {
+  /* padding: 3px 10px; */
+
+  height: 30px;
+  border: none;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.btn-cad a {
+  padding: 3px 10px;
+  background: #fff;
+  height: 20px;
+  border: none;
+  text-decoration: none;
+  border-radius: 7px;
+}
+
+.btn {
+  position: absolute;
+  right: 280px;
+  top: 15px;
+  border: none;
+  text-decoration: none;
+  border-radius: 50px;
+}
+
+.btn-enter {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  border: none;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50px;
+}
+
+.btn-cad {
+  position: absolute;
+  right: 295px;
+  top: 70px;
+  border: none;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50px;
+}
+
+.hostal {
+  padding-top: 20px;
+  width: 10%;
+  color: #fff;
+}
+
+header {
+  width: 100%;
+  padding: 0px 0;
+  background-color: #9e2fba;
+  height: 99px;
+}
+.menu-container {
+  justify-self: space-between;
+  text-align: right;
+  /* width: 50%; */
+}
+
+.menu-container a.active-menu {
+  background-color: #d9d9d9;
+}
+
+.menu-container a {
+  display: inline-block;
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+  padding: 30px 10px;
+  line-height: 40px;
+  transition: 0.8s;
+  padding-top: 30px;
+}
+
+.menu-container a:hover {
+  color: #9e2fba;
+}
+
+.logo {
+  display: flex;
+  margin-top: -1.5rem;
+  align-items: center;
+}
+.img-logo {
+  height: 70px;
+}
+
+.translate {
+  height: 50px;
+  position: absolute;
+  right: 153px;
+  top: -10px;
+}
+
+.translate1 {
+  position: absolute;
+  right: 92px;
+  top: -10px;
+}
+
+.translate2 {
+  position: absolute;
+  right: 32px;
+  top: -10px;
+}
+
+.translate img {
+  display: block;
+  width: 30px;
+  margin: 35px 0;
+}
+
+.translate1 img {
+  display: block;
+  width: 30px;
+  margin: 35px 0;
+}
+
+.translate2 img {
+  display: block;
+  width: 30px;
+  margin: 35px 0;
+}
