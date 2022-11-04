@@ -47,7 +47,7 @@ h3 {
 }
 
 .line-localization {
-  width: 20%;
+  width: 15%;
   margin-top: 0.7rem;
   background: #9e2fba;
   border: 4px solid transparent;
@@ -130,4 +130,118 @@ h3 {
 .image-comment {
   width: 60px;
   height: 60px;
+}
+
+.form-review {
+  background: #fff;
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
+  width: 100%;
+  padding: 2rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.gender {
+  margin-top: 3rem;
+  font-size: 16px;
+}
+
+.payment-title {
+  width: 100%;
+  text-align: center;
+}
+
+.input-form {
+  margin-top: 2rem;
+  width: 100%;
+  padding: 1rem;
+  font-size: 16px;
+  background: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+input[type="radio"] {
+  margin-left: 1rem;
+  margin-top: 3rem;
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+input[type="date"] {
+  margin-top: 2rem;
+  background: #f0f0f0;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.steps-dados {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dados {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.termo {
+  font-size: 16px;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+}
+
+.dados-confirmacao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 40%;
+}
+
+.img-responsive {
+  width: 100px;
+  height: 100px;
+}
+
+.dados-active {
+  border-radius: 13px;
+  background: #9e2fba;
+  padding: 1rem;
+  width: 200px;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.dados-disable {
+  border-radius: 13px;
+  background: #d9d9d9;
+  padding: 1rem;
+  width: 200px;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.barra-container {
+  display: flex;
+  left: 0;
+  position: absolute;
+  margin-top: 350px;
+  width: 100%;
+  z-index: -1;
+}
+
+.barra {
+  background: #d1d1d1;
+  width: 100%;
+  height: 250px;
 }

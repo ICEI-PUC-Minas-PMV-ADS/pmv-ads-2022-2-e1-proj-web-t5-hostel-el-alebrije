@@ -1,7 +1,6 @@
 .center {
   position: absolute;
   width: 100%;
-  /* padding: 0 2%; */
   display: flex;
   margin: 0;
 }
@@ -11,8 +10,6 @@
 }
 
 .btn-enter a {
-  /* padding: 3px 10px; */
-
   height: 30px;
   border: none;
   text-decoration: none;
