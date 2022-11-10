@@ -57,6 +57,9 @@ RF-010 - O sistema deve permitir a inclusão, alteração, remoção ou flexibil
     console.log(localStorage.dataFinal);
     
 ```
+### Instruções de acesso
+
+No uso da reservas o hóspede deve inserir o número de pessoas que desejam se hospedar no hostel, o início e fim da estadia no hotel. Além de ter a disponibilidade de cancelamento das reservas.
 
 
 
