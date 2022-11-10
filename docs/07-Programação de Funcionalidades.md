@@ -8,7 +8,7 @@
 
 ### Requisito atendido:
 - RF-010 - O sistema deve permitir a inclusão, alteração, remoção ou flexibilização em relação ao consumo do hóspede, mudança de datas/hospedagens ou cancelamento de pacotes, mesmo após aprovação da reserva
-- O sistema deve permitir o cancelamento de reservas	
+- RF-019RF-019 - O sistema deve permitir o cancelamento de reservas	
 
 ### Artefatos da funcionalidade:
 - /assets
