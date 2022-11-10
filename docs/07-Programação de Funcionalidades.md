@@ -1,4 +1,114 @@
 # Programação de Funcionalidades
+## Home (RF-011) e (RF-017)
+### Desenvolvedor(a): Danrley G M Paula 
+- Funcionalidade tradução e links redes sociais 
+
+![home](https://user-images.githubusercontent.com/112135999/200984935-d7532889-49d1-40b2-8b6c-41685c853fdf.png)
+
+### Requisito atendido:
+- RF-011 - O sistema será traslado em três línguas: português, espanhol e inglês
+- RF-017 - O site deverá apresentar links redirecionando às outras redes da empresa, como: Instagram, Youtube, Facebook e afins
+
+### Artefatos da funcionalidade:
+- /assets
+- /img
+- header.html
+- style.css
+- homehostel.html
+
+```js
+  <body>
+<header>
+    <div class="center">
+        <div class="logo">
+            <h3><img src="assets/hostal.png" width="103">
+        </div><!--center-->
+    <div class="hostal">
+        <h3 style="font-size: 14px;"><i>&nbsp;&nbsp; Hostal<p><b>El Alebrije</b></i></h3></p>
+    </div><!--hostal-->
+    <div class="menu-container">
+        <a class="active-menu" href="">SOBRE</a>
+        <a href="">FOTOS</a>
+        <a href="">ACOMODAÇÕES</a>
+        <a href="">LOCALIZAÇÃO</a>
+        <a href="">AVALIÇÕES</a>
+        <a href="">EXPLORE</a>
+    </div><!--menu-container-->    
+    </div>
+    <div class="btn">
+        <button class="btn-enter" style="font-size: 20px;"><b><a href=" " style="color:#ffffff;;">ENTRAR</b></a></div>
+        <button class="btn-cad"style="font-size: 12px;"><b><a href=" " style="color:#ffffff;">CADASTRAR</b></a></div>
+        <button class="btn-res"style="font-size: 20px;"><a href=" " style="color:#f1f1f1;">Reserve&nbsp;agora </a></div>
+    </div>
+
+</header>
+
+<div class="extras" id="c1">
+</div>
+<div class="extras" id="c2">
+</div>
+<div class="extras" id="c3">
+</div>
+<div class="extras" id="c4">
+</div>
+<div class="extras" id="q1">
+</div>
+<div class="extras" id="c5">
+</div>
+<div class="extras" id="c6">
+</div>
+<div class="extras" id="c7">
+</div>    
+<div class="extras" id="q2">
+</div>
+
+<div class="translate">
+    <a href=""><img src="assets/Br.jpg"/></a>
+</div>
+
+<div class="translate1">
+    <a href=""><img src="assets/esp.png"/></a>
+</div>
+
+<div class="translate2">
+    <a href=""><img src="assets/us.png"/></a>
+</div>
+
+<div class="social-media">
+    <a href="https://instagram.com/alebrije_hostaal?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener"><img src="assets/insta.png"/></a>
+    <a href="https://api.whatsapp.com/send?phone=5217223960938" target="_blank" rel="noopener"><img src="assets/facebook.png"/></a>
+    <a href="https://www.facebook.com/alebrijehostal/" target="_blank" rel="noopener"><img src="assets/wpp.png"/></a>
+    <a href="https://www.booking.com/hotel/mx/hostal-el-alebrije.en-gb.html" target="_blank" rel="noopener"><img src="assets/b.png"/></a>
+</div>
+
+<div class="cortesia">
+    <img src="assets/breakfast.png">
+</div>
+<div class="cf">
+    <h0 style="font-size: 10px;"><b>CAFÉ DA MANHÃ<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INCLUSO</b></P></h0>
+</div>
+
+<div class="cortesia1">
+    <img src="assets/wifi.png">
+</div>
+<div class="wf">
+    <h0 style="font-size: 10px;"><b>INTERNET<P>&nbsp;&nbsp;&nbsp;GRÁTIS</b></P></h0>
+</div>
+
+<div class="cortesia2">
+     <img src="assets/recep.png">
+</div>
+<div class="rcp">
+    <h0 style="font-size: 10px;"><b>RECEPÇÃO 24<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HORAS</b></P></h0>
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"/>
+ </body>
+``` 
+### Instruções de acesso
+
+Fazer a tradução da pagina em um dos três idiomas disponíveis, acessar as redes sociais da empresa através de links rápidos disponivel na lateral do site. 
+http://127.0.0.1:5500/homehostel.html
 
 ## Reservas (RF-010) e (RF-019)
 ### Desenvolvedor(a): Gabrielle Oliveira Santana
