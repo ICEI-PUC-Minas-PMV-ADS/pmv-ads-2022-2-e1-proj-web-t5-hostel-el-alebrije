@@ -1772,66 +1772,71 @@ http://127.0.0.1:5500/pmv-ads-2022-2-e1-proj-web-t5-hostel-el-alebrije/index.htm
 
 ## Reservas (RF-010) e (RF-019)
 ### Desenvolvedor(a): Geovanne Marco Correa da Silva
-- Funcionalidade de reservas 
+- Galeria de Imagens
 
-![imagemReservas](https://user-images.githubusercontent.com/95951195/200965439-c4cf5e98-0fc6-40a0-8c3e-27051d7e9b09.png)
+![FOTOS](https://user-images.githubusercontent.com/114536934/200992833-dd0ab348-7042-4151-b6c4-82f41f39e620.jpg)
+
 
 ### Requisito atendido:
-- RF-010 - O sistema deve permitir a inclusão, alteração, remoção ou flexibilização em relação ao consumo do hóspede, mudança de datas/hospedagens ou cancelamento de pacotes, mesmo após aprovação da reserva
-- RF-019 - O sistema deve permitir o cancelamento de reservas	
+- RF-08 - O site deverá conter uma imagem correspondente para as diferenças de acomodações e demais serviços prestados aos hóspedes.
+- RF-014 - A interface gráfica deve ser de fácil entendimento e o usuário deve conseguir usar com facilidade;
 
 ### Artefatos da funcionalidade:
-- /assets
-- /img
 - header.html
 - style.css
-- ReservasHostel.html
+- função.js
+- .jpg
+- .svg
 
 ```js
-    const ano = document.getElementById("ano");
-    const anoAtual = new Date();
-    
+    Function (){}
+      document.getElementById
+   
 ```
 
 ```js
-// Definindo o valor 
-    // Caso não tenho vai zerar
-    if (localStorage.pessoas) {
-      document.getElementById('pessoas').value = localStorage.pessoas;
-    }
-    if (localStorage.dataInicio) {
-      document.getElementById('dataInicio').value = localStorage.dataInicio;
-    }
-    if (localStorage.dataFinal) {
-      document.getElementById('dataFinal').value = localStorage.dataFinal;
-    }
+// function img01 (){
+    document.getElementById("trocarimg").src="trocaimg01.jpg";
+}
+function img02 (){
+    document.getElementById("trocarimg").src="trocaimg02.jpg";
+}
+function img03 (){
+    document.getElementById("trocarimg").src="trocaimg03.jpg";
+}
+function img04 (){
+    document.getElementById("trocarimg").src="trocaimg04.jpg";
+}
+function img05 (){
+    document.getElementById("trocarimg").src="trocaimg05.jpg";
+}
+function img06 (){
+    document.getElementById("trocarimg").src="trocaimg06.jpg";
+}
+function img07 (){
+    document.getElementById("trocarimg").src="trocaimg07.jpg";
+}
+function img08 (){
+    document.getElementById("trocarimg").src="trocaimg08.jpg";
+}
+function img09 (){
+    document.getElementById("trocarimg").src="trocaimg09.jpg";
+}
+function img10 (){
+    document.getElementById("trocarimg").src="trocaimg10.jpg";
+}
+function img11 (){
+    document.getElementById("trocarimg").src="trocaimg11.jpg";
+}
+function img12 (){
+    document.getElementById("trocarimg").src="trocaimg12.jpg";
+}
 
-    // Salvando no localStorage
-    var salvarData = function () {
-      var pessoas = document.getElementById('pessoas').value;
-      var dataInicio = document.getElementById('dataInicio').value;
-      var dataFinal = document.getElementById('dataFinal').value;
-      // console.log(pessoas + dataInicio + dataFinal);
-
-      localStorage.setItem('pessoas', pessoas);
-      localStorage.setItem('dataInicio', dataInicio);
-      localStorage.setItem('dataFinal', dataFinal);
-    }
-    // Ativando o função quando houver alteração no documento
-    document.onchange = salvarData;
-
-    // Botão limpar
-    if (clear) {
-      localStorage.clear();
-    }
-
-    console.log(localStorage.dataFinal);
     
 ```
 ### Instruções de acesso
 
-No uso da reservas o hóspede deve inserir o número de pessoas que desejam se hospedar no hostel, o início e fim da estadia no hotel. Além de ter a disponibilidade de cancelamento das reservas.
-http://127.0.0.1:5502/ReservasHostel.html
+O cliende deverá clicar nas imagens desejadas, assim, podendo vizualiza-las de forma ampliada e em sua qualidade máxima.
 
 <!-- <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="5-Arquitetura da Solução.md"> Arquitetura da Solução</a>
 
