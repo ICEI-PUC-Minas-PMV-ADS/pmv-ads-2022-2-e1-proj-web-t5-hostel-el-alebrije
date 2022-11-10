@@ -2,12 +2,61 @@
 
 ## Reservas (RF-010)
 ### Desenvolvedor(a): Gabrielle Oliveira Santana
-- Funcionalidade de reservas <\br>
+- Funcionalidade de reservas 
+
 ![imagemReservas](https://user-images.githubusercontent.com/95951195/200965439-c4cf5e98-0fc6-40a0-8c3e-27051d7e9b09.png)
 
 ### Requisito atendido:
 RF-010 - O sistema deve permitir a inclusão, alteração, remoção ou flexibilização em relação ao consumo do hóspede, mudança de datas/hospedagens ou cancelamento de pacotes, mesmo após aprovação da reserva
 
+### Artefatos da funcionalidade:
+- /assets
+- /img
+- header.html
+- style.css
+- ReservasHostel.html
+
+```js
+    const ano = document.getElementById("ano");
+    const anoAtual = new Date();
+    
+```
+
+```js
+// Definindo o valor 
+    // Caso não tenho vai zerar
+    if (localStorage.pessoas) {
+      document.getElementById('pessoas').value = localStorage.pessoas;
+    }
+    if (localStorage.dataInicio) {
+      document.getElementById('dataInicio').value = localStorage.dataInicio;
+    }
+    if (localStorage.dataFinal) {
+      document.getElementById('dataFinal').value = localStorage.dataFinal;
+    }
+
+    // Salvando no localStorage
+    var salvarData = function () {
+      var pessoas = document.getElementById('pessoas').value;
+      var dataInicio = document.getElementById('dataInicio').value;
+      var dataFinal = document.getElementById('dataFinal').value;
+      // console.log(pessoas + dataInicio + dataFinal);
+
+      localStorage.setItem('pessoas', pessoas);
+      localStorage.setItem('dataInicio', dataInicio);
+      localStorage.setItem('dataFinal', dataFinal);
+    }
+    // Ativando o função quando houver alteração no documento
+    document.onchange = salvarData;
+
+    // Botão limpar
+    if (clear) {
+      localStorage.clear();
+    }
+
+    console.log(localStorage.dataFinal);
+    
+```
 
 
 
