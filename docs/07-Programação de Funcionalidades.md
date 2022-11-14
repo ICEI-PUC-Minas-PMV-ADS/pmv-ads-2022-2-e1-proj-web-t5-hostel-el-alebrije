@@ -168,10 +168,199 @@ http://127.0.0.1:5500/homehostel.html
     console.log(localStorage.dataFinal);
     
 ```
+
+```html
+ <form class="forms">
+    <h1>Reservas</h1>
+    <label for="pessoas">Número de hóspedes</label>
+    <select name="pessoas" id="pessoas">
+      <option value="um">1 pessoa</option>
+      <option value="dois">2 pessoas</option>
+      <option value="tres">3 pessoas</option>
+      <option value="mais">Mais que 3 pessoas</option>
+    </select>
+    <label for="dataInicio">Início</label>
+    <input type="date" name="dataInicio" id="dataInicio">
+    <label for="dataFinal">Final</label>
+    <input type="date" name="dataFinal" id="dataFinal">
+    <button id="clear">Cancelar</button>
+  </form>
+```
 ### Instruções de acesso
 
 No uso da reservas o hóspede deve inserir o número de pessoas que desejam se hospedar no hostel, o início e fim da estadia no hotel. Além de ter a disponibilidade de cancelamento das reservas.
 http://127.0.0.1:5502/ReservasHostel.html
+
+## Redefinir Senha (RF-16)
+### Desenvolvedor(a): Gabrielle Oliveira Santana
+- Funcionalidade de redefinição de senhas
+
+![2-RedefinirVscode](https://user-images.githubusercontent.com/95951195/201782738-21d6ebe6-ffed-4cfb-b227-0996b536272a.png)
+![1imagemRedefinirSenha](https://user-images.githubusercontent.com/95951195/201782743-fd032d6c-5cb0-4510-b262-a95834213700.png)
+
+
+### Requisito atendido:
+- RF-16 - Deve ser possível ao usuário solicitar a redefinição de sua senha, informando o e-mail cadastrado;
+
+### Artefatos da funcionalidade:
+- .vscode
+- /assets
+- /img
+- /js
+- main.js
+- README.md
+- header.html
+- style.css
+- RedefinirSenha.html
+
+```html
+ <!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Redefinir Senha</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous" />
+  <link rel="stylesheet" type="text/css" href="./assets/global.css" />
+  <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+  <link rel="stylesheet" type="text/css" href="./assets/footer.css" />
+  <!-- Link para Redefinir Senha -->
+  <link rel="stylesheet" href="./js/RedefinirSenha.js">
+
+  <script>
+    const ano = document.getElementById("ano");
+    const anoAtual = new Date();
+  </script>
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="center">
+      <div class="logo">
+        <h3><img src="./assets/img/hostal.png" width="103">
+      </div>
+      <!--center-->
+      <div class="hostal">
+        <h3 style="font-size: 14px;"><i>&nbsp;&nbsp; Hostal<p><b>El Alebrije</b></i></h3>
+        </p>
+      </div>
+      <!--hostal-->
+      <div class="menu-container">
+        <a class="active-menu" href="">SOBRE</a>
+        <a href="">FOTOS</a>
+        <a href="">ACOMODAÇÕES</a>
+        <a href="">LOCALIZAÇÃO</a>
+        <a href="">AVALIÇÕES</a>
+        <a href="">EXPLORE</a>
+      </div>
+      <!--menu-container-->
+    </div>
+    <div class="btn">
+      <button class="btn-enter" style="font-size: 20px;"><b><a href=" " style="color:#9e2fba;">ENTRAR</b></a>
+    </div>
+    <button class="btn-cad" style="font-size: 12px;"><b><a href=" " style="color:#9e2fba;">CADASTRAR</b></a></div>
+      </div>
+
+  </header>
+
+  <!-- Redefinir Senha -->
+  <div class="aaa" style="display:flex; justify-content: center;
+  align-items: center;">
+    <div class="forms">
+      <h1>Redefinir Senha</h1>
+      <p>Atualize sua senha</p>
+      <form id="password-reset-form">
+        <div id="alert"></div>
+
+        <label for="password">Senha</label>
+        <input type="password" id="password">
+
+        <label for="password-verify">Nova senha</label>
+        <input type="password" id="password-verify">
+
+        <button type="submit" class="botaaao" style="height: 40px">Salvar nova senha</button>
+      </form>     
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <div style="display: flex; margin-left: 1rem; align-items: center">
+      <a href="https://www.facebook.com/alebrijehostal/" target="_blank" rel="noopener">
+        <img class="footer-img" src="./assets/img/fb.svg" alt="facebook" />
+      </a>
+      <a href="https://instagram.com/alebrije_hostaal?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener">
+        <img class="footer-img" src="./assets/img/insta.svg" alt="insta" />
+      </a>
+      <a href="https://www.booking.com/hotel/mx/hostal-el-alebrije.en-gb.html" target="_blank" rel="noopener">
+        <img class="footer-img" src="./assets/img/booking.svg" alt="bookin" />
+      </a>
+    </div>
+    <span class="text-copyright">&#169 ElAlebrije <span id="ano">2022</span> - Todos os direitos reservados</span>
+    <div className="footerSide">
+      <a href="https://api.whatsapp.com/send?phone=5217223960938" target="_blank" rel="noopener">
+        <img class="footer-img" src="./assets/img/wpp.svg" alt="whatsapp" />
+      </a>
+    </div>
+  </div>
+  </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>
+```
+
+```js 
+// Initialize Userfront
+Userfront.init("demo1234");
+
+// 1. Reference the elements on the page
+var passwordResetFormEl = document.getElementById("password-reset-form");
+var alertEl = document.getElementById("alert");
+var passwordEl = document.getElementById("password");
+var passwordVerifyEl = document.getElementById("password-verify");
+
+// 2. Reset the user's password
+function formResetPassword(e) {
+  // Prevent the form's default behavior
+  e.preventDefault();
+  // Reset the alert to empty
+  setAlert();
+  // Verify that the passwords match
+  var password = passwordEl.value;
+  var passwordVerify = passwordVerifyEl.value;
+  if (password !== passwordVerify) {
+    return setAlert("Password verification must match.");
+  }
+  // Call Userfront.resetPassword()
+  Userfront.resetPassword({
+    password: password
+  }).catch(function (error) {
+    setAlert(error.message);
+  });
+}
+
+// Set the alert element to show the message
+function setAlert(message) {
+  alertEl.innerText = message;
+  alertEl.style.display = message ? "block" : "none";
+}
+
+// 3. Add an event listener for the password reset form submit
+passwordResetFormEl.addEventListener("submit", formResetPassword);
+```
+### Instruções de acesso
+
+No uso do redefinir senha o hóspede deve inserir a senha antiga e a nova senha respectivamente, assim criando uma nova senha no sistema.
+
+- Link: http://127.0.0.1:5503/RedefinirSenha.html
 
 
 ## Login (RF-015)
