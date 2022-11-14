@@ -195,7 +195,6 @@ http://127.0.0.1:5502/ReservasHostel.html
 ### Desenvolvedor(a): Gabrielle Oliveira Santana
 - Funcionalidade de redefinição de senhas
 
-![2-RedefinirVscode](https://user-images.githubusercontent.com/95951195/201782738-21d6ebe6-ffed-4cfb-b227-0996b536272a.png)
 ![1imagemRedefinirSenha](https://user-images.githubusercontent.com/95951195/201782743-fd032d6c-5cb0-4510-b262-a95834213700.png)
 
 
