@@ -352,6 +352,176 @@ No uso do redefinir senha o hóspede deve inserir a senha antiga e a nova senha 
 
 - Link: http://127.0.0.1:5503/RedefinirSenha.html
 
+## Recuperação de Senha (RNF-15)
+### Desenvolvedor(a): Gabrielle Oliveira Santana
+- Funcionalidade de recuperação de senha através do e-mail;
+
+![imagemRecuperaçãoSenha](https://user-images.githubusercontent.com/95951195/201786770-6b01b37c-fd4c-4461-8cd9-bba81f2ded4b.png)
+
+### Requisito atendido:
+- RNF-15 - O site deverá ser fácil de usar, eficiente e acessível;
+
+### Artefatos da funcionalidade:
+- .vscode
+- /assets
+- /img
+- /js
+- README.md
+- header.html
+- style.css
+- RecuperacaoSenha.html
+
+```html
+ <!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recuperação de Senha</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous" />
+  <link rel="stylesheet" type="text/css" href="./assets/global.css" />
+  <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+  <link rel="stylesheet" type="text/css" href="./assets/footer.css" />
+  <!-- Link para Redefinir Senha -->
+  <link rel="stylesheet" href="./js/RedefinirSenha.js">
+
+  <script>
+    const ano = document.getElementById("ano");
+    const anoAtual = new Date();
+  </script>
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="center">
+      <div class="logo">
+        <h3><img src="./assets/img/hostal.png" width="103">
+      </div>
+      <!--center-->
+      <div class="hostal">
+        <h3 style="font-size: 14px;"><i>&nbsp;&nbsp; Hostal<p><b>El Alebrije</b></i></h3>
+        </p>
+      </div>
+      <!--hostal-->
+      <div class="menu-container">
+        <a class="active-menu" href="">SOBRE</a>
+        <a href="">FOTOS</a>
+        <a href="">ACOMODAÇÕES</a>
+        <a href="">LOCALIZAÇÃO</a>
+        <a href="">AVALIÇÕES</a>
+        <a href="">EXPLORE</a>
+      </div>
+      <!--menu-container-->
+    </div>
+    <div class="btn">
+      <button class="btn-enter" style="font-size: 20px;"><b><a href=" " style="color:#9e2fba;">ENTRAR</b></a>
+    </div>
+    <button class="btn-cad" style="font-size: 12px;"><b><a href=" " style="color:#9e2fba;">CADASTRAR</b></a></div>
+      </div>
+
+  </header>
+
+  <!-- Recuperar senha Senha -->
+  <div id="center" style="display: grid;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;">
+    <div class="forms">
+      <h1>Recuperação de Senha</h1>
+      <p>Escreva abaixo o e-mail cadastrado</p>
+      <form id="password-reset-form">
+        <div id="alert"></div>
+
+        <label for="password" style="margin-top: 9px">E-mail: </label>
+        <input type="text" id="password" placeholder="E-mail cadastrado">
+        <p style="margin-bottom: 20px">Caso exista alguma conta associada a esse e-mail, você receberá um link para redefinição de sua senha.</p>
+
+        <button href="javascript: submitform()" type="submit" class="botaaao" style="height: 40px">Enviar</button>
+      </form>
+      <!-- Estilo Formulário -->
+      <style>
+        /* formulario */
+        botaaao,
+        input {
+          display: flex;
+          margin-bottom: 10px;
+          width: 400px;
+          height: 40px;
+        }
+
+        #alert {
+          display: none;
+          color: red;
+          margin-bottom: 10px;
+        }
+
+        .botaaao {
+          background-color: #9E2FBA;
+          border-radius: 50px;
+          color: aliceblue;
+          width: 400px;
+        }
+
+        .forms {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 900px;
+          height: 500px;
+        }
+      </style>
+      <script type="text/javascript">
+        function submitform() {
+          document.formulario.submit();
+        }
+      </script>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+  <div class="footer">
+    <div style="display: flex; margin-left: 1rem; align-items: center">
+      <a href="https://www.facebook.com/alebrijehostal/" target="_blank" rel="noopener">
+        <img class="footer-img" src="./assets/img/fb.svg" alt="facebook" />
+      </a>
+      <a href="https://instagram.com/alebrije_hostaal?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener">
+        <img class="footer-img" src="./assets/img/insta.svg" alt="insta" />
+      </a>
+      <a href="https://www.booking.com/hotel/mx/hostal-el-alebrije.en-gb.html" target="_blank" rel="noopener">
+        <img class="footer-img" src="./assets/img/booking.svg" alt="bookin" />
+      </a>
+    </div>
+    <span class="text-copyright">&#169 ElAlebrije <span id="ano">2022</span> - Todos os direitos reservados</span>
+    <div className="footerSide">
+      <a href="https://api.whatsapp.com/send?phone=5217223960938" target="_blank" rel="noopener">
+        <img class="footer-img" src="./assets/img/wpp.svg" alt="whatsapp" />
+      </a>
+    </div>
+  </div>
+  </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>
+```
+
+
+### Instruções de acesso
+
+No uso da recuperação senha o hóspede deve inserir o e-mail e enviar o mesmo para recuperar sua senha;
+
+- Link: http://127.0.0.1:5503/RedefinirSenha.html
+
+
 
 ## Login (RF-015)
 ### Desenvolvedor(a): Saory Nayara Vieira Nakabori
