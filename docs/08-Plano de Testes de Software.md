@@ -5,7 +5,7 @@ A seguir são descritos os testes funcionais a serem executados:
 | Caso de Teste | CT-01 - Criação de atividade |
 |---------------|--------------------------|
 | Requisitos Associados | RNF-7 - O sistema deve ter capacidade para recuperar os dados perdidos da última operação que realizou em caso de falha;
-
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
 
   |
 | Objetivo do Teste | ... |
