@@ -48,6 +48,17 @@ A seguir são descritos os testes funcionais a serem executados:
 | Passos |4) Clicar numa funcionalidade e já ser direcionado para a página correspondente|
 | Critérios de Êxito | O site deve permitir o direcionamento de uma página para a outra|
 
+| Caso de Teste | CT-05 - Teste do Carrossel de Fotos |
+|---------------|--------------------------|
+| Requisitos Associados | RF-03- Disponibilizar para o cliente todos os atrativos da região com descrições de cada atividade e com uma opção do hóspede se inscrever para participar das atividades dentro e fora do hostel|
+| Requisitos Associados | RF-08- O site deverá conter uma imagem correspondente para as diferenças de acomodações e demais serviços prestados aos hóspedes.|
+| Objetivo do Teste | Testar o carrossel de fotos |
+| Passos |1) Acessar o Navegador
+| Passos |2) Informar o endereço do Site
+| Passos |3) Visualizar a página principal
+| Passos |4) Clicar nas imagens e conseguir transitar entre elas|
+| Critérios de Êxito | O site deve permitir a interação entre as imagens |
+
 
 > **Links Úteis**:
 > - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
