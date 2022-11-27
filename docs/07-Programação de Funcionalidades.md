@@ -544,6 +544,233 @@ No uso da recuperação senha o hóspede deve inserir o e-mail e enviar o mesmo 
 
 - Link: http://127.0.0.1:5503/RedefinirSenha.html
 
+## Reclamações
+### Desenvolvedor(a): Gabrielle Oliveira Santana
+- Funcionalidade de reclamações para o usuário;
+
+![reclamacoes_foto](https://user-images.githubusercontent.com/95951195/204152782-0b1b1574-77fa-4345-851a-6a278261ea97.png)
+
+
+### Requisito atendido:
+- RNF-15 - O site deverá ser fácil de usar, eficiente e acessível;
+
+### Artefatos da funcionalidade:
+- /.vscode
+- /assets
+- Reclamacoes.html
+- style.css
+
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" />
+    <title>Hostal El Alebrije</title>
+    <style>
+        body {
+            overflow-x: hidden;
+            background-color: rgb(252, 252, 252);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div class="center">
+            <div class="logo">
+                <h3><img src="assets/hostal.png" width="103">
+            </div>
+            <!--center-->
+            <div class="hostal">
+                <h3 style="font-size: 14px;"><i>&nbsp;&nbsp; Hostal<p><b>El Alebrije</b></i></h3>
+                </p>
+            </div>
+            <!--hostal-->
+            <div class="menu-container">
+                <a href="">SOBRE</a>
+                <a href="">FOTOS</a>
+                <a href="">ACOMODAÇÕES</a>
+                <a href="">LOCALIZAÇÃO</a>
+                <a class="active-menu" href="">AVALIÇÕES</a>
+                <a href="">EXPLORE</a>
+            </div>
+            <!--menu-container-->
+        </div>
+        <div class="btn">
+            <button class="btn-enter" style="font-size: 20px;"><b><a href="./login/index.html " style="color:#9e2fba;;">ENTRAR</b></a>
+        </div>
+        <button class="btn-cad" style="font-size: 12px;"><b><a href="https://github.com/santanagabi/hostel/blob/main/Reclama%C3%A7%C3%B5es-Atualizadas-Gabrielle/index.html " style="color:#9e2fba;">CADASTRAR</b></a>
+        </button>
+        <div class="idiomas">
+            <div class="translate">
+                <a href=""><img src="assets/Br.jpg" /></a>
+            </div>
+
+            <div class="translate1">
+                <a href=""><img src="assets/esp.png" /></a>
+            </div>
+
+            <div class="translate2">
+                <a href=""><img src="assets/us.png" /></a>
+            </div>
+        </div>
+    </header>
+    <!--fim do header-->
+
+    <!--inicio do quadro cinza-->
+    <div class="all">
+        <aside>
+            <ul class="list-group-teste">
+                <li class="list-group-item-dados-pessoais">
+                    <img src="assets/dados-pessoais.svg" alt="">
+                    <a href="">Dados pessoais</a>
+                </li>
+                <li class="list-group-item-reservas">
+                    <img src="assets/reservas.svg" alt="">
+                    <a href="">Reservas</a>
+                </li>
+                <li class="list-group-item-avaliacoes">
+                    <img src="assets/avaliacoes.svg" alt="">
+                    <a href="">Avaliações</a>
+                </li>
+                <li class="list-group-item-reclamacoes">
+                    <img src="assets/reclamacoes.svg" alt="">
+                    <a href="">Reclamações(Anônimas)</a>
+                </li>
+                <li class="list-group-item-dados-pagamento">
+                    <img src="assets/dados-pagamento.svg" alt="">
+                    <a href=""> Dados de pagamentos</a>
+                </li>
+                <li class="list-group-item-seguranca">
+                    <img src="assets/seguranca.svg" alt="">
+                    <a href="">Segurança</a>
+                </li>
+            </ul>
+        </aside>
+        <!--fim do quadro cinza-->
+
+        <!--formulario-->
+        <form action="">
+            <div class="container" style="display:flex; flex-direction: column;">
+                <div class="header">
+                    <h2>Reclamações</h2>
+                    <p>Faça sua reclamação aqui </p>
+                </div>
+            </div>
+            <form id="form" class="form">
+                <div class="formularios">
+                    <label for="username">Primeiro Nome:</label>
+                    <input type="text" id="username" placeholder="Digite seu nome de usuário..." />
+                </div>
+
+                <div class="formularios">
+                    <label for="lastname">Sobrenome:</label>
+                    <input type="text" id="lastname" placeholder="Digite seu sobrenome..." />
+                </div>
+
+                <div class="formularios">
+                    <label for="faca-reclamacao">Faça sua reclamação:
+                    </label>
+                    <input type="text" id="faca-reclamacao" placeholder="Digite sua reclamação aqui..." style="width:500px ; height: 150px;" />
+                </div>
+                <button onclick="Enviado()" type=" submit" style="background-color: rgb(201, 9, 201); margin-top:10px; margin-left:60px; display:flex; justify-content:center; border-radius:16px; color: black; ">Enviar</button>
+            </form>
+            <!-- JS Reclamações -->
+            <script>
+                const form = document.getElementById("form");
+                const username = document.getElementById("username");
+                const lastname = document.getElementById("lastname");
+                const facaReclamacao = document.getElementById("faca-reclamacao");
+
+                form.addEventListener("submit", (e) => {
+                    e.preventDefault();
+
+                    checkInputs();
+                });
+
+                function Enviado(input) {
+                    alert('Foi enviado para os administradores do hotel com sucesso!');
+                }
+
+                btn.addEventListener("submit", function () {
+                    alert('Enviado com sucesso!');
+                });
+
+                // Salvando no localStorage
+                var salvandoDados = function () {
+                    var form = document.getElementById('form').value;
+                    var username = document.getElementById('username').value;
+                    var dataFinal = document.getElementById('lastname').value;
+                    var facaReclamacao = document.getElementById('faca-reclamacao').value;
+
+                    localStorage.setItem('form', form);
+                    localStorage.setItem('username', username);
+                    localStorage.setItem('lastname', ultimoNome);
+                    localStorage.setItem('faca-reclamacao', facaReclamacao);
+
+                }
+                // Ativando o função quando houver alteração no documento
+                document.onchange = salvandoDados;
+
+            </script>
+
+            <!-- Estilo Reclamações -->
+            <style>
+                label,
+                input {
+                    background: #f1e2f6;
+                }
+            </style>
+
+
+            <!--formulario-->
+
+
+    </div>
+
+    <!--inicio do footer-->
+    <div class="footer">
+        <div style="display: flex; margin-left: 1rem; align-items:
+        center">
+            <a href="https://www.facebook.com/alebrijehostal/" target="_blank" rel="noopener">
+                <img src="assets/fb.svg" alt="facebook" />
+            </a>
+            <a href="https://instagram.com/alebrije_hostaal?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener">
+                <img src="assets/insta.svg" alt="insta" />
+            </a>
+            <a href="https://www.booking.com/hotel/mx/hostal-el-alebrije.en-gb.html" target="_blank" rel="noopener">
+                <img src="assets/booking.svg" alt="bookin" />
+            </a>
+        </div>
+        <span class="text-copyright">&#169 ElAlebrije <span id="ano">2022</span> - Todos os direitos
+            reservados</span>
+        <div className="footerSide">
+            <a href="https://api.whatsapp.com/send?phone=5217223960938" target="_blank" rel="noopener">
+                <img src="assets/wpp.svg" alt="whatsapp" />
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
+
+```
+
+### Instruções de acesso
+
+No uso da recuperação senha o hóspede deve inserir o primeiro nome, último nome e a seguir realizar a determinada reclamação;
+
+- Link: http://127.0.0.1:5501/Reclamacoes.html
 
 
 ## Login (RF-015)
