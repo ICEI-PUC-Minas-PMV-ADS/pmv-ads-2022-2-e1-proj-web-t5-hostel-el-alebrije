@@ -46,7 +46,7 @@ A seguir são descritos os testes funcionais a serem executados:
 | Passos |2) Informar o endereço do Site
 | Passos |3) Visualizar a página principal
 | Passos |4) Clicar numa funcionalidade e já ser direcionado para a página correspondente|
-| Critérios de Êxito | O site deve permitir o direcionamneto de uma página para a outra|
+| Critérios de Êxito | O site deve permitir o direcionamento de uma página para a outra|
 
 
 
