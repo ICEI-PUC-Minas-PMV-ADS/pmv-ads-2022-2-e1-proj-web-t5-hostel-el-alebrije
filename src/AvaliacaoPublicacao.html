@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/global.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/footer.css" />
+    <script defer src="../js/AvaliacaoForm.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous" />
+    <title>Deixe seu comentario</title>
+    <script>
+        const ano = document.getElementById("ano");
+        const anoAtual = new Date();
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="center">
+            <div class="logo">
+                <h3 style="margin-top: 0.6rem"><img src="./assets/img/hostal.png" width="103">
+            </div>
+            <!--center-->
+            <div class="hostal">
+                <h3 style="font-size: 14px;"><i>&nbsp;&nbsp; Hostal<p><b>El Alebrije</b></i></h3>
+                </p>
+            </div>
+            <!--hostal-->
+            <div class="menu-container">
+                <a class="active-menu" href="">SOBRE</a>
+                <a href="">FOTOS</a>
+                <a href="">ACOMODAÇÕES</a>
+                <a href="">LOCALIZAÇÃO</a>
+                <a href="">AVALIÇÕES</a>
+                <a href="">EXPLORE</a>
+            </div>
+            <!--menu-container-->
+        </div>
+        <div class="btn">
+            <button class="btn-enter" style="font-size: 20px;"><b><a href=" " style="color:#9e2fba;">ENTRAR</b></a>
+        </div>
+        <button class="btn-cad" style="font-size: 12px;"><b><a href=" " style="color:#9e2fba;">CADASTRAR</b></a></div>
+            </div>
+
+    </header>
+
+    <div class="translate">
+        <a href=""><img src="./assets/img/Br.jpg" /></a>
+    </div>
+
+    <div class="translate1">
+        <a href=""><img src="./assets/img/esp.png" /></a>
+    </div>
+
+    <div class="translate2">
+        <a href=""><img src="./assets/img/us.png" /></a>
+    </div>
+
+    <!--inicio do quadro cinza-->
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="list-group col-md-6">
+                    <div class="list-group-item-dados">
+                        <img class="img-dados" src="./assets/img/dados-pessoais.svg" alt="">
+                        Dados pessoais
+                    </div>
+                    <div class="list-group-item-dados">
+                        <img class="img-dados" src="./assets/img/reservas.svg" alt="">
+                        Reservas
+                    </div>
+                    <div class="list-group-item-dados">
+                        <img class="img-dados" src="./assets/img/avaliacoes.svg" alt="">
+                        Avaliações
+                    </div>
+                    <div class="list-group-item-dados">
+                        <img class="img-dados" src="./assets/img/reclamacoes.svg" alt="">
+                        Reclamações(Anônimas)
+                    </div>
+                    <div class="list-group-item-dados">
+                        <img class="img-dados" src="./assets/img/dados-pagamento.svg" alt="">
+                        Dados de pagamentos
+                    </div>
+                    <div class="list-group-item-dados">
+                        <img class="img-dados" src="./assets/img/seguranca.svg" alt="">
+                        Segurança
+                    </div>
+                </div>
+
+                <div class="formulario col-md-6">
+                    <div class="title-avaliacoes">
+                        <h3>AVALIAÇÕES</h3>
+                        <hr class="line" />
+                    </div>
+                    <p id="subtitulo-avaliacoes">Escreva abaixo o seu comentário</p>
+
+                    <form id="form-avaliacao" onsubmit="guardarNumeros()">
+                        <div class="campo">
+                            <label class="label-comentario" for="comentario"><strong>Comentário</strong></label>
+                            <textarea class="comentario" row="20" id="comentario"
+                                name="comentario[]" value="comentario"></textarea>
+                        </div>
+                        <button class="botão-publicar" type="submit" id="publicar"><strong>Publicar</strong></button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer">
+                <div style="display: flex; margin-left: 1rem; align-items:
+                    center">
+                    <a href="https://www.facebook.com/alebrijehostal/" target="_blank" rel="noopener">
+                        <img class="footer-img" src="./assets/img/fb.svg" alt="facebook" />
+                    </a>
+                    <a href="https://instagram.com/alebrije_hostaal?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener">
+                        <img class="footer-img" src="./assets/img/insta.svg" alt="insta" />
+                    </a>
+                    <a href="https://www.booking.com/hotel/mx/hostal-el-alebrije.en-gb.html" target="_blank"
+                        rel="noopener">
+                        <img class="footer-img" src="./assets/img/booking.svg" alt="bookin" />
+                    </a>
+                </div>
+                <span class="text-copyright">&#169 ElAlebrije <span id="ano">2022</span> - Todos os direitos
+                    reservados</span>
+                <div className="footerSide">
+                    <a href="https://api.whatsapp.com/send?phone=5217223960938" target="_blank" rel="noopener">
+                        <img class="footer-img" src="./assets/img/wpp.svg" alt="whatsapp" />
+                    </a>
+                </div>
+            </div>
+        </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+    </body>
+
+</html>
