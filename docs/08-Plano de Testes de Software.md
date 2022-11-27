@@ -1,14 +1,29 @@
 # Plano de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
+A seguir são descritos os testes funcionais a serem executados: 
 
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
+| Caso de Teste | CT-01 - Criação de atividade |
+|---------------|--------------------------|
+| Requisitos Associados | RNF-7 - O sistema deve ter capacidade para recuperar os dados perdidos da última operação que realizou em caso de falha;
 
-Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
- 
-## Ferramentas de Testes (Opcional)
 
-Comente sobre as ferramentas de testes utilizadas.
+  |
+| Objetivo do Teste | ... |
+| Passos | 1) w 2) x 3) y 4) z |
+| Critérios de Êxito | - bla bla |
+
+
+
+
+
+
+
+
+
+
+
+
+
  
 > **Links Úteis**:
 > - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
