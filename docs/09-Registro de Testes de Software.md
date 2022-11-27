@@ -12,6 +12,7 @@
 ![reservas](https://user-images.githubusercontent.com/95951195/204157798-dc108c72-8a38-48fb-aa10-60bb924e2f3a.png)
 ![redefinir](https://user-images.githubusercontent.com/95951195/204158642-d567377c-f5f4-4e5d-af54-1e9c0054b9ea.png)
 ![redefinir](https://user-images.githubusercontent.com/95951195/204158720-90691034-1134-4cad-890b-1d7445787062.png)
+![reclamacoes](https://user-images.githubusercontent.com/95951195/204159651-ee3bfd3c-6284-496d-999a-763eb0293e07.png)
 
 ## CT-03 - Teste do API do Google
 ### Desenvolvedor(a): Fernanda Marques Assis
