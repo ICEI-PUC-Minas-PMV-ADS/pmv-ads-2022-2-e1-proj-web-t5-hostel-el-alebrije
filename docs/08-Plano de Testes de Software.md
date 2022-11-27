@@ -60,6 +60,16 @@ A seguir são descritos os testes funcionais a serem executados:
 | Critérios de Êxito | O site deve permitir a interação entre as imagens |
 
 
+
+| Caso de Teste | CT-06 - Teste de tradução |
+|---------------|--------------------------|
+| Requisitos Associados | RF-011 - O sistema será traslado em três línguas: português, espanhol e inglês|
+| Passos |1) Acessar o Navegador
+| Passos |2) Informar o endereço do Site
+| Passos |3) Visualizar a página principal
+| Passos |4) Selecionar o idioma que deseja de acordo com as três bandeiras disponíveis|
+| Critérios de Êxito | O site deve fazer a tradução instantânea |
+
 > **Links Úteis**:
 > - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
 > - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
