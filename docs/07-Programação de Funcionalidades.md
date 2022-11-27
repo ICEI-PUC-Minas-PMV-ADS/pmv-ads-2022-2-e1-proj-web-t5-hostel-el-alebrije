@@ -550,7 +550,7 @@ No uso da recuperação senha o hóspede deve inserir o e-mail e enviar o mesmo 
 ### Desenvolvedor(a): Saory Nayara Vieira Nakabori
 - Tela de Login ao site
 
-![image](https://user-images.githubusercontent.com/97962041/200976344-2e26a68f-d97b-4ae0-bb9d-365d55b8a4bb.png)
+![image](https://user-images.githubusercontent.com/97962041/204149407-fc4b9a7a-c17e-46a4-bcca-d52efcfb754d.png)
 
 ### Requisito atendido:
 - RF-015 - 	O cadastro de novos usuários, será validado através de um e-mail de confirmação;
@@ -719,14 +719,14 @@ body{
 ### Instruções de acesso
 
 Login de acesso a aba reservas. 
-http://127.0.0.1:5502/index.html
+http://127.0.0.1:5504/index.html?email=&password=
 
 
-## Criar um Usuário (RNF-08)
+## Criar uma Conta (RNF-08)
 ### Desenvolvedor(a): Saory Nayara Vieira Nakabori
-- Tela de criar um usuário
+- Tela de criar uma conta
 
-![image](https://user-images.githubusercontent.com/97962041/200977648-c3393853-0557-4bdc-a70a-72f48686a4c7.png)
+![image](https://user-images.githubusercontent.com/97962041/204149515-68df4545-a584-48bc-805e-be380bafc5ef.png)
 
 ### Requisito atendido:
 - RNF-08 - 	O site deve possuir senhas de acesso e identificação para diferentes tipos de usuários: administrador do sistema, funcionários do hostel e clientes que têm acesso ao sistema no hostel;
@@ -905,14 +905,14 @@ http://127.0.0.1:5502/index.html
 ### Instruções de acesso
 
 Criar um conta para realizar as reservas 
-http://127.0.0.1:5500/index.html
+http://127.0.0.1:5502/index.html
 
 
 ## Avaliações (RF-20)
 ### Desenvolvedor(a): Saory Nayara Vieira Nakabori
 - Tela de avaliações
 
-![image](https://user-images.githubusercontent.com/97962041/200978294-a752c5d7-e52a-4e01-969b-f8450657feb4.png)
+![image](https://user-images.githubusercontent.com/97962041/204149549-3c8ff1b0-9784-4b9a-89c3-79a012e9c40b.png)
 
 ### Requisito atendido:
 - RF-20 - 	O sistema deve permitir uma aba para “Reclamações e Denúncias Anônimas”, para casos de preconceitos raciais ou demais crimes e situações adversas, ocorridas durante a hospedagem;
@@ -1077,14 +1077,221 @@ body{
 
 ### Instruções de acesso
 Página para digitar as avaliações sobre o hotel.
-http://127.0.0.1:5501/index.html
+http://127.0.0.1:5503/index.html?
 
+## Dados Pessoais (RF-01) e (RF-18)
+### Desenvolvedor(a): Saory Nayara Vieira Nakabori
+- Dados Pessoais
+
+![image](https://user-images.githubusercontent.com/97962041/204149798-187065e8-6759-4ac0-94f8-d3d5a8311646.png)
+![image](https://user-images.githubusercontent.com/97962041/204149820-5248ea57-6e5c-462c-ae7c-080c6c5c3e7c.png)
+
+
+### Requisito atendido:
+- RF-01 - Um breve cadastro de cada pessoa que permite o hostel ter informações importantes do cliente, principalmente para um check-in e check-out online. Assim, ele poderá se adiantar com toda a documentação;
+- RF-18 - 	O site deve associar todas as reservas online a um responsável;
+
+### Artefatos da funcionalidade:
+- /assets
+- index.html
+- style.css
+- script.js
+
+```html
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Hostal El Alebrije</title>
+    <style>
+body{
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden; 
+    background-color: rgb(252, 252, 252);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 150vh;
+}
+        
+    </style>
+</head>
+<body> 
+    <header>
+        <div class="center">
+            <div class="logo">
+                <h3><img src="assets/hostal.png" width="103">
+            </div><!--center-->
+        <div class="hostal">
+            <h3 style="font-size: 14px;"><i>&nbsp;&nbsp; Hostal<p><b>El Alebrije</b></i></h3></p>
+        </div><!--hostal-->
+        <div class="menu-container">
+            <a href="">SOBRE</a>
+            <a href="">FOTOS</a>
+            <a href="">ACOMODAÇÕES</a>
+            <a href="">LOCALIZAÇÃO</a>
+            <a href="">AVALIÇÕES</a>
+            <a href="">EXPLORE</a>
+        </div><!--menu-container-->    
+        </div>
+        <div class="btn">
+                <button class="btn-enter" style="font-size: 20px;"><b><a href=" " style="color:#9e2fba;;">ENTRAR</b></a></div>
+                <button class="btn-cad"style="font-size: 12px;"><b><a href=" " style="color:#9e2fba;">CADASTRAR</b></a></div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="translate">
+        <a href=""><img src="assets/Br.jpg"/></a>
+    </div>
+    
+    <div class="translate1">
+        <a href=""><img src="assets/esp.png"/></a>
+    </div>
+    
+    <div class="translate2">
+        <a href=""><img src="assets/us.png"/></a>
+    </div>
+    <div class="formulario">
+        <h1 id="titulo-dados-pessoais">Dados Pessoais</h1>
+    </div>
+
+<!--inicio do quadro cinza-->  
+<body>
+    <div class="all" >
+      <aside>
+        <ul class="list-group-teste">
+          <li class="list-group-item-dados-pessoais" >
+            <img src="assets/dados-pessoais.svg" alt="">
+            Dados pessoais
+          </li>
+          <li class="list-group-item-reservas">
+            <img src="assets/reservas.svg" alt="">
+            Reservas
+          </li>
+          <li class="list-group-item-avaliacoes">
+            <img src="assets/avaliacoes.svg" alt="">
+            Avaliações
+          </li>
+          <li class="list-group-item-reclamacoes">
+            <img src="assets/reclamacoes.svg" alt="">
+            Reclamações(Anônimas)
+          </li>
+        </ul>
+      </aside>
+<!--fim do quadro cinza-->  
+
+<!--foto de perfil--> 
+    <div class="max-width">
+        <div class="selecaoimagem">
+            <img src="Assets/camera (1).png" alt="Selecione uma imagem" id="imgphoto">
+        </div>
+    </div>
+
+    <input type="file" id="camera" name="camera" accept="image/*">
+
+    <script src="./script.js"></script>
+<!--fim da foto de perfil--> 
+
+<!--formulario-->
+    <div class="box">
+        <form action="" id="form">
+            <fieldset>
+                <legend><b>Atualize as suas Informações</b></legend>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="nome" class="inputUser" required>
+                    <label for="nome" class="labelInput">Nome completo</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="email" class="inputUser" required>
+                    <label for="email" class="labelInput">E-mail</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="tel" name="telefone" class="inputUser" required>
+                    <label for="telefone" class="labelInput">Telefone</label>
+                </div>
+                <br><br>
+                <p>Sexo</p>
+                <input type="radio" id="feminino" name="genero" value="feminino" required>
+                <label for="feminino">Feminino</label>
+                <br>
+                <input type="radio" id="masculino" name="genero" value="masculino" required>
+                <label for="masculino">Masculino</label>
+                <br>
+                <input type="radio" id="outro" name="genero" value="outro" required>
+                <label for="outro">Outro</label>
+                <br><br>
+                <label for="data_nascimento"><b>Data de Nascimento:</b></label>
+                <input type="date" name="data_nascimento" id="data_nascimento" required>
+                <br><br><br>
+                <div class="inputBox">
+                    <input type="text" name="nacionalidade" class="inputUser" required>
+                    <label for="nacionalidade" class="labelInput">Nacionalidade</label>
+                </div>
+                <br><br>
+                <button type="submit" name="submit" id="submit">Salvar</button> 
+            </fieldset>
+        </form>
+    </div>
+<!--formulario-->
+
+<!--footer--> 
+    <div class="footer">
+        <div style="display: flex; margin-left: 1rem; align-items:
+            center">
+            <a href="https://www.facebook.com/alebrijehostal/"
+                target="_blank" rel="noopener">
+                <img src="assets/fb.svg" alt="facebook" />
+            </a>
+            <a
+                href="https://instagram.com/alebrije_hostaal?igshid=YmMyMTA2M2Y="
+                target="_blank" rel="noopener">
+                <img src="assets/insta.svg" alt="insta" />
+            </a>
+            <a
+                href="https://www.booking.com/hotel/mx/hostal-el-alebrije.en-gb.html"
+                target="_blank"
+                rel="noopener">
+                <img src="assets/booking.svg" alt="bookin" />
+            </a>
+        </div>
+        <span class="text-copyright">&#169 ElAlebrije <span
+                id="ano">2022</span> - Todos os direitos
+            reservados</span>
+        <div className="footerSide">
+            <a
+                href="https://api.whatsapp.com/send?phone=5217223960938"
+                target="_blank" rel="noopener">
+                <img src="assets/wpp.svg" alt="whatsapp" />
+            </a>
+        </div>
+    </div>
+</body>
+</html>
+```
+
+### Instruções de acesso
+Página para visualização dos dados pessoais do hotel.
+http://127.0.0.1:5501/index.html
 
 ## Avaliações - O que os hóspedes dizem (RF-06)
 ### Desenvolvedor(a): Fernanda Marques Assis
 - Avaliações - O que os hóspedes dizem
 
-![image](https://user-images.githubusercontent.com/97962041/200979268-8271ec0f-be29-4a28-a59a-0b9dff69db08.png)
+![image](https://user-images.githubusercontent.com/97962041/204150132-2e32dc64-880e-4fb4-b267-3aeda6d541b7.png)
 
 ### Requisito atendido:
 - RF-06 - 	O sistema deve possuir uma área de feedback e dicas de antigos hóspedes para orientação de estrangeiros, a fim de que o hóspede saiba o que vale a pena investir ou não e tenha uma boa estadia.
@@ -1095,187 +1302,55 @@ http://127.0.0.1:5501/index.html
 - assets
 
 ```js
-    <!DOCTYPE html>
-<html>
+    const saveModification = document.getElementById("publicar");
 
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Avaliações</title>
-        <link rel="stylesheet"
-            href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-            crossorigin="anonymous">
-        <link rel="stylesheet"
-            href="path/to/font-awesome/css/font-awesome.min.css" />
-        <link rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
-            integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
-            crossorigin="anonymous" />
-        <link rel="stylesheet" type="text/css" href="./assets/global.css" />
-        <link rel="stylesheet" type="text/css" href="./assets/style.css" />
-        <link rel="stylesheet" type="text/css" href="./assets/footer.css" />
-        <script>
-            const ano = document.getElementById("ano");
-            const anoAtual = new Date();
-        </script>
-    </head>
+const getLocalStorage = () =>
+  JSON.parse(sessionStorage.getItem("saveComentario"));
 
-    <body>
-        <header>
-            <div class="center">
-                <div class="logo">
-                    <h3><img src="./assets/img/hostal.png" width="103">
-                </div><!--center-->
-            <div class="hostal">
-                <h3 style="font-size: 14px;"><i>&nbsp;&nbsp; Hostal<p><b>El Alebrije</b></i></h3></p>
-            </div><!--hostal-->
-            <div class="menu-container">
-                <a class="active-menu" href="">SOBRE</a>
-                <a href="">FOTOS</a>
-                <a href="">ACOMODAÇÕES</a>
-                <a href="">LOCALIZAÇÃO</a>
-                <a href="">AVALIÇÕES</a>
-                <a href="">EXPLORE</a>
-            </div><!--menu-container-->
-            </div>
-            <div class="btn">
-                <button class="btn-enter" style="font-size: 20px;"><b><a href=" " style="color:#9e2fba;">ENTRAR</b></a></div>
-                <button class="btn-cad"style="font-size: 12px;"><b><a href=" " style="color:#9e2fba;">CADASTRAR</b></a></div>
-            </div>
+const setSessionStorage = (dbProvider) => {
+  localStorage.setItem("saveComentario", JSON.stringify(dbProvider));
+};
 
-        </header>
+const readReview = () => getLocalStorage();
 
-        <div class="translate">
-            <a href=""><img src="./assets/img/Br.jpg"/></a>
-        </div>
+const updateProvider = (provider) => {
+  let dbProvider = readReview();
+  dbProvider = provider;
+  setSessionStorage(dbProvider);
+};
 
-        <div class="translate1">
-            <a href=""><img src="./assets/img/esp.png"/></a>
-        </div>
+const getInfoClient = () => {
+  const dbProvider = readReview();
+  fillFields(dbProvider);
+};
 
-        <div class="translate2">
-            <a href=""><img src="./assets/img/us.png"/></a>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="title col-md-12">
-                    <h3>AVALIAÇÕES</h3>
-                    <hr class="line-localization" />
+const fillFields = (provider) => {
+  if (provider) {
+    document.getElementById("comentario").value = provider.comentario;
+  }
+};
 
-                    <div style="font-size: 20px; font-weight: normal;
-                        margin-top:
-                        6rem">O QUE <span style="color: #9E2FBA; font-size:
-                            20px;">NOSSOS
-                            HÓSPEDES</span> DIZEM</div>
-                </div>
-                <div id="demo" class="row"></div>
-                <div class="col-md-12" style="display: flex; justify-content:
-                    center; margin-top: 1.5rem; width: 250px;">
-                    <div class="comentario ">
-                        <img class="image-comment"
-                            src="./assets/img/mais-informacoes.svg" />
-                        <span class="comment">Deixe um comentário</span>
-                    </div>
-                </div>
-                <div class="footer">
-                    <div style="display: flex; margin-left: 1rem; align-items:
-                        center">
-                        <a href="https://www.facebook.com/alebrijehostal/"
-                            target="_blank" rel="noopener">
-                            <img class="footer-img" src="./assets/img/fb.svg" alt="facebook" />
-                        </a>
-                        <a
-                            href="https://instagram.com/alebrije_hostaal?igshid=YmMyMTA2M2Y="
-                            target="_blank" rel="noopener">
-                            <img class="footer-img" src="./assets/img/insta.svg" alt="insta" />
-                        </a>
-                        <a
-                            href="https://www.booking.com/hotel/mx/hostal-el-alebrije.en-gb.html"
-                            target="_blank"
-                            rel="noopener">
-                            <img class="footer-img" src="./assets/img/booking.svg" alt="bookin" />
-                        </a>
-                    </div>
-                    <span class="text-copyright">&#169 ElAlebrije <span
-                            id="ano">2022</span> - Todos os direitos
-                        reservados</span>
-                    <div className="footerSide">
-                        <a
-                            href="https://api.whatsapp.com/send?phone=5217223960938"
-                            target="_blank" rel="noopener">
-                            <img class="footer-img" src="./assets/img/wpp.svg" alt="whatsapp" />
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <script>
-        const data = [
-            {
-                avaliacao: 'Lugar legal, muito colorido, pequeno mas agradável, bom atendimento e simpático, boa localização, só não tem estacionamento, mas tem um perto.',
-                user: 'Jose Roberto Astivia'
-            },
-            {
-                avaliacao: 'Lugar fantástico. A vista do terraço, a atenção do anfitrião, o conforto e o café da manhã tão gostoso alegrou-me as boas-vindas ao Vale de Bravo dia a dia. Obrigado Carlitos!!!',
-                user: 'Edgar Andrés Rincón Méndez'
-            },
-            {
-                avaliacao: '100% recomendado! Ótimo lugar para visitar Vale de Bravo, quente, confortável, seguro e tratamento cordial. Sempre atento aos hóspedes. Além disso, ótima localização e vista para o lago. Obrigado pelo excelente serviço.',
-                user: 'Emi Victoria'
-            },
-            {
-                avaliacao: 'excelente atendimento muito boa atitude de tudo depende do pessoal que trabalha aqui e as instalações são muito limpas e seguras tudo muito confortável tem um terraço muito agradável tem uma cozinha muito bonita e as camas são muito confortáveis tem rede está padrinho e econômico',
-                user: 'Rai Galicia'
-            },
-            {
-                avaliacao: 'o hostel tem tudo 🤟🏻 boa localização!! E limpeza! em general Valle de Bravo é muito seguro e este lugar é o melhor se procura visitar!!! É um 10✋ 🤚 Carlos, Lalo e David uns tipazosss!!!!!',
-                user: 'Jorge Segovia Sanchz'
-            },
-            {
-                avaliacao: 'Ótima localização, o centro fica bem próximo e além disso os preços são baratos.',
-                user: 'Pily Guerrero'
-            },
-            {
-                avaliacao: 'Ótimo lugar, atendimento e relação qualidade/preço, incrível. ',
-                user: 'Jos López'
-            },
-            {
-                avaliacao: 'Foi a primeira vez que viajava sozinha, e a primeira vez que ficava num albergue! Não sabia o que esperar, e realmente fiquei fascinada com a experiência!! O lugar é super seguro; central; muito limpo e confortável!! Como se isso não bastasse tem um terraço com uma bela vista para o cais... Su prepara café da manhã super gostoso!!!! E Fer tira fotos incríveis!! Se vão não hesitem em pedir-lhe umas fotos de verdade uau é o melhor a tirar fotos!!! E todos os outros me fizeram sentir em casa, se não conheces Valle ntp eles se encarregam de te ensinar ou acompanhar! E às tardes você pode ir para o terraço jogar jogos de tabuleiro, conversar ou tomar uma cervejinha, eu certamente irei de novo!!! E eu recomendo 1000% obrigado a todos por tornarem minha estadia inesquecível!! Eu voltarei!',
-                user: 'Sarahi Constantino'
-            }
-        ];
+var items = [];
 
-        document.getElementById('demo').innerHTML = data.map(user =>
-            `
-                <div style="max-width: 450px; height: auto; text-align: justify; margin-top: 4rem; margin-left: 5rem">
-                    <div class="col-md-12" style="width: 100%; border: 1px solid #C6C6C6; padding: 1.5rem; margin-right: 5rem; border-radius: 8px;box-shadow:0px 5px 10px rgba(0, 0, 0, 0.1)">
-                        <div style="font-style: italic">${user.avaliacao}</div>
-                        <div style="margin-top: 0.9rem">${user.user}</div>
-                    </div>
-                </div>
-            `
-        ).join('')
-    </script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script
-        src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
-    </body>
+function guardarNumeros() {
+  boxvalue = { comentario: document.getElementById("comentario").value };
+  items.push(boxvalue);
+  console.log(items);
+  updateProvider(items);
+  return false; // stop submission
+}
 
-</html>
+saveModification.addEventListener("click", (e) => {
+  e.preventDefault();
+  guardarNumeros();
+  // alert("Dados salvos com sucesso!");
+});
+getInfoClient();
 ```
 
 ### Instruções de acesso
 Página para visualizar as avaliações dos clientes sobre o hotel.
-http://127.0.0.1:5500/Avaliacao.html
+http://127.0.0.1:5500/ReviseDados/AvaliacaoPublicacao.html
 
 
 ## Localizações (RF-17)
@@ -1440,7 +1515,83 @@ Página para visualizar as localizações;
 http://127.0.0.1:5500/Localizacao.html
 
 
-## Localizações (RF-03)
+## Revise seus Dados (RF-04) e (RF-05)
+### Desenvolvedor(a): Fernanda Marques Assis
+- Página de Revise seus Dados
+
+![image](https://user-images.githubusercontent.com/97962041/204150603-b03dbc19-25da-4d5b-b82c-cc619f994b0b.png)
+
+### Requisito atendido:
+- RF-04 - O sistema deve permitir as seguintes opções de pagamento da estadia no hotel: 1) à vista (em dinheiro, cheque ou cartão de crédito); 2) faturado em 30 dias.
+- RF-05 - O sistema deve permitir ao hóspede imprimir um histórico de suas estadias no hostel, agilizando o processo de hospedagem pelo cadastro já ter sido previamente feito. 
+
+### Artefatos da funcionalidade:
+- reviseseusdados.html
+- reviewform.js
+- assets
+
+```js
+    const saveModification = document.getElementById("salvar-alteracoes");
+
+const getLocalStorage = () =>
+  JSON.parse(sessionStorage.getItem("revisao-dados"));
+
+const setSessionStorage = (dbProvider) => {
+  localStorage.setItem("revisao-dados", JSON.stringify(dbProvider));
+};
+
+const readReview = () => getLocalStorage();
+
+const updateProvider = (provider) => {
+  let dbProvider = readReview();
+  dbProvider = provider;
+  setSessionStorage(dbProvider);
+};
+
+const getInfoClient = () => {
+  const dbProvider = readReview();
+  fillFields(dbProvider);
+};
+
+const fillFields = (provider) => {
+  document.getElementById("nome-completo").value = provider.nomeCompleto;
+  document.getElementById("celular").value = provider.celular;
+  document.getElementById("nacionalidade").value = provider.nacionalidade;
+  document.getElementById("cpf").value = provider.cpf;
+  document.getElementById("email").value = provider.email;
+  document.getElementById("gender").value = provider.genero;
+  document.getElementById("transferencia").value = provider.transferencia;
+  document.getElementById("termos").value = provider.termos;
+  document.getElementById("data-nascimento").value = provider.dataNascimento;
+  document.getElementById("senha").value = provider.senha;
+};
+
+saveModification.addEventListener("click", (e) => {
+  e.preventDefault();
+  const provider = {
+    nomeCompleto: document.getElementById("nome-completo").value,
+    celular: document.getElementById("celular").value,
+    nacionalidade: document.getElementById("nacionalidade").value,
+    cpf: document.getElementById("cpf").value,
+    email: document.getElementById("email").value,
+    genero: document.getElementById("gender").value,
+    transferencia: document.getElementById("transferencia").value,
+    termos: document.getElementById("termos").value,
+    dataNascimento: document.getElementById("data-nascimento").value,
+    senha: document.getElementById("senha").value,
+  };
+
+  updateProvider(provider);
+  alert("Dados salvos com sucesso!");
+});
+getInfoClient();
+```
+
+### Instruções de acesso
+Página para visualizar as localizações;
+http://127.0.0.1:5500/ReviseDados/ReviseDados.html
+
+## Explore (RF-03)
 ### Desenvolvedor(a): Fernanda Marques Assis
 - Página do Explore
 
