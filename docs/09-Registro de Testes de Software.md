@@ -10,6 +10,7 @@
 ![image](https://user-images.githubusercontent.com/97962041/204152914-b7c1992b-5951-4b91-9d3f-c6074af9b91c.png)
 ![image](https://user-images.githubusercontent.com/97962041/204152956-a435cb83-cb00-40d5-94dd-1a5dbe239ee3.png)
 ![reservas](https://user-images.githubusercontent.com/95951195/204157798-dc108c72-8a38-48fb-aa10-60bb924e2f3a.png)
+![redefinir](https://user-images.githubusercontent.com/95951195/204158642-d567377c-f5f4-4e5d-af54-1e9c0054b9ea.png)
 
 
 ## CT-03 - Teste do API do Google
