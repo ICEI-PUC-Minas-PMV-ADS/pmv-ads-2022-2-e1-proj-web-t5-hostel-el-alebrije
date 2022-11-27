@@ -61,7 +61,7 @@ A seguir são descritos os testes funcionais a serem executados:
 
 
 
-| Caso de Teste | CT-06 - Teste de tradução |
+| Caso de Teste | CT-06 - Teste da Tradução das Páginas |
 |---------------|--------------------------|
 | Requisitos Associados | RF-011 - O sistema será traslado em três línguas: português, espanhol e inglês|
 | Objetivo do Teste | Testar o tradutor do site|
