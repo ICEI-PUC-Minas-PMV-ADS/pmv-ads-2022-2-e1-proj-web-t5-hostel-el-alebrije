@@ -13,6 +13,7 @@
 ![redefinir](https://user-images.githubusercontent.com/95951195/204158642-d567377c-f5f4-4e5d-af54-1e9c0054b9ea.png)
 ![redefinir](https://user-images.githubusercontent.com/95951195/204158720-90691034-1134-4cad-890b-1d7445787062.png)
 ![reclamacoes](https://user-images.githubusercontent.com/95951195/204159651-ee3bfd3c-6284-496d-999a-763eb0293e07.png)
+![recuperacao](https://user-images.githubusercontent.com/95951195/204160009-85997448-eeff-4587-a698-cbcc1c4b46a8.png)
 
 ## CT-03 - Teste do API do Google
 ### Desenvolvedor(a): Fernanda Marques Assis
