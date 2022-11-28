@@ -1,42 +1,39 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Avaliações</title>
-        <link rel="stylesheet"
-            href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-            crossorigin="anonymous">
-        <link rel="stylesheet"
-            href="path/to/font-awesome/css/font-awesome.min.css" />
-        <link rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
-            integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
-            crossorigin="anonymous" />
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avaliações</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous" />
 
-        <link rel="stylesheet" type="text/css" href="./assets/global.css" />
-        <link rel="stylesheet" type="text/css" href="./assets/style.css" />
-        <link rel="stylesheet" type="text/css" href="./assets/credit-card.css" />
-        <link rel="stylesheet" type="text/css" href="./assets/footer.css" />
-        <script defer src="./js/ReviewForm.js"></script>
-        <script defer src="./js/CreditCardInfo.js"></script>
-        <script>
-            const ano = document.getElementById("ano");
-            const anoAtual = new Date();
-        </script>
-    </head>
+    <link rel="stylesheet" type="text/css" href="./assets/global.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/credit-card.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/footer.css" />
+    <script defer src="./js/ReviewForm.js"></script>
+    <script>
+        const ano = document.getElementById("ano");
+        const anoAtual = new Date();
+    </script>
+</head>
 
-    <body>
-        <header>
-            <div class="center">
-                <div class="logo">
-                    <h3><img src="./assets/img/hostal.png" width="103">
-                </div><!--center-->
+<body>
+    <header>
+        <div class="center">
+            <div class="logo">
+                <h3><img src="./assets/img/hostal.png" width="103">
+            </div>
+            <!--center-->
             <div class="hostal">
-                <h3 style="font-size: 14px;"><i>&nbsp;&nbsp; Hostal<p><b>El Alebrije</b></i></h3></p>
-            </div><!--hostal-->
+                <h3 style="font-size: 14px;"><i>&nbsp;&nbsp; Hostal<p><b>El Alebrije</b></i></h3>
+                </p>
+            </div>
+            <!--hostal-->
             <div class="menu-container">
                 <a class="active-menu" href="">SOBRE</a>
                 <a href="">FOTOS</a>
@@ -44,190 +41,156 @@
                 <a href="">LOCALIZAÇÃO</a>
                 <a href="">AVALIÇÕES</a>
                 <a href="">EXPLORE</a>
-            </div><!--menu-container-->
             </div>
-            <div class="btn">
-                <button class="btn-enter" style="font-size: 20px;"><b><a href=" " style="color:#9e2fba;">ENTRAR</b></a></div>
-                <button class="btn-cad"style="font-size: 12px;"><b><a href=" " style="color:#9e2fba;">CADASTRAR</b></a></div>
+            <!--menu-container-->
+        </div>
+        <div class="btn">
+            <button class="btn-enter" style="font-size: 20px;"><b><a href=" " style="color:#9e2fba;">ENTRAR</b></a>
+        </div>
+        <button class="btn-cad" style="font-size: 12px;"><b><a href=" " style="color:#9e2fba;">CADASTRAR</b></a></div>
             </div>
 
-        </header>
+    </header>
 
-        <div class="translate">
-            <a href=""><img src="./assets/img/Br.jpg"/></a>
-        </div>
+    <div class="translate">
+        <a href=""><img src="./assets/img/Br.jpg" /></a>
+    </div>
 
-        <div class="translate1">
-            <a href=""><img src="./assets/img/esp.png"/></a>
-        </div>
+    <div class="translate1">
+        <a href=""><img src="./assets/img/esp.png" /></a>
+    </div>
 
-        <div class="translate2">
-            <a href=""><img src="./assets/img/us.png"/></a>
+    <div class="translate2">
+        <a href=""><img src="./assets/img/us.png" /></a>
+    </div>
+    <div class="container">
+        <div class="barra-container">
+            <div class="barra"></div>
         </div>
-        <div class="container">
-            <div class="barra-container">
-                <div class="barra"></div>
-            </div>
-            <div class="row">
-                <div class="col-md-12 steps-dados">
-                    <div class="dados">
-                        <img src="./assets/img/cama-de-hotel.svg" alt="hotel-bed" class="img-responsive"/>
-                        <div class="dados-active">
-                            <span style="color: #fff; font-size: 18px;">Escolha seu quarto</span>
-                        </div>
-                    </div>
-                    <div class="dados">
-                        <img src="./assets/img/aceitaram.svg" alt="hotel-bed" class="img-responsive"/>
-                        <div class="dados-active">
-                            <span style="color: #fff; font-size: 18px;">Revise seus dados</span>
-                        </div>
-                    </div>
-                    <div class="dados-confirmacao">
-                        <img src="./assets/img/verificado.svg" alt="hotel-bed" class="img-responsive"/>
-                        <div class="dados-disable">
-                            <span style="color: #000; font-size: 18px;">Confirmação</span>
-                        </div>
+        <div class="row">
+            <div class="col-md-12 steps-dados">
+                <div class="dados">
+                    <img src="./assets/img/cama-de-hotel.svg" alt="hotel-bed" class="img-responsive" />
+                    <div class="dados-active">
+                        <span style="color: #fff; font-size: 18px;">Escolha seu quarto</span>
                     </div>
                 </div>
-                <div class="form-review">
-                    <form name="genderForm" action="">
-                        <div style="display:flex; flex-direction: column; align-items: center">
-                            <h3>Identificação</h3>
-                            <hr class="line-localization" />
+                <div class="dados">
+                    <img src="./assets/img/aceitaram.svg" alt="hotel-bed" class="img-responsive" />
+                    <div class="dados-active">
+                        <span style="color: #fff; font-size: 18px;">Revise seus dados</span>
+                    </div>
+                </div>
+                <div class="dados-confirmacao">
+                    <img src="./assets/img/verificado.svg" alt="hotel-bed" class="img-responsive" />
+                    <div class="dados-disable">
+                        <span style="color: #000; font-size: 18px;">Confirmação</span>
+                    </div>
+                </div>
+            </div>
+            <div class="form-review">
+                <form name="genderForm" action="">
+                    <div style="display:flex; flex-direction: column; align-items: center">
+                        <h3>Identificação</h3>
+                        <hr class="line-localization" />
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" class="input-form" id="nome-completo" placeholder="Nome completo" />
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" class="input-form" id="celular" placeholder="Celular" />
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" class="input-form" id="nacionalidade" placeholder="Nacionalidade" />
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" class="input-form" id="cpf" placeholder="CPF" />
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" class="input-form" id="email" placeholder="Email" />
+                    </div>
+                    <div class="col-md-6">
+                        <input type="password" id="senha" class="input-form" placeholder="Nova senha" />
+                    </div>
+                    <div class="col-md-6" style="margin-top: 3rem; display: flex; flex-direction: column;">
+                        <span style="font-size: 18px; color: rgb(149, 149, 149); font-weight: bold">Data de
+                            nascimento</span>
+                        <div style="display: flex; ">
+                            <input type="date" id="data-nascimento" name="birthday">
                         </div>
-                        <div class="col-md-6">
-                            <input type="text" class="input-form" id="nome-completo" placeholder="Nome completo"/>
+                    </div>
+                    <div class="col-md-6" style="margin-top: 3rem; display: flex; flex-direction: column;">
+                        <span style="font-size: 18px; color: rgb(149, 149, 149); font-weight: bold">Gênero</span>
+                        <div style="display: flex; ">
+                            <input type="radio" id="gender" name="gender" value="masculino"><span
+                                class="gender">Masculino</span>
+                            <input type="radio" id="gender" name="gender" value="feminino"><span
+                                class="gender">Feminino</span>
+                            <input type="radio" id="gender" name="gender" value="outro"> <span
+                                class="gender">Outro</span>
                         </div>
-                        <div class="col-md-6">
-                            <input type="text" class="input-form" id="celular" placeholder="Celular"/>
-                        </div>
-                        <div class="col-md-6">
-                            <input type="text" class="input-form" id="nacionalidade" placeholder="Nacionalidade"/>
-                        </div>
-                        <div class="col-md-6">
-                            <input type="text" class="input-form" id="cpf" placeholder="CPF"/>
-                        </div>
-                        <div class="col-md-6">
-                            <input type="text" class="input-form" id="email" placeholder="Email"/>
-                        </div>
-                        <div class="col-md-6">
-                            <input type="password" id="senha" class="input-form" placeholder="Nova senha"/>
-                        </div>
-                        <div class="col-md-6" style="margin-top: 3rem; display: flex; flex-direction: column;">
-                            <span style="font-size: 18px; color: rgb(149, 149, 149); font-weight: bold">Data de nascimento</span>
-                            <div style="display: flex; ">
-                                <input type="date" id="data-nascimento" name="birthday">
-                            </div>
-                        </div>
-                        <div class="col-md-6" style="margin-top: 3rem; display: flex; flex-direction: column;">
-                            <span style="font-size: 18px; color: rgb(149, 149, 149); font-weight: bold">Gênero</span>
-                            <div style="display: flex; ">
-                                <input type="radio" id="gender" name="gender" value="masculino"><span class="gender">Masculino</span>
-                                <input type="radio" id="gender" name="gender" value="feminino"><span class="gender">Feminino</span>
-                                <input type="radio" id="gender" name="gender" value="outro"> <span class="gender">Outro</span>
-                            </div>
-                        </div>
-                        <div class="col-md-12" style="margin-top: 3rem;  height:100%">
-                            <span style="font-size: 18px; color: rgb(149, 149, 149); font-weight: bold">Pagamento</span>
-                            <div style="display: flex; justify-content:center">
-                                <input type="radio" id="cartao" name="cartao" value="credito"><span class="gender">Cartão de crédito</span>
-                                <input type="radio" id="cartao" name="cartao" value="debito"><span class="gender">Cartão de debito</span>
-                                <input type="radio" id="cartao" name="cartao" value="paypal"> <span class="gender">Paypal</span>
-                                <input type="radio" id="cartao" name="cartao" value="cheque"><span class="gender">Cheque</span>
-                            </div>
-
-
-                            <div id="form-container" style="margin-top: 3rem">
-                                <div id="card-front">
-                                  <div id="shadow"></div>
-                                  <label for="card-number">
-                                      Número do cartão
-                                    </label>
-                                  <input class="credit-input" type="text" id="card-number" placeholder="1234 5678 9101 1112" length="16"/>
-                                  <div id="cardholder-container">
-                                    <label for="card-holder">Nome
-                                    </label>
-                                    <input class="credit-input" type="text" id="card-holder" placeholder="e.g. John Doe" />
-                                  </div>
-                                  <div id="exp-container">
-                                    <label for="card-exp">
-                                        Data de expiração
-                                    </label>
-                                    <input class="credit-input" id="card-month" type="text" placeholder="MM" length="2"/>
-                                    <input class="credit-input" id="card-year" type="text" placeholder="YY" length="2"/>
-
-                                </div>
-                                <div id="cvc-container">
-                                    <label for="card-cvc">CVV</label>
-                                    <input class="credit-input" id="card-cvc" placeholder="XXX-X" type="text" min-length="3" max-length="4">
-                                </div>
-
-
-                                <div id="card-back">
-                                  <div id="card-stripe">
-                                  </div>
-                                </div>
-                            </div>
-                        </div>
+                    </div>
+                    <div class="col-md-12" style="margin-top: 3rem;  height:100%">
+                        <span style="font-size: 18px; color: rgb(149, 149, 149); font-weight: bold">Pagamento</span>
                         <fieldset>
-                            <div  style="display:flex; margin-top: 2rem; justify-content: center; align-items: center;">
+                            <div style="display: flex; justify-content:flex-start; margin-left: -1rem">
+                                <input type="radio" id="transferencia" name="transferencia">
+                                <span class="gender">Transferência Bancária</span>
+                            </div>
+                            <span style="font-size: 14px; color: rgb(149, 149, 149)">Você receberá os dados para
+                                realizar a transferência, após a conclusão da reserva</span>
+                            <div
+                                style="display:flex; margin-top: 2rem; justify-content: flex-start; align-items: center;">
                                 <input type="checkbox" id="termos" name="termos">
                                 <span class="termo">Eu li e aceito todos os termos e condições</span>
                             </div>
                         </fieldset>
-                        <div style="display: flex; justify-content: space-between;">
-                            <button style="background: #9e2fba; padding: 1rem 2rem 1rem 2rem; color: #fff; font-size: 18px; border-radius: 30px;">Retornar</button>
-                            <button type="submit" id="salvar-alteracoes" style="background: #9e2fba; padding: 1rem 2rem 1rem 2rem; color: #fff; font-size: 18px; border-radius: 30px;">Próximo</button>
+                        <div style="display: flex; justify-content: space-between; margin-top: 1.5rem">
+                            <button
+                                style="background: #9e2fba; padding: 1rem 2rem 1rem 2rem; color: #fff; font-size: 18px; border-radius: 30px;">Retornar</button>
+                            <button type="submit" id="salvar-alteracoes"
+                                style="background: #9e2fba; padding: 1rem 2rem 1rem 2rem; color: #fff; font-size: 18px; border-radius: 30px;">Próximo</button>
                         </div>
+                    </div>
 
-                    </form>
-                </div>
-                <div class="footer">
-                    <div style="display: flex; margin-left: 1rem; align-items:
+                </form>
+            </div>
+            <div class="footer">
+                <div style="display: flex; margin-left: 1rem; align-items:
                         center">
-                        <a href="https://www.facebook.com/alebrijehostal/"
-                            target="_blank" rel="noopener">
-                            <img class="footer-img" src="./assets/img/fb.svg" alt="facebook" />
-                        </a>
-                        <a
-                            href="https://instagram.com/alebrije_hostaal?igshid=YmMyMTA2M2Y="
-                            target="_blank" rel="noopener">
-                            <img class="footer-img" src="./assets/img/insta.svg" alt="insta" />
-                        </a>
-                        <a
-                            href="https://www.booking.com/hotel/mx/hostal-el-alebrije.en-gb.html"
-                            target="_blank"
-                            rel="noopener">
-                            <img class="footer-img" src="./assets/img/booking.svg" alt="bookin" />
-                        </a>
-                    </div>
-                    <span class="text-copyright">&#169 ElAlebrije <span
-                            id="ano">2022</span> - Todos os direitos
-                        reservados</span>
-                    <div className="footerSide">
-                        <a
-                            href="https://api.whatsapp.com/send?phone=5217223960938"
-                            target="_blank" rel="noopener">
-                            <img class="footer-img" src="./assets/img/wpp.svg" alt="whatsapp" />
-                        </a>
-                    </div>
+                    <a href="https://www.facebook.com/alebrijehostal/" target="_blank" rel="noopener">
+                        <img class="footer-img" src="./assets/img/fb.svg" alt="facebook" />
+                    </a>
+                    <a href="https://instagram.com/alebrije_hostaal?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener">
+                        <img class="footer-img" src="./assets/img/insta.svg" alt="insta" />
+                    </a>
+                    <a href="https://www.booking.com/hotel/mx/hostal-el-alebrije.en-gb.html" target="_blank"
+                        rel="noopener">
+                        <img class="footer-img" src="./assets/img/booking.svg" alt="bookin" />
+                    </a>
+                </div>
+                <span class="text-copyright">&#169 ElAlebrije <span id="ano">2022</span> - Todos os direitos
+                    reservados</span>
+                <div className="footerSide">
+                    <a href="https://api.whatsapp.com/send?phone=5217223960938" target="_blank" rel="noopener">
+                        <img class="footer-img" src="./assets/img/wpp.svg" alt="whatsapp" />
+                    </a>
                 </div>
             </div>
         </div>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-        <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
-        <script src="https://use.fontawesome.com/f1e0bf0cbc.js"></script>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-        <script
-            src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
-            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-            crossorigin="anonymous"></script>
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
-            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-            crossorigin="anonymous"></script>
-    </body>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+    <script src="https://use.fontawesome.com/f1e0bf0cbc.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
 
 </html>

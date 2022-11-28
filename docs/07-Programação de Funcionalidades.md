@@ -3,10 +3,10 @@
 ### Desenvolvedor(a): Danrley G M Paula 
 - Funcionalidade tradução e links redes sociais 
 
-![home](https://user-images.githubusercontent.com/112135999/200984935-d7532889-49d1-40b2-8b6c-41685c853fdf.png)
+![home](https://user-images.githubusercontent.com/112135999/204169651-7893b440-fa43-424e-ba3b-908003ed5004.png)
 
 ### Requisito atendido:
-- RF-011 - O sistema será traslado em três línguas: português, espanhol e inglês
+- RF-011 - O sistema será traduzido em três línguas: português, espanhol e inglês
 - RF-017 - O site deverá apresentar links redirecionando às outras redes da empresa, como: Instagram, Youtube, Facebook e afins
 
 ### Artefatos da funcionalidade:
@@ -17,7 +17,46 @@
 - homehostel.html
 
 ```js
-  <body>
+<html lang="pt-br">
+ <head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link href="css/style.css" rel="stylesheet"/>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+ <title>Hostal El Alebrije</title>
+ 
+ <style type="text/css">
+    #google_translate_element {
+        display: none;
+    }
+    
+    .goog-te-banner-frame {
+        display: none;
+    }
+    body {
+        position: static !important;
+        top: 0 !important;
+    }
+    
+    </style>
+<style>
+    
+body{
+    overflow-x: hidden; 
+    background-color: rgb(255, 255, 255);
+    background-image: url('assets/home.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+  
+ </style>
+ 
+ </head>
+ <body>
+
 <header>
     <div class="center">
         <div class="logo">
@@ -26,19 +65,37 @@
     <div class="hostal">
         <h3 style="font-size: 14px;"><i>&nbsp;&nbsp; Hostal<p><b>El Alebrije</b></i></h3></p>
     </div><!--hostal-->
+
     <div class="menu-container">
-        <a class="active-menu" href="">SOBRE</a>
-        <a href="">FOTOS</a>
-        <a href="">ACOMODAÇÕES</a>
-        <a href="">LOCALIZAÇÃO</a>
-        <a href="">AVALIÇÕES</a>
-        <a href="">EXPLORE</a>
+        <a class="active-menu" href="" target="_self">SOBRE</a>
+        <a href="" target="_self">FOTOS</a>
+        <a href="" target="_self">ACOMODAÇÕES</a>
+        <a href="" target="_self">LOCALIZAÇÃO</a>
+        <a href="" target="_self">AVALIÇÕES</a>
+        <a href="" target="_self">EXPLORE</a>
     </div><!--menu-container-->    
     </div>
+    <div class="hostal-central">
+        <h4 style="font-size: 30px; color:#000000;">Bem-vindo&nbsp;ao</h4>
+        <h5 style="font-size: 100px; color:#000000;"><b><i>PUEBLO MÁGICO</b></h5>
+    </div>
+    <div class="translate">
+        <div id="google_translate_element" class="boxTradutor"></div>
+        <a href="javascript:trocarIdioma('pt')"><img alt="português" src="assets/Br.jpg" width="35px;" margin="35px 0;"></a>
+    </div>
+    <div class="translate1">
+        <div id="google_translate_element" class="boxTradutor"></div>
+        <a href="javascript:trocarIdioma('es')"><img alt="espanhol" src="assets/esp.png" width="35px;" margin="35px 0;"></a>
+    </div>
+    <div class="translate2">
+        <a href="javascript:trocarIdioma('en')"><img alt="ingles" src="assets/us.png" width="35px;" margin="35px 0;"></a>
+    </div>
+
     <div class="btn">
-        <button class="btn-enter" style="font-size: 20px;"><b><a href=" " style="color:#ffffff;;">ENTRAR</b></a></div>
-        <button class="btn-cad"style="font-size: 12px;"><b><a href=" " style="color:#ffffff;">CADASTRAR</b></a></div>
-        <button class="btn-res"style="font-size: 20px;"><a href=" " style="color:#f1f1f1;">Reserve&nbsp;agora </a></div>
+        <button class="btn-enter" style="font-size: 20px;"><b><a href="" style="color:#ffffff;;">ENTRAR</b></a></div>
+        <button class="btn-cad"style="font-size: 12px;"><b><a href="" style="color:#ffffff;">CADASTRAR</b></a></div>
+        <button class="btn-res"style="font-size: 20px;"><a href="" style="color:#ffffff;">Reserve&nbsp;agora </a></div>   
+        </button> 
     </div>
 
 </header>
@@ -61,23 +118,13 @@
 </div>    
 <div class="extras" id="q2">
 </div>
-
-<div class="translate">
-    <a href=""><img src="assets/Br.jpg"/></a>
-</div>
-
-<div class="translate1">
-    <a href=""><img src="assets/esp.png"/></a>
-</div>
-
-<div class="translate2">
-    <a href=""><img src="assets/us.png"/></a>
+<div class="extras" id="q3">
 </div>
 
 <div class="social-media">
     <a href="https://instagram.com/alebrije_hostaal?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener"><img src="assets/insta.png"/></a>
-    <a href="https://api.whatsapp.com/send?phone=5217223960938" target="_blank" rel="noopener"><img src="assets/facebook.png"/></a>
-    <a href="https://www.facebook.com/alebrijehostal/" target="_blank" rel="noopener"><img src="assets/wpp.png"/></a>
+    <a href="https://www.facebook.com/alebrijehostal/" target="_blank" rel="noopener"><img src="assets/facebook.png"/></a>
+    <a href="https://api.whatsapp.com/send?phone=5217223960938" target="_blank" rel="noopener"><img src="assets/wpp.png"/></a>
     <a href="https://www.booking.com/hotel/mx/hostal-el-alebrije.en-gb.html" target="_blank" rel="noopener"><img src="assets/b.png"/></a>
 </div>
 
@@ -101,9 +148,41 @@
 <div class="rcp">
     <h0 style="font-size: 10px;"><b>RECEPÇÃO 24<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HORAS</b></P></h0>
 </div>
+<script type="text/javascript">
+    var comboGoogleTradutor = null;
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"/>
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+            pageLanguage: 'pt',
+            includedLanguages: 'pt,en,es',
+            layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL
+        }, 'google_translate_element');
+
+        comboGoogleTradutor = document.getElementById("google_translate_element").querySelector(".goog-te-combo");
+    }
+
+    function changeEvent(el) {
+        if (el.fireEvent) {
+            el.fireEvent('onchange');
+        } else {
+            var evObj = document.createEvent("HTMLEvents");
+
+            evObj.initEvent("change", false, true);
+            el.dispatchEvent(evObj);
+        }
+    }
+
+    function trocarIdioma(sigla) {
+        if (comboGoogleTradutor) {
+            comboGoogleTradutor.value = sigla;
+            changeEvent(comboGoogleTradutor);
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"></script>
  </body>
+</html>
 ``` 
 ### Instruções de acesso
 
@@ -168,17 +247,616 @@ http://127.0.0.1:5500/homehostel.html
     console.log(localStorage.dataFinal);
     
 ```
+
+```html
+ <form class="forms">
+    <h1>Reservas</h1>
+    <label for="pessoas">Número de hóspedes</label>
+    <select name="pessoas" id="pessoas">
+      <option value="um">1 pessoa</option>
+      <option value="dois">2 pessoas</option>
+      <option value="tres">3 pessoas</option>
+      <option value="mais">Mais que 3 pessoas</option>
+    </select>
+    <label for="dataInicio">Início</label>
+    <input type="date" name="dataInicio" id="dataInicio">
+    <label for="dataFinal">Final</label>
+    <input type="date" name="dataFinal" id="dataFinal">
+    <button id="clear">Cancelar</button>
+  </form>
+```
 ### Instruções de acesso
 
 No uso da reservas o hóspede deve inserir o número de pessoas que desejam se hospedar no hostel, o início e fim da estadia no hotel. Além de ter a disponibilidade de cancelamento das reservas.
 http://127.0.0.1:5502/ReservasHostel.html
+
+## Redefinir Senha (RF-16)
+### Desenvolvedor(a): Gabrielle Oliveira Santana
+- Funcionalidade de redefinição de senhas
+
+![1imagemRedefinirSenha](https://user-images.githubusercontent.com/95951195/201782743-fd032d6c-5cb0-4510-b262-a95834213700.png)
+
+
+### Requisito atendido:
+- RF-16 - Deve ser possível ao usuário solicitar a redefinição de sua senha, informando o e-mail cadastrado;
+
+### Artefatos da funcionalidade:
+- .vscode
+- /assets
+- /img
+- /js
+- main.js
+- README.md
+- header.html
+- style.css
+- RedefinirSenha.html
+
+```html
+ <!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Redefinir Senha</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous" />
+  <link rel="stylesheet" type="text/css" href="./assets/global.css" />
+  <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+  <link rel="stylesheet" type="text/css" href="./assets/footer.css" />
+  <!-- Link para Redefinir Senha -->
+  <link rel="stylesheet" href="./js/RedefinirSenha.js">
+
+  <script>
+    const ano = document.getElementById("ano");
+    const anoAtual = new Date();
+  </script>
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="center">
+      <div class="logo">
+        <h3><img src="./assets/img/hostal.png" width="103">
+      </div>
+      <!--center-->
+      <div class="hostal">
+        <h3 style="font-size: 14px;"><i>&nbsp;&nbsp; Hostal<p><b>El Alebrije</b></i></h3>
+        </p>
+      </div>
+      <!--hostal-->
+      <div class="menu-container">
+        <a class="active-menu" href="">SOBRE</a>
+        <a href="">FOTOS</a>
+        <a href="">ACOMODAÇÕES</a>
+        <a href="">LOCALIZAÇÃO</a>
+        <a href="">AVALIÇÕES</a>
+        <a href="">EXPLORE</a>
+      </div>
+      <!--menu-container-->
+    </div>
+    <div class="btn">
+      <button class="btn-enter" style="font-size: 20px;"><b><a href=" " style="color:#9e2fba;">ENTRAR</b></a>
+    </div>
+    <button class="btn-cad" style="font-size: 12px;"><b><a href=" " style="color:#9e2fba;">CADASTRAR</b></a></div>
+      </div>
+
+  </header>
+
+  <!-- Redefinir Senha -->
+  <div class="aaa" style="display:flex; justify-content: center;
+  align-items: center;">
+    <div class="forms">
+      <h1>Redefinir Senha</h1>
+      <p>Atualize sua senha</p>
+      <form id="password-reset-form">
+        <div id="alert"></div>
+
+        <label for="password">Senha</label>
+        <input type="password" id="password">
+
+        <label for="password-verify">Nova senha</label>
+        <input type="password" id="password-verify">
+
+        <button type="submit" class="botaaao" style="height: 40px">Salvar nova senha</button>
+      </form>     
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <div style="display: flex; margin-left: 1rem; align-items: center">
+      <a href="https://www.facebook.com/alebrijehostal/" target="_blank" rel="noopener">
+        <img class="footer-img" src="./assets/img/fb.svg" alt="facebook" />
+      </a>
+      <a href="https://instagram.com/alebrije_hostaal?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener">
+        <img class="footer-img" src="./assets/img/insta.svg" alt="insta" />
+      </a>
+      <a href="https://www.booking.com/hotel/mx/hostal-el-alebrije.en-gb.html" target="_blank" rel="noopener">
+        <img class="footer-img" src="./assets/img/booking.svg" alt="bookin" />
+      </a>
+    </div>
+    <span class="text-copyright">&#169 ElAlebrije <span id="ano">2022</span> - Todos os direitos reservados</span>
+    <div className="footerSide">
+      <a href="https://api.whatsapp.com/send?phone=5217223960938" target="_blank" rel="noopener">
+        <img class="footer-img" src="./assets/img/wpp.svg" alt="whatsapp" />
+      </a>
+    </div>
+  </div>
+  </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>
+```
+
+```js 
+
+var passwordResetFormEl = document.getElementById("password-reset-form");
+var alertEl = document.getElementById("alert");
+var passwordEl = document.getElementById("password");
+var passwordVerifyEl = document.getElementById("password-verify");
+
+
+function formResetPassword(e) {
+e.preventDefault();  
+  setAlert();
+  var password = passwordEl.value;
+  var passwordVerify = passwordVerifyEl.value;
+  if (password !== passwordVerify) {
+    return setAlert("Password verification must match.");
+  }
+  Userfront.resetPassword({
+    password: password
+  }).catch(function (error) {
+    setAlert(error.message);
+  });
+}
+
+function setAlert(message) {
+  alertEl.innerText = message;
+  alertEl.style.display = message ? "block" : "none";
+}
+
+passwordResetFormEl.addEventListener("submit", formResetPassword);
+```
+### Instruções de acesso
+
+No uso do redefinir senha o hóspede deve inserir a senha antiga e a nova senha respectivamente, assim criando uma nova senha no sistema.
+
+- Link: http://127.0.0.1:5503/RedefinirSenha.html
+
+## Recuperação de Senha (RNF-15)
+### Desenvolvedor(a): Gabrielle Oliveira Santana
+- Funcionalidade de recuperação de senha através do e-mail;
+
+![imagemRecuperaçãoSenha](https://user-images.githubusercontent.com/95951195/201786770-6b01b37c-fd4c-4461-8cd9-bba81f2ded4b.png)
+
+### Requisito atendido:
+- RNF-15 - O site deverá ser fácil de usar, eficiente e acessível;
+
+### Artefatos da funcionalidade:
+- .vscode
+- /assets
+- /img
+- /js
+- README.md
+- header.html
+- style.css
+- RecuperacaoSenha.html
+
+```html
+ <!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recuperação de Senha</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous" />
+  <link rel="stylesheet" type="text/css" href="./assets/global.css" />
+  <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+  <link rel="stylesheet" type="text/css" href="./assets/footer.css" />
+  <!-- Link para Redefinir Senha -->
+  <link rel="stylesheet" href="./js/RedefinirSenha.js">
+
+  <script>
+    const ano = document.getElementById("ano");
+    const anoAtual = new Date();
+  </script>
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="center">
+      <div class="logo">
+        <h3><img src="./assets/img/hostal.png" width="103">
+      </div>
+      <!--center-->
+      <div class="hostal">
+        <h3 style="font-size: 14px;"><i>&nbsp;&nbsp; Hostal<p><b>El Alebrije</b></i></h3>
+        </p>
+      </div>
+      <!--hostal-->
+      <div class="menu-container">
+        <a class="active-menu" href="">SOBRE</a>
+        <a href="">FOTOS</a>
+        <a href="">ACOMODAÇÕES</a>
+        <a href="">LOCALIZAÇÃO</a>
+        <a href="">AVALIÇÕES</a>
+        <a href="">EXPLORE</a>
+      </div>
+      <!--menu-container-->
+    </div>
+    <div class="btn">
+      <button class="btn-enter" style="font-size: 20px;"><b><a href=" " style="color:#9e2fba;">ENTRAR</b></a>
+    </div>
+    <button class="btn-cad" style="font-size: 12px;"><b><a href=" " style="color:#9e2fba;">CADASTRAR</b></a></div>
+      </div>
+
+  </header>
+
+  <!-- Recuperar senha Senha -->
+  <div id="center" style="display: grid;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;">
+    <div class="forms">
+      <h1>Recuperação de Senha</h1>
+      <p>Escreva abaixo o e-mail cadastrado</p>
+      <form id="password-reset-form">
+        <div id="alert"></div>
+
+        <label for="password" style="margin-top: 9px">E-mail: </label>
+        <input type="text" id="password" placeholder="E-mail cadastrado">
+        <p style="margin-bottom: 20px">Caso exista alguma conta associada a esse e-mail, você receberá um link para redefinição de sua senha.</p>
+
+        <button href="javascript: submitform()" type="submit" class="botaaao" style="height: 40px">Enviar</button>
+      </form>
+      <!-- Estilo Formulário -->
+      <style>
+        /* formulario */
+        botaaao,
+        input {
+          display: flex;
+          margin-bottom: 10px;
+          width: 400px;
+          height: 40px;
+        }
+
+        #alert {
+          display: none;
+          color: red;
+          margin-bottom: 10px;
+        }
+
+        .botaaao {
+          background-color: #9E2FBA;
+          border-radius: 50px;
+          color: aliceblue;
+          width: 400px;
+        }
+
+        .forms {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 900px;
+          height: 500px;
+        }
+      </style>
+      <script type="text/javascript">
+        function submitform() {
+          document.formulario.submit();
+        }
+      </script>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+  <div class="footer">
+    <div style="display: flex; margin-left: 1rem; align-items: center">
+      <a href="https://www.facebook.com/alebrijehostal/" target="_blank" rel="noopener">
+        <img class="footer-img" src="./assets/img/fb.svg" alt="facebook" />
+      </a>
+      <a href="https://instagram.com/alebrije_hostaal?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener">
+        <img class="footer-img" src="./assets/img/insta.svg" alt="insta" />
+      </a>
+      <a href="https://www.booking.com/hotel/mx/hostal-el-alebrije.en-gb.html" target="_blank" rel="noopener">
+        <img class="footer-img" src="./assets/img/booking.svg" alt="bookin" />
+      </a>
+    </div>
+    <span class="text-copyright">&#169 ElAlebrije <span id="ano">2022</span> - Todos os direitos reservados</span>
+    <div className="footerSide">
+      <a href="https://api.whatsapp.com/send?phone=5217223960938" target="_blank" rel="noopener">
+        <img class="footer-img" src="./assets/img/wpp.svg" alt="whatsapp" />
+      </a>
+    </div>
+  </div>
+  </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>
+```
+```js
+//Checando teste e-mail
+const email = document.querySelector(".email");
+
+function checkInputs() {
+  
+  const email = email.value;  
+
+  if (emailValue === "") {
+    setErrorFor(email, "O email é obrigatório.");
+  } else if (!checkEmail(emailValue)) {
+    setErrorFor(email, "Por favor, insira um email válido.");
+  } else {
+    setSuccessFor(email);
+  }}
+
+  document.onchange = checkInputs;
+
+function checkEmail(email) {
+  return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(
+    email
+  );
+}
+```
+
+### Instruções de acesso
+
+No uso da recuperação senha o hóspede deve inserir o e-mail e enviar o mesmo para recuperar sua senha;
+
+- Link: http://127.0.0.1:5503/RedefinirSenha.html
+
+## Reclamações
+### Desenvolvedor(a): Gabrielle Oliveira Santana
+- Funcionalidade de reclamações para o usuário;
+
+![reclamacoes_foto](https://user-images.githubusercontent.com/95951195/204152782-0b1b1574-77fa-4345-851a-6a278261ea97.png)
+
+
+### Requisito atendido:
+- RNF-15 - O site deverá ser fácil de usar, eficiente e acessível;
+
+### Artefatos da funcionalidade:
+- /.vscode
+- /assets
+- Reclamacoes.html
+- style.css
+
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" />
+    <title>Hostal El Alebrije</title>
+    <style>
+        body {
+            overflow-x: hidden;
+            background-color: rgb(252, 252, 252);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div class="center">
+            <div class="logo">
+                <h3><img src="assets/hostal.png" width="103">
+            </div>
+            <!--center-->
+            <div class="hostal">
+                <h3 style="font-size: 14px;"><i>&nbsp;&nbsp; Hostal<p><b>El Alebrije</b></i></h3>
+                </p>
+            </div>
+            <!--hostal-->
+            <div class="menu-container">
+                <a href="">SOBRE</a>
+                <a href="">FOTOS</a>
+                <a href="">ACOMODAÇÕES</a>
+                <a href="">LOCALIZAÇÃO</a>
+                <a class="active-menu" href="">AVALIÇÕES</a>
+                <a href="">EXPLORE</a>
+            </div>
+            <!--menu-container-->
+        </div>
+        <div class="btn">
+            <button class="btn-enter" style="font-size: 20px;"><b><a href="./login/index.html " style="color:#9e2fba;;">ENTRAR</b></a>
+        </div>
+        <button class="btn-cad" style="font-size: 12px;"><b><a href="https://github.com/santanagabi/hostel/blob/main/Reclama%C3%A7%C3%B5es-Atualizadas-Gabrielle/index.html " style="color:#9e2fba;">CADASTRAR</b></a>
+        </button>
+        <div class="idiomas">
+            <div class="translate">
+                <a href=""><img src="assets/Br.jpg" /></a>
+            </div>
+
+            <div class="translate1">
+                <a href=""><img src="assets/esp.png" /></a>
+            </div>
+
+            <div class="translate2">
+                <a href=""><img src="assets/us.png" /></a>
+            </div>
+        </div>
+    </header>
+    <!--fim do header-->
+
+    <!--inicio do quadro cinza-->
+    <div class="all">
+        <aside>
+            <ul class="list-group-teste">
+                <li class="list-group-item-dados-pessoais">
+                    <img src="assets/dados-pessoais.svg" alt="">
+                    <a href="">Dados pessoais</a>
+                </li>
+                <li class="list-group-item-reservas">
+                    <img src="assets/reservas.svg" alt="">
+                    <a href="">Reservas</a>
+                </li>
+                <li class="list-group-item-avaliacoes">
+                    <img src="assets/avaliacoes.svg" alt="">
+                    <a href="">Avaliações</a>
+                </li>
+                <li class="list-group-item-reclamacoes">
+                    <img src="assets/reclamacoes.svg" alt="">
+                    <a href="">Reclamações(Anônimas)</a>
+                </li>
+                <li class="list-group-item-dados-pagamento">
+                    <img src="assets/dados-pagamento.svg" alt="">
+                    <a href=""> Dados de pagamentos</a>
+                </li>
+                <li class="list-group-item-seguranca">
+                    <img src="assets/seguranca.svg" alt="">
+                    <a href="">Segurança</a>
+                </li>
+            </ul>
+        </aside>
+        <!--fim do quadro cinza-->
+
+        <!--formulario-->
+        <form action="">
+            <div class="container" style="display:flex; flex-direction: column;">
+                <div class="header">
+                    <h2>Reclamações</h2>
+                    <p>Faça sua reclamação aqui </p>
+                </div>
+            </div>
+            <form id="form" class="form">
+                <div class="formularios">
+                    <label for="username">Primeiro Nome:</label>
+                    <input type="text" id="username" placeholder="Digite seu nome de usuário..." />
+                </div>
+
+                <div class="formularios">
+                    <label for="lastname">Sobrenome:</label>
+                    <input type="text" id="lastname" placeholder="Digite seu sobrenome..." />
+                </div>
+
+                <div class="formularios">
+                    <label for="faca-reclamacao">Faça sua reclamação:
+                    </label>
+                    <input type="text" id="faca-reclamacao" placeholder="Digite sua reclamação aqui..." style="width:500px ; height: 150px;" />
+                </div>
+                <button onclick="Enviado()" type=" submit" style="background-color: rgb(201, 9, 201); margin-top:10px; margin-left:60px; display:flex; justify-content:center; border-radius:16px; color: black; ">Enviar</button>
+            </form>
+            <!-- JS Reclamações -->
+            <script>
+                const form = document.getElementById("form");
+                const username = document.getElementById("username");
+                const lastname = document.getElementById("lastname");
+                const facaReclamacao = document.getElementById("faca-reclamacao");
+
+                form.addEventListener("submit", (e) => {
+                    e.preventDefault();
+
+                    checkInputs();
+                });
+
+                function Enviado(input) {
+                    alert('Foi enviado para os administradores do hotel com sucesso!');
+                }
+
+                btn.addEventListener("submit", function () {
+                    alert('Enviado com sucesso!');
+                });
+
+                // Salvando no localStorage
+                var salvandoDados = function () {
+                    var form = document.getElementById('form').value;
+                    var username = document.getElementById('username').value;
+                    var dataFinal = document.getElementById('lastname').value;
+                    var facaReclamacao = document.getElementById('faca-reclamacao').value;
+
+                    localStorage.setItem('form', form);
+                    localStorage.setItem('username', username);
+                    localStorage.setItem('lastname', ultimoNome);
+                    localStorage.setItem('faca-reclamacao', facaReclamacao);
+
+                }
+                // Ativando o função quando houver alteração no documento
+                document.onchange = salvandoDados;
+
+            </script>
+
+            <!-- Estilo Reclamações -->
+            <style>
+                label,
+                input {
+                    background: #f1e2f6;
+                }
+            </style>
+
+
+            <!--formulario-->
+
+
+    </div>
+
+    <!--inicio do footer-->
+    <div class="footer">
+        <div style="display: flex; margin-left: 1rem; align-items:
+        center">
+            <a href="https://www.facebook.com/alebrijehostal/" target="_blank" rel="noopener">
+                <img src="assets/fb.svg" alt="facebook" />
+            </a>
+            <a href="https://instagram.com/alebrije_hostaal?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener">
+                <img src="assets/insta.svg" alt="insta" />
+            </a>
+            <a href="https://www.booking.com/hotel/mx/hostal-el-alebrije.en-gb.html" target="_blank" rel="noopener">
+                <img src="assets/booking.svg" alt="bookin" />
+            </a>
+        </div>
+        <span class="text-copyright">&#169 ElAlebrije <span id="ano">2022</span> - Todos os direitos
+            reservados</span>
+        <div className="footerSide">
+            <a href="https://api.whatsapp.com/send?phone=5217223960938" target="_blank" rel="noopener">
+                <img src="assets/wpp.svg" alt="whatsapp" />
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
+
+```
+
+### Instruções de acesso
+
+No uso da recuperação senha o hóspede deve inserir o primeiro nome, último nome e a seguir realizar a determinada reclamação;
+
+- Link: http://127.0.0.1:5501/Reclamacoes.html
 
 
 ## Login (RF-015)
 ### Desenvolvedor(a): Saory Nayara Vieira Nakabori
 - Tela de Login ao site
 
-![image](https://user-images.githubusercontent.com/97962041/200976344-2e26a68f-d97b-4ae0-bb9d-365d55b8a4bb.png)
+![image](https://user-images.githubusercontent.com/97962041/204149407-fc4b9a7a-c17e-46a4-bcca-d52efcfb754d.png)
 
 ### Requisito atendido:
 - RF-015 - 	O cadastro de novos usuários, será validado através de um e-mail de confirmação;
@@ -190,171 +868,41 @@ http://127.0.0.1:5502/ReservasHostel.html
 - script.js
 
 ```js
-    <!DOCTYPE html>
-<html lang="pt-br">
- <head>
- <meta charset="UTF-8">
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <link href="style.css" rel="stylesheet"/>
- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
- <title>Hostal El Alebrije</title>
-<style>
-    
-body{
-    overflow-x: hidden; 
-    background-color: rgb(252, 252, 252);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
+    //Checando teste e-mail
+const email = document.querySelector(".email");
+
+function checkInputs() {
   
- </style>
+  const email = email.value;  
 
- </head>
- <body>
-<header>
-    <div class="center">
-        <div class="logo">
-            <h3><img src="assets/hostal.png" width="103">
-        </div><!--center-->
-    <div class="hostal">
-        <h3 style="font-size: 14px;"><i>&nbsp;&nbsp; Hostal<p><b>El Alebrije</b></i></h3></p>
-    </div><!--hostal-->
-    <div class="menu-container">
-        <a href="">SOBRE</a>
-        <a href="">FOTOS</a>
-        <a href="">ACOMODAÇÕES</a>
-        <a href="">LOCALIZAÇÃO</a>
-        <a href="">AVALIÇÕES</a>
-        <a href="">EXPLORE</a>
-    </div><!--menu-container-->    
-    </div>
-    <div class="btn">
-        <button class="btn-enter" style="font-size: 20px;"><b><a href=" " style="color:#9e2fba;;">ENTRAR</b></a></div>
-        <button class="btn-cad"style="font-size: 12px;"><b><a href=" " style="color:#9e2fba;">CADASTRAR</b></a></div>
-    </div>
+  if (emailValue === "") {
+    setErrorFor(email, "O email é obrigatório.");
+  } else if (!checkEmail(emailValue)) {
+    setErrorFor(email, "Por favor, insira um email válido.");
+  } else {
+    setSuccessFor(email);
+  }}
 
-</header>
+  document.onchange = checkInputs;
 
-<div class="translate">
-    <a href=""><img src="assets/Br.jpg"/></a>
-</div>
-
-<div class="translate1">
-    <a href=""><img src="assets/esp.png"/></a>
-</div>
-
-<div class="translate2">
-    <a href=""><img src="assets/us.png"/></a>
-</div>
-<div class="container">
-    <div class="container-login">
-        <div class="wrap-login">
-            <form class="login-form">
-                <span class="login-form-title">
-                 Entrar 
-                </span>
-
-                <div class="wrap-input margin-top-50 margin-bottom-35">
-                    <input class="input-form" type="email" name="email" autocomplete="off"/>
-                    <span class="focus-input-form" data-placeholder="E-mail"></span>
-                </div>
-
-                <div class="wrap-input margin-bottom-35">
-                    <input class="input-form" type="password" name="password"/>
-                    <span class="focus-input-form" data-placeholder="Senha"></span>
-                </div>
-
-                <div class="container-login-form-btn">
-                    <button class="login-form-btn">Continuar</button>
-                </div>
-
-                <ul class="login-utils">
-                  <li class="margin-top-8 margin-bottom-8">
-                    <span class="text1">
-                        Esqueceu sua
-                    </span>
-                    <a href="#" class="text2">
-                        senha?
-                    </a>
-                  </li> 
-                  <li>
-                    <span class="text1">
-                        Não tem uma conta?
-                    </span>
-                    <a href="#" class="text2">
-                        Cadastre-se
-                    </a>
-                  </li> 
-                </ul>
-            </form>
-        </div>
-    </div>
-</div>
-<script>
-    let inputs = document.getElementsByClassName('input-form');
-    for (let input of inputs) {
-        input.addEventListener("blur", function() {
-            if(input.value.trim() != ""){
-                input.classList.add("has-val");
-            } else {
-                input.classList.remove("has-val");
-            }
-        });
-    }
-</script>
-</body>
-</html>
-
-<div class="footer">
-    <div style="display: flex; margin-left: 1rem; align-items:
-        center">
-        <a href="https://www.facebook.com/alebrijehostal/"
-            target="_blank" rel="noopener">
-            <img src="assets/fb.svg" alt="facebook" />
-        </a>
-        <a
-            href="https://instagram.com/alebrije_hostaal?igshid=YmMyMTA2M2Y="
-            target="_blank" rel="noopener">
-            <img src="assets/insta.svg" alt="insta" />
-        </a>
-        <a
-            href="https://www.booking.com/hotel/mx/hostal-el-alebrije.en-gb.html"
-            target="_blank"
-            rel="noopener">
-            <img src="assets/booking.svg" alt="bookin" />
-        </a>
-    </div>
-    <span class="text-copyright">&#169 ElAlebrije <span
-            id="ano">2022</span> - Todos os direitos
-        reservados</span>
-    <div className="footerSide">
-        <a
-            href="https://api.whatsapp.com/send?phone=5217223960938"
-            target="_blank" rel="noopener">
-            <img src="assets/wpp.svg" alt="whatsapp" />
-        </a>
-    </div>
-</div>
-
-</body>
-</html>
-    
+function checkEmail(email) {
+  return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(
+    email
+  );
+}
 ```
 
 ### Instruções de acesso
 
 Login de acesso a aba reservas. 
-http://127.0.0.1:5502/index.html
+http://127.0.0.1:5504/index.html?email=&password=
 
 
-## Criar um Usuário (RNF-08)
+## Criar uma Conta (RNF-08)
 ### Desenvolvedor(a): Saory Nayara Vieira Nakabori
-- Tela de criar um usuário
+- Tela de criar uma conta
 
-![image](https://user-images.githubusercontent.com/97962041/200977648-c3393853-0557-4bdc-a70a-72f48686a4c7.png)
+![image](https://user-images.githubusercontent.com/97962041/204149515-68df4545-a584-48bc-805e-be380bafc5ef.png)
 
 ### Requisito atendido:
 - RNF-08 - 	O site deve possuir senhas de acesso e identificação para diferentes tipos de usuários: administrador do sistema, funcionários do hostel e clientes que têm acesso ao sistema no hostel;
@@ -366,181 +914,135 @@ http://127.0.0.1:5502/index.html
 - script.js
 
 ```js
-    <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap"
-      rel="stylesheet"
-    />
-    <title>Formulário Criar uma Conta</title>
-  </head>
-  <style>
-    
-    body{
-        overflow-x: hidden; 
-        background-color: rgb(252, 252, 252);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
+    const form = document.getElementById("form");
+const username = document.getElementById("username");
+const email = document.getElementById("email");
+const password = document.getElementById("password");
+const passwordConfirmation = document.getElementById("password-confirmation");
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+
+  checkInputs();
+});
+
+function checkInputs() {
+  const usernameValue = username.value;
+  const emailValue = email.value;
+  const passwordValue = password.value;
+  const passwordConfirmationValue = passwordConfirmation.value;
+
+  if (usernameValue === "") {
+    setErrorFor(username, "O nome de usuário é obrigatório.");
+  } else {
+    setSuccessFor(username);
+  }
+
+  if (emailValue === "") {
+    setErrorFor(email, "O email é obrigatório.");
+  } else if (!checkEmail(emailValue)) {
+    setErrorFor(email, "Por favor, insira um email válido.");
+  } else {
+    setSuccessFor(email);
+  }
+
+  if (passwordValue === "") {
+    setErrorFor(password, "A senha é obrigatória.");
+  } else if (passwordValue.length < 7) {
+    setErrorFor(password, "A senha precisa ter no mínimo 7 caracteres.");
+  } else {
+    setSuccessFor(password);
+  }
+
+  if (passwordConfirmationValue === "") {
+    setErrorFor(passwordConfirmation, "A confirmação de senha é obrigatória.");
+  } else if (passwordConfirmationValue !== passwordValue) {
+    setErrorFor(passwordConfirmation, "As senhas não conferem.");
+  } else {
+    setSuccessFor(passwordConfirmation);
+  }
+
+  const formControls = form.querySelectorAll(".form-control");
+
+  const formIsValid = [...formControls].every((formControl) => {
+    return formControl.className === "form-control success";
+  });
+
+  if (formIsValid) {
+    console.log("O formulário está 100% válido!");
+  }
+}
+
+function setErrorFor(input, message) {
+  const formControl = input.parentElement;
+  const small = formControl.querySelector("small");
+
+  // Adiciona a mensagem de erro
+  small.innerText = message;
+
+  // Adiciona a classe de erro
+  formControl.className = "form-control error";
+}
+
+function setSuccessFor(input) {
+  const formControl = input.parentElement;
+
+  // Adicionar a classe de sucesso
+  formControl.className = "form-control success";
+}
+
+function checkEmail(email) {
+  return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(
+    email
+  );
+}
+
+
+// Definindo o valor 
+        // Caso não tenho vai zerar
+        if (localStorage.username) {
+          document.getElementById('username').value = localStorage.username;
+      }
+      if (localStorage.email) {
+          document.getElementById('email').value = localStorage.email;
+      }
+      if (localStorage.password) {
+          document.getElementById('password').value = localStorage.password;
+      }
+      if (localStorage.asswordConfirmation) {
+        document.getElementById('password-confirmation').value = localStorage.passwordConfirmation;
     }
+
+      // Salvando no localStorage
+      var salvarData = function () {
+          var username = document.getElementById('username').value;
+          var email = document.getElementById('email').value;
+          var password = document.getElementById('password').value;
+          var passwordConfirmation = document.getElementById('password-confirmation').value;
+          
+
+          localStorage.setItem('username', username);
+          localStorage.setItem('email', email);
+          localStorage.setItem('password', password);
+          localStorage.setItem('password-confirmation', passwordConfirmation);
+
+        }
       
-     </style>
-    
-     </head>
-     <body>
-    <header>
-        <div class="center">
-            <div class="logo">
-                <h3><img src="assets/hostal.png" width="103">
-            </div><!--center-->
-        <div class="hostal">
-            <h3 style="font-size: 14px;"><i>&nbsp;&nbsp; Hostal<p><b>El Alebrije</b></i></h3></p>
-        </div><!--hostal-->
-        <div class="menu-container">
-            <a href="">SOBRE</a>
-            <a href="">FOTOS</a>
-            <a href="">ACOMODAÇÕES</a>
-            <a href="">LOCALIZAÇÃO</a>
-            <a href="">AVALIÇÕES</a>
-            <a href="">EXPLORE</a>
-        </div><!--menu-container-->    
-        </div>
-        <div class="btn">
-            <button class="btn-enter" style="font-size: 20px;"><b><a href=" " style="color:#9e2fba;;">ENTRAR</b></a></div>
-            <button class="btn-cad"style="font-size: 12px;"><b><a href=" " style="color:#9e2fba;">CADASTRAR</b></a></div>
-        </div>
-    
-    </header>
-    
-    <div class="translate">
-        <a href=""><img src="assets/Br.jpg"/></a>
-    </div>
-    
-    <div class="translate1">
-        <a href=""><img src="assets/esp.png"/></a>
-    </div>
-    
-    <div class="translate2">
-        <a href=""><img src="assets/us.png"/></a>
-    </div>
-
-  <body>
-    <div class="container">
-      <div class="header">
-        <h2>Criar uma conta</h2>
-      </div>
-      <form id="form" class="form">
-        <div class="form-control">
-          <label for="username">Nome Completo</label>
-          <input
-            type="text"
-            id="username"
-            placeholder="Digite seu nome de usuário ... " />
-          <i class="fas fa-exclamation-circle"></i>
-          <i class="fas fa-check-circle"></i>
-          <small>Mesagem de erro</small>
-        </div>
-        <div class="form-control">
-          <label for="email">Email</label>
-          <input type="text" id="email" placeholder="Digite seu email ... " />
-          <i class="fas fa-exclamation-circle"></i>
-          <i class="fas fa-check-circle"></i>
-          <small>Mesagem de erro</small>
-        </div>
-        <div class="form-control">
-          <label for="password">Senha</label>
-          <input
-            type="text"
-            id="password"
-            placeholder="Digite sua senha ... "
-          />
-          <i class="fas fa-exclamation-circle"></i>
-          <i class="fas fa-check-circle"></i>
-          <small>Mesagem de erro</small>
-        </div>
-        <div class="form-control">
-          <label for="password-confirmation">Confirmação de Senha</label>
-          <input
-            type="text"
-            id="password-confirmation"
-            placeholder="Digite a senha novamente ... "
-          />
-          <i class="fas fa-exclamation-circle"></i>
-          <i class="fas fa-check-circle"></i>
-          <small>Mesagem de erro</small>
-        </div>
-
-        <button type="submit">Enviar</button>
-      </form>
-    </div>
-    <script
-      src="https://kit.fontawesome.com/1df97e9d1a.js"
-      crossorigin="anonymous"
-    ></script>
-    <script src="./script.js"></script>
-    <ul class="login-utils">
-      <li class="margin-top-8 margin-bottom-8">
-        <span class="text1">
-            Já tem uma conta?
-        </span>
-        <a href="#" class="text2">
-            Fazer Login
-        </a>
-      </li>
-
-    <div class="footer">
-      <div style="display: flex; margin-left: 1rem; align-items:
-          center">
-          <a href="https://www.facebook.com/alebrijehostal/"
-              target="_blank" rel="noopener">
-              <img src="assets/fb.svg" alt="facebook" />
-          </a>
-          <a
-              href="https://instagram.com/alebrije_hostaal?igshid=YmMyMTA2M2Y="
-              target="_blank" rel="noopener">
-              <img src="assets/insta.svg" alt="insta" />
-          </a>
-          <a
-              href="https://www.booking.com/hotel/mx/hostal-el-alebrije.en-gb.html"
-              target="_blank"
-              rel="noopener">
-              <img src="assets/booking.svg" alt="bookin" />
-          </a>
-      </div>
-      <span class="text-copyright">&#169 ElAlebrije <span
-              id="ano">2022</span> - Todos os direitos
-          reservados</span>
-      <div className="footerSide">
-          <a
-              href="https://api.whatsapp.com/send?phone=5217223960938"
-              target="_blank" rel="noopener">
-              <img src="assets/wpp.svg" alt="whatsapp" />
-          </a>
-      </div>
-  </div>
-  </body>
-</html>
+      // Ativando o função quando houver alteração no documento
+      document.onchange = salvarData;
 ```
 
 ### Instruções de acesso
 
 Criar um conta para realizar as reservas 
-http://127.0.0.1:5500/index.html
+http://127.0.0.1:5502/index.html
 
 
 ## Avaliações (RF-20)
 ### Desenvolvedor(a): Saory Nayara Vieira Nakabori
 - Tela de avaliações
 
-![image](https://user-images.githubusercontent.com/97962041/200978294-a752c5d7-e52a-4e01-969b-f8450657feb4.png)
+![image](https://user-images.githubusercontent.com/97962041/204149549-3c8ff1b0-9784-4b9a-89c3-79a012e9c40b.png)
 
 ### Requisito atendido:
 - RF-20 - 	O sistema deve permitir uma aba para “Reclamações e Denúncias Anônimas”, para casos de preconceitos raciais ou demais crimes e situações adversas, ocorridas durante a hospedagem;
@@ -552,167 +1054,142 @@ http://127.0.0.1:5500/index.html
 - script.js
 
 ```js
-    <!DOCTYPE html>
-<html lang="pt-br">
- <head>
- <meta charset="UTF-8">
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <link href="style.css" rel="stylesheet"/>
- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
- <title>Hostal El Alebrije</title>
-<style>
-    
-body{
-    overflow-x: hidden; 
-    background-color: rgb(252, 252, 252);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    const saveModification = document.getElementById("publicar");
+
+const getLocalStorage = () =>
+  JSON.parse(sessionStorage.getItem("saveComentario"));
+
+const setSessionStorage = (dbProvider) => {
+  localStorage.setItem("saveComentario", JSON.stringify(dbProvider));
+};
+
+const readReview = () => getLocalStorage();
+
+const updateProvider = (provider) => {
+  let dbProvider = readReview();
+  dbProvider = provider;
+  setSessionStorage(dbProvider);
+};
+
+const getInfoClient = () => {
+  const dbProvider = readReview();
+  fillFields(dbProvider);
+};
+
+const fillFields = (provider) => {
+  if (provider) {
+    document.getElementById("comentario").value = provider.comentario;
+  }
+};
+
+var items = [];
+
+function guardarNumeros() {
+  boxvalue = { comentario: document.getElementById("comentario").value };
+  items.push(boxvalue);
+  console.log(items);
+  updateProvider(items);
+  return false; // stop submission
 }
-  
- </style>
 
- </head>
- <body>
-<header>
-    <div class="center">
-        <div class="logo">
-            <h3><img src="assets/hostal.png" width="103">
-        </div><!--center-->
-    <div class="hostal">
-        <h3 style="font-size: 14px;"><i>&nbsp;&nbsp; Hostal<p><b>El Alebrije</b></i></h3></p>
-    </div><!--hostal-->
-    <div class="menu-container">
-        <a href="">SOBRE</a>
-        <a href="">FOTOS</a>
-        <a href="">ACOMODAÇÕES</a>
-        <a href="">LOCALIZAÇÃO</a>
-        <a class="active-menu" href="">AVALIÇÕES</a>
-        <a href="">EXPLORE</a>
-    </div><!--menu-container-->    
-    </div>
-    <div class="btn">
-        <button class="btn-enter" style="font-size: 20px;"><b><a href=" " style="color:#9e2fba;;">ENTRAR</b></a></div>
-        <button class="btn-cad"style="font-size: 12px;"><b><a href=" " style="color:#9e2fba;">CADASTRAR</b></a></div>
-    </div>
-
-</header>
-
-<div class="translate">
-    <a href=""><img src="assets/Br.jpg"/></a>
-</div>
-
-<div class="translate1">
-    <a href=""><img src="assets/esp.png"/></a>
-</div>
-
-<div class="translate2">
-    <a href=""><img src="assets/us.png"/></a>
-</div>
-<!--fim do header-->  
-
-<!--inicio do quadro cinza-->  
-<body>
-    <div class="all" >
-      <aside>
-        <ul class="list-group-teste">
-          <li class="list-group-item-dados-pessoais" >
-            <img src="assets/dados-pessoais.svg" alt="">
-            Dados pessoais
-          </li>
-          <li class="list-group-item-reservas">
-            <img src="assets/reservas.svg" alt="">
-            Reservas
-          </li>
-          <li class="list-group-item-avaliacoes">
-            <img src="assets/avaliacoes.svg" alt="">
-            Avaliações
-          </li>
-          <li class="list-group-item-reclamacoes">
-            <img src="assets/reclamacoes.svg" alt="">
-            Reclamações(Anônimas)
-          </li>
-          <li class="list-group-item-dados-pagamento">
-            <img src="assets/dados-pagamento.svg" alt="">
-            Dados de pagamentos
-          </li>
-          <li class="list-group-item-seguranca">
-            <img src="assets/seguranca.svg" alt="">
-            Segurança
-          </li>
-        </ul>
-      </aside>
-<!--fim do quadro cinza-->  
-
-<!--formulario-->  
-<div class="formulario">
-    <h1 id="titulo-avaliacoes"><strong>Avaliações</strong></h1>
-    <p id="subtitulo-avaliacoes">Escreva abaixo o seu comentário</p>
-</div>
-
-<form id="form-avaliacao">
-        <fieldset class="grupo">
-            <div class="campo">
-                <br>
-                <label for="comentario"><strong>Comentário</strong></label>
-                <textarea row="20" style="width:800px; height: 200PX;" id="comentario" name="comentario"></textarea>
-            </div>
-        </fieldset>
-
-        <button class="botão-publicar" type="submit"><strong>Publicar</strong></button>
-</form>
-
-<!--formulario-->     
-
-
-<!--inicio do footer-->  
-<div class="footer">
-    <div style="display: flex; margin-left: 1rem; align-items:
-        center">
-        <a href="https://www.facebook.com/alebrijehostal/"
-            target="_blank" rel="noopener">
-            <img src="assets/fb.svg" alt="facebook" />
-        </a>
-        <a
-            href="https://instagram.com/alebrije_hostaal?igshid=YmMyMTA2M2Y="
-            target="_blank" rel="noopener">
-            <img src="assets/insta.svg" alt="insta" />
-        </a>
-        <a
-            href="https://www.booking.com/hotel/mx/hostal-el-alebrije.en-gb.html"
-            target="_blank"
-            rel="noopener">
-            <img src="assets/booking.svg" alt="bookin" />
-        </a>
-    </div>
-    <span class="text-copyright">&#169 ElAlebrije <span
-            id="ano">2022</span> - Todos os direitos
-        reservados</span>
-    <div className="footerSide">
-        <a
-            href="https://api.whatsapp.com/send?phone=5217223960938"
-            target="_blank" rel="noopener">
-            <img src="assets/wpp.svg" alt="whatsapp" />
-        </a>
-    </div>
-</div>
-
-</body>
-</html>
+saveModification.addEventListener("click", (e) => {
+  e.preventDefault();
+  guardarNumeros();
+  // alert("Dados salvos com sucesso!");
+});
+getInfoClient();
 ```
 
 ### Instruções de acesso
 Página para digitar as avaliações sobre o hotel.
-http://127.0.0.1:5501/index.html
+http://127.0.0.1:5503/index.html?
 
+## Dados Pessoais (RF-01) e (RF-18)
+### Desenvolvedor(a): Saory Nayara Vieira Nakabori
+- Dados Pessoais
+
+![image](https://user-images.githubusercontent.com/97962041/204149798-187065e8-6759-4ac0-94f8-d3d5a8311646.png)
+![image](https://user-images.githubusercontent.com/97962041/204149820-5248ea57-6e5c-462c-ae7c-080c6c5c3e7c.png)
+
+
+### Requisito atendido:
+- RF-01 - Um breve cadastro de cada pessoa que permite o hostel ter informações importantes do cliente, principalmente para um check-in e check-out online. Assim, ele poderá se adiantar com toda a documentação;
+- RF-18 - 	O site deve associar todas as reservas online a um responsável;
+
+### Artefatos da funcionalidade:
+- /assets
+- index.html
+- style.css
+- script.js
+
+```js
+    'use strict'
+
+let photo = document.getElementById('imgphoto');
+let file = document.getElementById('camera');
+
+photo.addEventListener('click', () => {
+    file.click ();
+});
+
+file.addEventListener ('change', (enviar) => {
+    if (file.files.length <= 0) {
+        return;
+    }
+    let reader = new FileReader();
+
+    reader.onload = () => {
+        photo.src = reader.result;
+    }
+
+    reader.readAsDataURL(file.files[0]);
+});
+
+// Definindo o valor 
+        // Caso não tenho vai zerar
+        if (localStorage.nome) {
+          document.getElementById('nome').value = localStorage.nome;
+      }
+      if (localStorage.email) {
+          document.getElementById('email').value = localStorage.email;
+      }
+      if (localStorage.telefone) {
+          document.getElementById('telefone').value = localStorage.telefone;
+      }
+      if (localStorage.nacionalidade) {
+        document.getElementById('nacionalidade').value = localStorage.nacionalidade;
+    }
+
+      // Salvando no localStorage
+      var salvarData = function () {
+          var username = document.getElementById('nome').value;
+          var email = document.getElementById('email').value;
+          var telefone = document.getElementById('telefone').value;
+          var passwordConfirmation = document.getElementById('nacionalidade').value;
+          
+
+          localStorage.setItem('nome', nome);
+          localStorage.setItem('email', email);
+          localStorage.setItem('telefone', telefone);
+          localStorage.setItem('nacionalidade', nacionalidade);
+      }
+      // Ativando o função quando houver alteração no documento
+      document.onchange = salvarData;
+
+
+      salvarData();
+      alert("Dados salvos com sucesso!");
+```
+
+### Instruções de acesso
+Página para visualização dos dados pessoais do hotel.
+http://127.0.0.1:5501/index.html
 
 ## Avaliações - O que os hóspedes dizem (RF-06)
 ### Desenvolvedor(a): Fernanda Marques Assis
 - Avaliações - O que os hóspedes dizem
 
-![image](https://user-images.githubusercontent.com/97962041/200979268-8271ec0f-be29-4a28-a59a-0b9dff69db08.png)
+![image](https://user-images.githubusercontent.com/97962041/204150132-2e32dc64-880e-4fb4-b267-3aeda6d541b7.png)
 
 ### Requisito atendido:
 - RF-06 - 	O sistema deve possuir uma área de feedback e dicas de antigos hóspedes para orientação de estrangeiros, a fim de que o hóspede saiba o que vale a pena investir ou não e tenha uma boa estadia.
@@ -723,187 +1200,55 @@ http://127.0.0.1:5501/index.html
 - assets
 
 ```js
-    <!DOCTYPE html>
-<html>
+    const saveModification = document.getElementById("publicar");
 
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Avaliações</title>
-        <link rel="stylesheet"
-            href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-            crossorigin="anonymous">
-        <link rel="stylesheet"
-            href="path/to/font-awesome/css/font-awesome.min.css" />
-        <link rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
-            integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
-            crossorigin="anonymous" />
-        <link rel="stylesheet" type="text/css" href="./assets/global.css" />
-        <link rel="stylesheet" type="text/css" href="./assets/style.css" />
-        <link rel="stylesheet" type="text/css" href="./assets/footer.css" />
-        <script>
-            const ano = document.getElementById("ano");
-            const anoAtual = new Date();
-        </script>
-    </head>
+const getLocalStorage = () =>
+  JSON.parse(sessionStorage.getItem("saveComentario"));
 
-    <body>
-        <header>
-            <div class="center">
-                <div class="logo">
-                    <h3><img src="./assets/img/hostal.png" width="103">
-                </div><!--center-->
-            <div class="hostal">
-                <h3 style="font-size: 14px;"><i>&nbsp;&nbsp; Hostal<p><b>El Alebrije</b></i></h3></p>
-            </div><!--hostal-->
-            <div class="menu-container">
-                <a class="active-menu" href="">SOBRE</a>
-                <a href="">FOTOS</a>
-                <a href="">ACOMODAÇÕES</a>
-                <a href="">LOCALIZAÇÃO</a>
-                <a href="">AVALIÇÕES</a>
-                <a href="">EXPLORE</a>
-            </div><!--menu-container-->
-            </div>
-            <div class="btn">
-                <button class="btn-enter" style="font-size: 20px;"><b><a href=" " style="color:#9e2fba;">ENTRAR</b></a></div>
-                <button class="btn-cad"style="font-size: 12px;"><b><a href=" " style="color:#9e2fba;">CADASTRAR</b></a></div>
-            </div>
+const setSessionStorage = (dbProvider) => {
+  localStorage.setItem("saveComentario", JSON.stringify(dbProvider));
+};
 
-        </header>
+const readReview = () => getLocalStorage();
 
-        <div class="translate">
-            <a href=""><img src="./assets/img/Br.jpg"/></a>
-        </div>
+const updateProvider = (provider) => {
+  let dbProvider = readReview();
+  dbProvider = provider;
+  setSessionStorage(dbProvider);
+};
 
-        <div class="translate1">
-            <a href=""><img src="./assets/img/esp.png"/></a>
-        </div>
+const getInfoClient = () => {
+  const dbProvider = readReview();
+  fillFields(dbProvider);
+};
 
-        <div class="translate2">
-            <a href=""><img src="./assets/img/us.png"/></a>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="title col-md-12">
-                    <h3>AVALIAÇÕES</h3>
-                    <hr class="line-localization" />
+const fillFields = (provider) => {
+  if (provider) {
+    document.getElementById("comentario").value = provider.comentario;
+  }
+};
 
-                    <div style="font-size: 20px; font-weight: normal;
-                        margin-top:
-                        6rem">O QUE <span style="color: #9E2FBA; font-size:
-                            20px;">NOSSOS
-                            HÓSPEDES</span> DIZEM</div>
-                </div>
-                <div id="demo" class="row"></div>
-                <div class="col-md-12" style="display: flex; justify-content:
-                    center; margin-top: 1.5rem; width: 250px;">
-                    <div class="comentario ">
-                        <img class="image-comment"
-                            src="./assets/img/mais-informacoes.svg" />
-                        <span class="comment">Deixe um comentário</span>
-                    </div>
-                </div>
-                <div class="footer">
-                    <div style="display: flex; margin-left: 1rem; align-items:
-                        center">
-                        <a href="https://www.facebook.com/alebrijehostal/"
-                            target="_blank" rel="noopener">
-                            <img class="footer-img" src="./assets/img/fb.svg" alt="facebook" />
-                        </a>
-                        <a
-                            href="https://instagram.com/alebrije_hostaal?igshid=YmMyMTA2M2Y="
-                            target="_blank" rel="noopener">
-                            <img class="footer-img" src="./assets/img/insta.svg" alt="insta" />
-                        </a>
-                        <a
-                            href="https://www.booking.com/hotel/mx/hostal-el-alebrije.en-gb.html"
-                            target="_blank"
-                            rel="noopener">
-                            <img class="footer-img" src="./assets/img/booking.svg" alt="bookin" />
-                        </a>
-                    </div>
-                    <span class="text-copyright">&#169 ElAlebrije <span
-                            id="ano">2022</span> - Todos os direitos
-                        reservados</span>
-                    <div className="footerSide">
-                        <a
-                            href="https://api.whatsapp.com/send?phone=5217223960938"
-                            target="_blank" rel="noopener">
-                            <img class="footer-img" src="./assets/img/wpp.svg" alt="whatsapp" />
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <script>
-        const data = [
-            {
-                avaliacao: 'Lugar legal, muito colorido, pequeno mas agradável, bom atendimento e simpático, boa localização, só não tem estacionamento, mas tem um perto.',
-                user: 'Jose Roberto Astivia'
-            },
-            {
-                avaliacao: 'Lugar fantástico. A vista do terraço, a atenção do anfitrião, o conforto e o café da manhã tão gostoso alegrou-me as boas-vindas ao Vale de Bravo dia a dia. Obrigado Carlitos!!!',
-                user: 'Edgar Andrés Rincón Méndez'
-            },
-            {
-                avaliacao: '100% recomendado! Ótimo lugar para visitar Vale de Bravo, quente, confortável, seguro e tratamento cordial. Sempre atento aos hóspedes. Além disso, ótima localização e vista para o lago. Obrigado pelo excelente serviço.',
-                user: 'Emi Victoria'
-            },
-            {
-                avaliacao: 'excelente atendimento muito boa atitude de tudo depende do pessoal que trabalha aqui e as instalações são muito limpas e seguras tudo muito confortável tem um terraço muito agradável tem uma cozinha muito bonita e as camas são muito confortáveis tem rede está padrinho e econômico',
-                user: 'Rai Galicia'
-            },
-            {
-                avaliacao: 'o hostel tem tudo 🤟🏻 boa localização!! E limpeza! em general Valle de Bravo é muito seguro e este lugar é o melhor se procura visitar!!! É um 10✋ 🤚 Carlos, Lalo e David uns tipazosss!!!!!',
-                user: 'Jorge Segovia Sanchz'
-            },
-            {
-                avaliacao: 'Ótima localização, o centro fica bem próximo e além disso os preços são baratos.',
-                user: 'Pily Guerrero'
-            },
-            {
-                avaliacao: 'Ótimo lugar, atendimento e relação qualidade/preço, incrível. ',
-                user: 'Jos López'
-            },
-            {
-                avaliacao: 'Foi a primeira vez que viajava sozinha, e a primeira vez que ficava num albergue! Não sabia o que esperar, e realmente fiquei fascinada com a experiência!! O lugar é super seguro; central; muito limpo e confortável!! Como se isso não bastasse tem um terraço com uma bela vista para o cais... Su prepara café da manhã super gostoso!!!! E Fer tira fotos incríveis!! Se vão não hesitem em pedir-lhe umas fotos de verdade uau é o melhor a tirar fotos!!! E todos os outros me fizeram sentir em casa, se não conheces Valle ntp eles se encarregam de te ensinar ou acompanhar! E às tardes você pode ir para o terraço jogar jogos de tabuleiro, conversar ou tomar uma cervejinha, eu certamente irei de novo!!! E eu recomendo 1000% obrigado a todos por tornarem minha estadia inesquecível!! Eu voltarei!',
-                user: 'Sarahi Constantino'
-            }
-        ];
+var items = [];
 
-        document.getElementById('demo').innerHTML = data.map(user =>
-            `
-                <div style="max-width: 450px; height: auto; text-align: justify; margin-top: 4rem; margin-left: 5rem">
-                    <div class="col-md-12" style="width: 100%; border: 1px solid #C6C6C6; padding: 1.5rem; margin-right: 5rem; border-radius: 8px;box-shadow:0px 5px 10px rgba(0, 0, 0, 0.1)">
-                        <div style="font-style: italic">${user.avaliacao}</div>
-                        <div style="margin-top: 0.9rem">${user.user}</div>
-                    </div>
-                </div>
-            `
-        ).join('')
-    </script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script
-        src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
-    </body>
+function guardarNumeros() {
+  boxvalue = { comentario: document.getElementById("comentario").value };
+  items.push(boxvalue);
+  console.log(items);
+  updateProvider(items);
+  return false; // stop submission
+}
 
-</html>
+saveModification.addEventListener("click", (e) => {
+  e.preventDefault();
+  guardarNumeros();
+  // alert("Dados salvos com sucesso!");
+});
+getInfoClient();
 ```
 
 ### Instruções de acesso
 Página para visualizar as avaliações dos clientes sobre o hotel.
-http://127.0.0.1:5500/Avaliacao.html
+http://127.0.0.1:5500/ReviseDados/AvaliacaoPublicacao.html
 
 
 ## Localizações (RF-17)
@@ -1068,7 +1413,83 @@ Página para visualizar as localizações;
 http://127.0.0.1:5500/Localizacao.html
 
 
-## Localizações (RF-03)
+## Revise seus Dados (RF-04) e (RF-05)
+### Desenvolvedor(a): Fernanda Marques Assis
+- Página de Revise seus Dados
+
+![image](https://user-images.githubusercontent.com/97962041/204150603-b03dbc19-25da-4d5b-b82c-cc619f994b0b.png)
+
+### Requisito atendido:
+- RF-04 - O sistema deve permitir as seguintes opções de pagamento da estadia no hotel: 1) à vista (em dinheiro, cheque ou cartão de crédito); 2) faturado em 30 dias.
+- RF-05 - O sistema deve permitir ao hóspede imprimir um histórico de suas estadias no hostel, agilizando o processo de hospedagem pelo cadastro já ter sido previamente feito. 
+
+### Artefatos da funcionalidade:
+- reviseseusdados.html
+- reviewform.js
+- assets
+
+```js
+    const saveModification = document.getElementById("salvar-alteracoes");
+
+const getLocalStorage = () =>
+  JSON.parse(sessionStorage.getItem("revisao-dados"));
+
+const setSessionStorage = (dbProvider) => {
+  localStorage.setItem("revisao-dados", JSON.stringify(dbProvider));
+};
+
+const readReview = () => getLocalStorage();
+
+const updateProvider = (provider) => {
+  let dbProvider = readReview();
+  dbProvider = provider;
+  setSessionStorage(dbProvider);
+};
+
+const getInfoClient = () => {
+  const dbProvider = readReview();
+  fillFields(dbProvider);
+};
+
+const fillFields = (provider) => {
+  document.getElementById("nome-completo").value = provider.nomeCompleto;
+  document.getElementById("celular").value = provider.celular;
+  document.getElementById("nacionalidade").value = provider.nacionalidade;
+  document.getElementById("cpf").value = provider.cpf;
+  document.getElementById("email").value = provider.email;
+  document.getElementById("gender").value = provider.genero;
+  document.getElementById("transferencia").value = provider.transferencia;
+  document.getElementById("termos").value = provider.termos;
+  document.getElementById("data-nascimento").value = provider.dataNascimento;
+  document.getElementById("senha").value = provider.senha;
+};
+
+saveModification.addEventListener("click", (e) => {
+  e.preventDefault();
+  const provider = {
+    nomeCompleto: document.getElementById("nome-completo").value,
+    celular: document.getElementById("celular").value,
+    nacionalidade: document.getElementById("nacionalidade").value,
+    cpf: document.getElementById("cpf").value,
+    email: document.getElementById("email").value,
+    genero: document.getElementById("gender").value,
+    transferencia: document.getElementById("transferencia").value,
+    termos: document.getElementById("termos").value,
+    dataNascimento: document.getElementById("data-nascimento").value,
+    senha: document.getElementById("senha").value,
+  };
+
+  updateProvider(provider);
+  alert("Dados salvos com sucesso!");
+});
+getInfoClient();
+```
+
+### Instruções de acesso
+Página para visualizar as localizações;
+http://127.0.0.1:5500/ReviseDados/ReviseDados.html
+
+## Explore (RF-03)
 ### Desenvolvedor(a): Fernanda Marques Assis
 - Página do Explore
 

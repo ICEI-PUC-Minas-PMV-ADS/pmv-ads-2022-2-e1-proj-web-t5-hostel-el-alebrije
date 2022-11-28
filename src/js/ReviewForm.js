@@ -27,14 +27,10 @@ const fillFields = (provider) => {
   document.getElementById("cpf").value = provider.cpf;
   document.getElementById("email").value = provider.email;
   document.getElementById("gender").value = provider.genero;
-  document.getElementById("cartao").value = provider.cartao;
+  document.getElementById("transferencia").value = provider.transferencia;
   document.getElementById("termos").value = provider.termos;
   document.getElementById("data-nascimento").value = provider.dataNascimento;
   document.getElementById("senha").value = provider.senha;
-  document.getElementById("card-number").value = provider.numeroCartao;
-  document.getElementById("card-holder").value = provider.nomeCartao;
-  document.getElementById("card-month").value = provider.mesCartao;
-  document.getElementById("card-year").value = provider.anoCartao;
 };
 
 saveModification.addEventListener("click", (e) => {
@@ -46,14 +42,10 @@ saveModification.addEventListener("click", (e) => {
     cpf: document.getElementById("cpf").value,
     email: document.getElementById("email").value,
     genero: document.getElementById("gender").value,
-    cartao: document.getElementById("cartao").value,
+    transferencia: document.getElementById("transferencia").value,
     termos: document.getElementById("termos").value,
     dataNascimento: document.getElementById("data-nascimento").value,
     senha: document.getElementById("senha").value,
-    numeroCartao: document.getElementById("card-number").value,
-    nomeCartao: document.getElementById("card-holder").value,
-    mesCartao: document.getElementById("card-month").value,
-    anoCartao: document.getElementById("card-year").value,
   };
 
   updateProvider(provider);
