@@ -6,7 +6,7 @@
 ![home](https://user-images.githubusercontent.com/112135999/200984935-d7532889-49d1-40b2-8b6c-41685c853fdf.png)
 
 ### Requisito atendido:
-- RF-011 - O sistema será traslado em três línguas: português, espanhol e inglês
+- RF-011 - O sistema será traduzido em três línguas: português, espanhol e inglês
 - RF-017 - O site deverá apresentar links redirecionando às outras redes da empresa, como: Instagram, Youtube, Facebook e afins
 
 ### Artefatos da funcionalidade:
@@ -17,7 +17,46 @@
 - homehostel.html
 
 ```js
-  <body>
+<html lang="pt-br">
+ <head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link href="css/style.css" rel="stylesheet"/>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+ <title>Hostal El Alebrije</title>
+ 
+ <style type="text/css">
+    #google_translate_element {
+        display: none;
+    }
+    
+    .goog-te-banner-frame {
+        display: none;
+    }
+    body {
+        position: static !important;
+        top: 0 !important;
+    }
+    
+    </style>
+<style>
+    
+body{
+    overflow-x: hidden; 
+    background-color: rgb(255, 255, 255);
+    background-image: url('assets/home.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+  
+ </style>
+ 
+ </head>
+ <body>
+
 <header>
     <div class="center">
         <div class="logo">
@@ -26,19 +65,37 @@
     <div class="hostal">
         <h3 style="font-size: 14px;"><i>&nbsp;&nbsp; Hostal<p><b>El Alebrije</b></i></h3></p>
     </div><!--hostal-->
+
     <div class="menu-container">
-        <a class="active-menu" href="">SOBRE</a>
-        <a href="">FOTOS</a>
-        <a href="">ACOMODAÇÕES</a>
-        <a href="">LOCALIZAÇÃO</a>
-        <a href="">AVALIÇÕES</a>
-        <a href="">EXPLORE</a>
+        <a class="active-menu" href="" target="_self">SOBRE</a>
+        <a href="" target="_self">FOTOS</a>
+        <a href="" target="_self">ACOMODAÇÕES</a>
+        <a href="" target="_self">LOCALIZAÇÃO</a>
+        <a href="" target="_self">AVALIÇÕES</a>
+        <a href="" target="_self">EXPLORE</a>
     </div><!--menu-container-->    
     </div>
+    <div class="hostal-central">
+        <h4 style="font-size: 30px; color:#000000;">Bem-vindo&nbsp;ao</h4>
+        <h5 style="font-size: 100px; color:#000000;"><b><i>PUEBLO MÁGICO</b></h5>
+    </div>
+    <div class="translate">
+        <div id="google_translate_element" class="boxTradutor"></div>
+        <a href="javascript:trocarIdioma('pt')"><img alt="português" src="assets/Br.jpg" width="35px;" margin="35px 0;"></a>
+    </div>
+    <div class="translate1">
+        <div id="google_translate_element" class="boxTradutor"></div>
+        <a href="javascript:trocarIdioma('es')"><img alt="espanhol" src="assets/esp.png" width="35px;" margin="35px 0;"></a>
+    </div>
+    <div class="translate2">
+        <a href="javascript:trocarIdioma('en')"><img alt="ingles" src="assets/us.png" width="35px;" margin="35px 0;"></a>
+    </div>
+
     <div class="btn">
-        <button class="btn-enter" style="font-size: 20px;"><b><a href=" " style="color:#ffffff;;">ENTRAR</b></a></div>
-        <button class="btn-cad"style="font-size: 12px;"><b><a href=" " style="color:#ffffff;">CADASTRAR</b></a></div>
-        <button class="btn-res"style="font-size: 20px;"><a href=" " style="color:#f1f1f1;">Reserve&nbsp;agora </a></div>
+        <button class="btn-enter" style="font-size: 20px;"><b><a href="" style="color:#ffffff;;">ENTRAR</b></a></div>
+        <button class="btn-cad"style="font-size: 12px;"><b><a href="" style="color:#ffffff;">CADASTRAR</b></a></div>
+        <button class="btn-res"style="font-size: 20px;"><a href="" style="color:#ffffff;">Reserve&nbsp;agora </a></div>   
+        </button> 
     </div>
 
 </header>
@@ -61,23 +118,13 @@
 </div>    
 <div class="extras" id="q2">
 </div>
-
-<div class="translate">
-    <a href=""><img src="assets/Br.jpg"/></a>
-</div>
-
-<div class="translate1">
-    <a href=""><img src="assets/esp.png"/></a>
-</div>
-
-<div class="translate2">
-    <a href=""><img src="assets/us.png"/></a>
+<div class="extras" id="q3">
 </div>
 
 <div class="social-media">
     <a href="https://instagram.com/alebrije_hostaal?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener"><img src="assets/insta.png"/></a>
-    <a href="https://api.whatsapp.com/send?phone=5217223960938" target="_blank" rel="noopener"><img src="assets/facebook.png"/></a>
-    <a href="https://www.facebook.com/alebrijehostal/" target="_blank" rel="noopener"><img src="assets/wpp.png"/></a>
+    <a href="https://www.facebook.com/alebrijehostal/" target="_blank" rel="noopener"><img src="assets/facebook.png"/></a>
+    <a href="https://api.whatsapp.com/send?phone=5217223960938" target="_blank" rel="noopener"><img src="assets/wpp.png"/></a>
     <a href="https://www.booking.com/hotel/mx/hostal-el-alebrije.en-gb.html" target="_blank" rel="noopener"><img src="assets/b.png"/></a>
 </div>
 
@@ -101,9 +148,41 @@
 <div class="rcp">
     <h0 style="font-size: 10px;"><b>RECEPÇÃO 24<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HORAS</b></P></h0>
 </div>
+<script type="text/javascript">
+    var comboGoogleTradutor = null;
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"/>
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+            pageLanguage: 'pt',
+            includedLanguages: 'pt,en,es',
+            layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL
+        }, 'google_translate_element');
+
+        comboGoogleTradutor = document.getElementById("google_translate_element").querySelector(".goog-te-combo");
+    }
+
+    function changeEvent(el) {
+        if (el.fireEvent) {
+            el.fireEvent('onchange');
+        } else {
+            var evObj = document.createEvent("HTMLEvents");
+
+            evObj.initEvent("change", false, true);
+            el.dispatchEvent(evObj);
+        }
+    }
+
+    function trocarIdioma(sigla) {
+        if (comboGoogleTradutor) {
+            comboGoogleTradutor.value = sigla;
+            changeEvent(comboGoogleTradutor);
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"></script>
  </body>
+</html>
 ``` 
 ### Instruções de acesso
 
