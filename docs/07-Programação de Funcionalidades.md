@@ -2575,8 +2575,7 @@ http://127.0.0.1:5500/Index.html
 ### Desenvolvedor(a): Geovanne Marco Correa da Silva
 - Galeria de Imagens
 
-![image](https://user-images.githubusercontent.com/97962041/204181466-27fea7b8-367a-403c-a204-f2a6433296c8.png)
-
+![Sem título](https://user-images.githubusercontent.com/114536934/204182232-cf590530-ecbd-49df-a545-d92cbd9a6bcd.jpg)
 
 ### Requisito atendido:
 - RF-08 - O site deverá conter uma imagem correspondente para as diferenças de acomodações e demais serviços prestados aos hóspedes.
@@ -2589,113 +2588,91 @@ http://127.0.0.1:5500/Index.html
 - .jpg
 - .svg
 
-```html
-<!DOCTYPE html>
-<html lang="pt-BR">
+```css
+.imgcamas {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding-top: 60px;
+    justify-content: center;
+    align-items: center;
+}
 
-<head>
-    <script src="modal.js"></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Hostel El Alebrije na cidade de Valle del Bravo no México">
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <title>Hostel El Alebrije</title>
-    
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <!--Inicio do abeçalho-->
-    <header>
-        <div class="LOGO">
-            <img src="img/Logo.svg" width="90px" alt="Logo do Hostel">
-        </div>
-        <nav class="navegação">
-            <div class="nomehostel">
-                <h1 class="Hostel">Hostal</h1>
-                <h5 class="Elalebrije">El Alebrije</h5>
-            </div>
-            <div class="cabeçalhoselecionavel">
-                <a href="" class="sobre">SOBRE</a>
-                <a href="" class="fotos">FOTOS</a>
-                <a href="" class="acomodacoes">ACOMODAÇÕES</a>
-                <a href="" class="localizacao">LOCALIZAÇÃO</a>
-                <a href="" class="avaliacoes">AVALIAÇÕES</a>
-                <a href="" class="explorar">EXPLORAR</a>
-            </div>
-            <div class="login">
-                <div class="entrar"><strong>ENTRAR</strong></div>
-                <div class="cadastrar">CADASTRAR</div>
-            </div>
-        </nav>
+#img1 {
+    border-radius: 20px;
+    cursor: pointer;
+    opacity: 0.8;
+}
 
-        <div class="bandeiraagora">
-            <div class="reserveagora">RESERVE AGORA</div>
-            <div class="bandeira">
-                <img class="BRA" src="img/BRA.svg" alt="Bandeira Brasil" width="40px">
-                <img class="ESP" src="img/ESP.svg" alt="Bandeira Espanha" width="40px">
-                <img class="USA" src="img/USA.svg" alt="Bandeira Estado Unidos" width="40px">
-            </div>
-        </div>
-    </header>
-    <!--Fim do cabeçalho-->
-</head>
+#img1:hover {
+    border-radius: 30px;
+    transition: 0.5s;
+    opacity: 1;
+}
 
-<body>
-    <section class="corpo">
-        <h1 class="tituloacomodacoes"><strong>ACOMODAÇÕES</strong></h1>
-    </section>
-    <main>
-        <div class="imgcamas">
-            <img id="img1" src="img/cama1.jpg" alt="Quarto Misto Maior" width="300px">
-            <img id="img2" src="img/cama2.jpg" alt="Quarto Misto Feminino" width="300px">
-            <img id="img3" src="img/cama3.jpg" alt="Quarto Suite Privativa" width="300px">
-            <img id="img4" src="img/cama4.jpg" alt="Quarto Casal com cama solteiro" width="300px">
-            <img id="img5" src="img/cama5.jpg" alt="Quarto Misto Menor" width="300px">
-        </div>
-        <div class="txtcamas">
-            <h2 class="cama1"> Misto 6 Camas 11m²</h2>
-            <h2 class="cama2">Misto 4 Camas Feminino</h2>
-            <h2 class="cama3">Privativo Cama de casal</h2>
-            <h2 class="cama4">Privativo Duplo</h2>
-            <h2 class="cama5">Misto 6 Camas 10m²</h2>
-        </div>
-        <div class="txtinfo">
-            <h3 class="txt1">Dormitório misto com 6 camas.<br>Quarto compartilhado</h3>
-            <h3 class="txt2">Dormitório misto com 6 camas.<br>Quarto compartilhado</h3>
-            <h3 class="txt3">Suite privativa com 1 cama de casal.<br>Quarto privativo</h3>
-            <h3 class="txt4">Cama de Casal ou 2 de Solteiro<br>Quarto compartilhado</h3>
-            <h3 class="txt5">Dormitório misto com 6 camas.<br>Quarto compartilhado</h3>
-        </div>
-    </main>
-    <div class="comodidades">
-        <img class="icon1" src="img/icon1.png" width="80px" height="80px" alt="Café da manhã grátis">
-        <img class="icon2" src="img/icon2.png" width="80px" height="80px" alt="Wifi grátis">
-        <img class="icon3" src="img/icon3.png" width="80px" height="80px" alt="Atendimento 24hrs">
-    </div>
-    <div class="txtcomodidades">
-        <h4 class="cafe">Café da manhã incluso</h4>
-        <h4 class="wifi">Wifi Grátis</h4>
-        <h4 class="recepcao">Recepção 24 horas</h4>
+#img2 {
+    border-radius: 20px;
+    cursor: pointer;
+    opacity: 0.8;
+}
 
-    </div>
-    <!--Inicio do rodapé-->
-    <footer class="rodape">
-        <div class="logorodape">
-            <img class="fb" src="img/fb.svg" width="42px" alt="Facebook Logo">
-            <img class="ig" src="img/ig.svg" width="60px" alt="Instagram Logo">
-            <img class="booking" src="img/booking.svg" width="150px" alt="Booking Logo">
-        </div>
-        <div class="sobrerodape">
-            <h1 class="sobrecontato"><strong>Sobre · Contato</strong></h1>
+#img2:hover {
+    border-radius: 30px;
+    transition: 0.5s;
+    opacity: 1;
+}
 
-            <ul class="direitosautorais"> © <id class="trademark"> ElAlebrije </id>2022 Todos os direitos reservados
-            </ul>
-        </div>
-        <div class="wpp">
-            <img src="img/wpp.svg" alt="WhatsApp Logo" width="57px">
-        </div>
-    </footer>
-    <!--Fim do rodapé-->
-</body>
+#img3 {
+    border-radius: 20px;
+    cursor: pointer;
+    opacity: 0.8;
+}
 
+#img3:hover {
+    border-radius: 30px;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+#img4 {
+    border-radius: 20px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#img4:hover {
+    border-radius: 30px;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+#img5 {
+    border-radius: 20px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#img5:hover {
+    border-radius: 30px;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+/* - Inicio Zoom dinamico - */
+.imgcamas img {
+    position: relative;
+    display: inline-block;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.9);
+    transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.imgcamas img:hover {
+    transform: scale(1.27, 1.25);
+}
+
+.imgcamas img:hover::after {
+    opacity: 1;
+}
 </html>
 ```
 ### Instruções de acesso
