@@ -20,7 +20,7 @@
 ![image](https://user-images.githubusercontent.com/97962041/204153039-28155cd4-7219-41f1-95d8-9eaf3a115c0d.png)
 
 ## CT-04 - Teste do Link entre as Páginas
-### Desenvolvedor(a): Saory Nayara Vieira Nakabori, Fernanda Marques Assis, Danrley Gustavo Martins De Paula
+### Desenvolvedor(a): Saory Nayara Vieira Nakabori, Fernanda Marques Assis, Danrley G M Paula
 ![image](https://user-images.githubusercontent.com/97962041/204153102-7669af2f-9946-40eb-82bd-f3437fec1ddd.png)
 ![image](https://user-images.githubusercontent.com/97962041/204153085-4c5f642f-9b53-4da6-8bf8-b687ad8cc5e0.png)
 ![image](https://user-images.githubusercontent.com/97962041/204161005-1034616e-bd5f-4a54-9682-dd480acfd789.png)
@@ -32,7 +32,7 @@
 ![image](https://user-images.githubusercontent.com/97962041/200980768-d5d1c7a3-0dc3-45ac-8dbc-80df25a64db2.png)
 
 ## CT-06 -  Teste da Tradução das Páginas
-### Desenvolvedor(a): Danrley G M de Paula
+### Desenvolvedor(a): Danrley G M Paula
 
 Página em Português - BR
 
