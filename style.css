@@ -1,0 +1,166 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+.center{
+    max-width: 1980px;
+    padding: 0 2%;
+    display: flex;
+    margin:0 auto;
+}
+
+.button{
+    text-decoration: none;
+}
+
+.btn-enter a{
+   padding: 3px 10px;
+   background: #fff;
+   height: 30px;
+   border: none;
+   text-decoration: none;
+   border-radius:10px;
+}
+
+.btn-cad a{
+    padding: 3px 10px;
+    background: #fff;
+    height: 20px;
+    border: none;
+    text-decoration: none;
+    border-radius:7px;
+ }
+
+.logo{
+  border-radius: 25% 10%;
+}
+.btn {
+    position: absolute;
+    right: 280px;
+    top: 15px;
+    border: none;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+.btn-enter{ 
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    border: none;
+    color:#fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px
+}
+
+
+.btn-cad { 
+    position: absolute;
+    right:295px;
+    top:70px;
+    border: none;
+    color:#fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+.hostal{
+    padding-top: 30px;
+    width: 10%;
+    color: #fff;
+}
+
+header{
+    padding: 0px 0;
+    background-color: #9e2fba;
+    height: 99px;
+}
+.menu-container{
+    justify-self: space-between;
+    text-align: right;
+    width: 50%;
+}
+
+.menu-container a.active-menu{
+    background-color: #D9D9D9;
+
+}
+
+.menu-container a{
+    display: inline-block;
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    padding: 30px 10px;
+    line-height: 40px;
+    transition: 0.8s;
+    padding-top: 30px;
+}
+
+.menu-container a:hover{
+    color:#9e2fba
+}
+
+.translate{
+    position: absolute;
+    right: 153px;
+    top: -10px;
+}
+
+.translate1{
+    position: absolute;
+    right: 92px;
+    top: -10px;
+}
+
+.translate2{
+    position: absolute;
+    right: 32px;
+    top: -10px;
+}
+
+.translate img{
+    display: block;
+    width: 30px;
+    margin: 35px 0;
+}
+
+.translate1 img{
+    display: block;
+    width: 30px;
+    margin: 35px 0;
+}
+
+.translate2 img{
+    display: block;
+    width: 30px;
+    margin: 35px 0;
+}
+
+.steps-dados{
+display:flex;
+gap:25%;
+}
+
+.finalizar{
+    display:flex;
+    justify-content:center;
+    
+}
+
+.page-title{
+    color: #818181;
+    font-size:50px;
+    font-weight:bold;
+}
+
+
+
+
+
+
