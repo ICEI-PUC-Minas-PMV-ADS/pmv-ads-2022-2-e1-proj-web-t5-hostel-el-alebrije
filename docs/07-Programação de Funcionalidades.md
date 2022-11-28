@@ -2395,6 +2395,8 @@ http://127.0.0.1:5500/confirmacao-pucHostel/index.html
 - .svg
 
 ```js
+    onclick="img();"
+    
     Function (){}
       document.getElementById
    
