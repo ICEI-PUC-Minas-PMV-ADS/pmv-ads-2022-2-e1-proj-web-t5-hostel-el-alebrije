@@ -2188,8 +2188,193 @@ http://127.0.0.1:5500/Explore.html
 
 ### Instruções de acesso
 Página para revisar as escolhas de acomodações;
-http://127.0.0.1:5500/pmv-ads-2022-2-e1-proj-web-t5-hostel-el-alebrije/index.html
+![image](https://user-images.githubusercontent.com/97962041/204175870-414cfd15-adc5-478d-9eae-98a4956ffd8f.png)
 
+
+## Confirmação (RF-05 e RF-12)
+### Desenvolvedor(a): Gabriella Bradley Cusnir
+- Página Revise suas Acomodações
+
+![image](https://user-images.githubusercontent.com/97962041/204175713-5a95d464-26f9-4756-a4d7-4fcb09918058.png)
+
+
+### Requisito atendido:
+- RF-05 - O sistema deve permitir ao hóspede imprimir um histórico de suas estadias no hostel, agilizando o processo de hospedagem pelo cadastro já ter sido previamente feito;
+- RF-12 - A reserva somente deve ser feita se existirem vagas suficientes para atendê-la. Ademais, deverá ser mostrada uma mensagem alertando que não há disponibilidade de acomodações para o período indicado.
+
+### Artefatos da funcionalidade:
+- index.html
+- img
+- script.js
+- style.css
+
+```js
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="footer.css">
+    <script src="script.js" defer></script>
+    <title>Confirmação - Puc hostel</title>
+</head>
+<body>
+    <header>
+        <div class="center">
+            <div class="logo">
+                <h3><img src="./img/img022.jpg" width="103">
+                    </div><!--center-->
+                    <div class="hostal">
+                        <h3 style="font-size: 14px;"><i>&nbsp;&nbsp; Hostal<p><b>El Alebrije</b></i></h3></p>
+                    </div><!--hostal-->
+                    <div class="menu-container">
+                        <a class="active-menu" href="">SOBRE</a>
+                        <a href="">FOTOS</a>
+                        <a href="">ACOMODAÇÕES</a>
+                        <a href="">LOCALIZAÇÃO</a>
+                        <a href="">AVALIÇÕES</a>
+                        <a href="">EXPLORE</a>
+                    </div><!--menu-container-->    
+            </div>
+            <div class="btn">
+                <button class="btn-enter" style="font-size: 20px;"><b><a href=" " style="color:#9e2fba;;">ENTRAR</b></a></div>
+            <button class="btn-cad"style="font-size: 12px;"><b><a href=" " style="color:#9e2fba;">CADASTRAR</b></a></div>
+        </div>
+</header>
+<div class="translate">
+    <a href=""><img src="./img/bandeira-brasil.png"/></a>
+</div>
+
+<div class="translate1">
+    <a href=""><img src="./img/bandeira-eua.png"/></a>
+</div>
+
+<div class="translate2">
+    <a href=""><img src="./img/bandeira-mex.png"/></a>
+</div>
+<div class="container">
+
+    <div class="row justify-content-center">
+        <div class="col-sm-8">
+<br><br><br>
+        <div class="col-md-12 steps-dados">
+            <div class="dados">
+                <img src="./img/cama-de-hotel.png" style="height:100px; width:100px;" alt="hotel-bed" class="img-responsive"/>
+                <div class="dados-active">
+                <span style="color: rgb(9, 9, 9); font-size: 18px;">Escolha seu quarto</span>
+                </div>
+            </div>
+            <div class="dados">
+                <img src="./img/aceitaram.png" style="height:100px; width:100px;" alt="hotel-bed" class="img-responsive"/>
+                <div class="dados-active">
+                    <span style="color: rgb(20, 20, 20); font-size: 18px;">Revise seus dados</span>
+                </div>
+            </div>
+            <div class="dados-confirmacao">
+                <img src="./img/verificado.png" style="height:100px; width:100px;" alt="hotel-bed" class="img-responsive"/>
+                <div class="dados-disable">
+                    <span style="color: #000; font-size: 18px;">Confirmação</span>
+                </div>
+            </div>
+        </div>
+        <br><br>
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-9 " >
+                            <div class="text-center">
+                                <h4>Confirmação:</h4><br>
+                            </div>
+                        </div>
+                        <p>Dados da reserva:</p>
+                        <div class="input-group mb-3">
+                        <span class="input-group-text">Responsável</span>
+                        <input disabled="disable" type="number" value="#" class="form-control" aria-label="Amount (to the nearest dollar)">
+                        </div>
+                        <div class="input-group mb-3">
+                        <span class="input-group-text">Hóspedes</span>
+                        <input disabled="disable" type="number" value="#" class="form-control" aria-label="Amount (to the nearest dollar)">
+                        </div>
+                        <div class="input-group mb-3">
+                        <span class="input-group-text">Data de entrada</span>
+                        <input disabled="disable" type="number" value="#" class="form-control" aria-label="Amount (to the nearest dollar)">
+                        </div>
+                        <div class="input-group mb-3">
+                        <span class="input-group-text">Data de saída</span>
+                        <input disabled="disable" type="number" value="#" class="form-control" aria-label="Amount (to the nearest dollar)">
+                    </div>
+                    </div>
+                    <br><br>
+                    <p>Informações do pagamento:</p>
+                    <div class="input-group mb-3">
+                    <span class="input-group-text">Forma de pagamento</span>
+                    <input disabled="disable" type="number" value="#" class="form-control" aria-label="Amount (to the nearest dollar)">
+                    </div> 
+                    <div class="input-group mb-3">
+                    <span class="input-group-text">Valor pago</span>
+                    <input disabled="disable" type="number" value="#" class="form-control" aria-label="Amount (to the nearest dollar)">
+                    </div> 
+                    <div class="input-group mb-3">
+                    <span class="input-group-text">Data de pagamento</span>
+                    <input disabled="disable" type="number" value="#" class="form-control" aria-label="Amount (to the nearest dollar)">
+                    </div> 
+                    <div class="input-group mb-3">
+                    <span class="input-group-text">Valor total da reserva</span>
+                    <input disabled="disable" type="number" value="#" class="form-control" aria-label="Amount (to the nearest dollar)">
+                    </div> 
+                    <div class="texto">
+                    <p>Se possível, imprima este documento e apresente no momento do check-in.
+                        Desejamos a você uma ótima estadia.
+                    </p>
+                    <p>DÚVIDAS? Entre em contato.</p>
+                    </div>
+                </div>
+                </div>
+                <br>
+            </div>
+            <input type="button" onclick="finalizar()" value="finalizar"/>
+           <footer>
+            <div class="footer">
+                    <div style="display: flex; margin-left: 1rem; align-items:
+                        center">
+                        <a href="https://www.facebook.com/alebrijehostal/"
+                            target="_blank" rel="noopener">
+                            <img src="./img/facebook.jpg" alt="facebook" style="height:20px; width:20px;"/>
+                        </a>
+                        <a
+                            href="https://instagram.com/alebrije_hostaal?igshid=YmMyMTA2M2Y="
+                            target="_blank" rel="noopener">
+                            <img src="./img/instagram-icon.png" alt="insta" style="height:20px; width:20px;" />
+                        </a>
+                        <a
+                            href="https://www.booking.com/hotel/mx/hostal-el-alebrije.en-gb.html"
+                            target="_blank"
+                            rel="noopener">
+                            <img src="./img/booking.png" alt="bookin" style="height:20px; width:20px;"/>
+                        </a>
+                    </div>
+                         <span class="text-copyright">&#169 ElAlebrije <span
+                            id="ano">2022</span> - Todos os direitos
+                        reservados</span>
+                         <div className="footerSide">
+                        <a
+                            href="https://api.whatsapp.com/send?phone=5217223960938"
+                            target="_blank" rel="noopener">
+                            <img src="./img/whatsapp-png.png" alt="whatsapp" style="height:20px; width:20px;" />
+                        </a>
+                    </div>
+                </div>
+            </footer>
+</body>
+</html>
+```
+
+### Instruções de acesso
+Página para revisar as escolhas de acomodações;
+http://127.0.0.1:5500/confirmacao-pucHostel/index.html
 
 ## Reservas (RF-010) e (RF-019)
 ### Desenvolvedor(a): Geovanne Marco Correa da Silva
