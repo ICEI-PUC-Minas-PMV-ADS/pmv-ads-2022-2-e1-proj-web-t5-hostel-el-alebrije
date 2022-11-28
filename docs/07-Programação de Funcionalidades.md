@@ -2394,129 +2394,6 @@ http://127.0.0.1:5500/confirmacao-pucHostel/index.html
 - .jpg
 - .svg
 
-```html
-<!DOCTYPE html>
-<html lang="pt-BR">
-
-<head>
-    <script src="função.js"></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Hostel El Alebrije na cidade de Valle del Bravo no México">
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <title>Hostel El Alebrije</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <!--Inicio do abeçalho-->
-    <header>
-        <div class="LOGO">
-            <img src="img/Logo.svg" width="90px" alt="Logo do Hostel">
-        </div>
-        <nav class="navegação">
-            <div class="nomehostel">
-                <h1 class="Hostel">Hostal</h1>
-                <h5 class="Elalebrije">El Alebrije</h5>
-            </div>
-            <div class="cabeçalhoselecionavel">
-                <a href="" class="sobre">SOBRE</a>
-                <a href="" class="fotos">FOTOS</a>
-                <a href="" class="acomodacoes">ACOMODAÇÕES</a>
-                <a href="" class="localizacao">LOCALIZAÇÃO</a>
-                <a href="" class="avaliacoes">AVALIAÇÕES</a>
-                <a href="" class="explorar">EXPLORAR</a>
-            </div>
-            <div class="login">
-                <div class="entrar"><strong>ENTRAR</strong></div>
-                <div class="cadastrar">CADASTRAR</div>
-            </div>
-        </nav>
-
-        <div class="bandeiraagora">
-            <div class="reserveagora">RESERVE AGORA</div>
-            <div class="bandeira">
-                <img class="BRA" src="img/BRA.svg" alt="Bandeira Brasil" width="40px">
-                <img class="ESP" src="img/ESP.svg" alt="Bandeira Espanha" width="40px">
-                <img class="USA" src="img/USA.svg" alt="Bandeira Estado Unidos" width="40px">
-            </div>
-        </div>
-    </header>
-    <!--Fim do cabeçalho-->
-</head>
-
-<body>
-
-    <main>
-        <section class="corpo">
-            <h1 class="titulofotos"><strong>FOTOS</strong></h1>
-            <div class="imagens">
-                <main class="imgpequena">
-                    <ul>
-                        <li>
-                            <img src="img/trocaimg01.jpg" width="100px" alt="Rede de balanço 1" onclick="img01();">
-                        </li>
-                        <li>
-                            <img src="img/trocaimg02.jpg" width="100px" alt="Rede de balanço 2" onclick="img02();">
-                        </li>
-                        <li>
-                            <img src="img/trocaimg03.jpg" width="100px" alt="Quadro Decorativo" onclick="img03();">
-                        </li>
-                        <li>
-                            <img src="img/trocaimg04.jpg" width="100px" alt="Cozinha Hostel" onclick="img04();">
-                        </li>
-                        <li>
-                            <img src="img/trocaimg05.jpg" width="100px" alt="Sala Hostel" onclick="img05();">
-                        </li>
-                        <li>
-                            <img src="img/trocaimg06.jpg" width="100px" alt="Mapa Mundi" onclick="img06();">
-                        </li>
-                    </ul>
-                </main>
-                <img class="fotogrande" src="img/trocaimg06.jpg" width="1000px" height="630"
-                    alt="imagem alterada por JS" id="trocarimg">
-                <ul class="ulnova">
-                    <li>
-                        <img src="img/trocaimg07.jpg" width="100px" alt="Banheiro" onclick="img07();">
-                    </li>
-                    <li>
-                        <img src="img/trocaimg08.jpg" width="100px" alt="Quarto Casal Privado" onclick="img08();">
-                    </li>
-                    <li>
-                        <img src="img/trocaimg09.jpg" width="100px" alt="Quarto Compartilhado1" onclick="img09();">
-                    </li>
-                    <li>
-                        <img src="img/trocaimg10.jpg" width="100px" alt="Quarto Compartilhado2" onclick="img10();">
-                    </li>
-                    <li>
-                        <img src="img/trocaimg11.jpg" width="100px" alt="Quarto Compartilhado 3" onclick="img11();">
-                    </li>
-                    <li>
-                        <img src="img/trocaimg12.jpg" width="100px" alt="Outro mapa mundi" onclick="img12();">
-                    </li>
-                </ul>
-
-        </section>
-    </main>
-    <!--Inicio do rodapé-->
-    <footer class="rodape">
-        <div class="logorodape">
-            <img class="fb" src="img/fb.svg" width="42px" alt="Facebook Logo">
-            <img class="ig" src="img/ig.svg" width="60px" alt="Instagram Logo">
-            <img class="booking" src="img/booking.svg" width="150px" alt="Booking Logo">
-        </div>
-        <div class="sobrerodape">
-            <h1 class="sobrecontato"><strong>Sobre · Contato</strong></h1>
-
-            <ul class="direitosautorais"> © <id class="trademark"> ElAlebrije </id>2022 Todos os direitos reservados
-            </ul>
-        </div>
-        <div class="wpp">
-            <img src="img/wpp.svg" alt="WhatsApp Logo" width="57px">
-        </div>
-    </footer>
-    <!--Fim do rodapé-->
-</body>
-
-</html>
-
 ```
 
 ```js
@@ -2565,8 +2442,97 @@ function img12 (){
     document.getElementById("trocarimg").src="trocaimg12.jpg";
 }
 
-    
+
 ```
+
+```css
+.imgcamas {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding-top: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+#img1 {
+    border-radius: 20px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#img1:hover {
+    border-radius: 30px;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+#img2 {
+    border-radius: 20px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#img2:hover {
+    border-radius: 30px;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+#img3 {
+    border-radius: 20px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#img3:hover {
+    border-radius: 30px;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+#img4 {
+    border-radius: 20px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#img4:hover {
+    border-radius: 30px;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+#img5 {
+    border-radius: 20px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#img5:hover {
+    border-radius: 30px;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+/* - Inicio Zoom dinamico - */
+.imgcamas img {
+    position: relative;
+    display: inline-block;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.9);
+    transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.imgcamas img:hover {
+    transform: scale(1.27, 1.25);
+}
+
+.imgcamas img:hover::after {
+    opacity: 1;
+}
+
+```
+
 ### Instruções de acesso
 
 O cliente deverá clicar nas imagens desejadas, assim, podendo vizualiza-las de forma ampliada e em sua qualidade máxima.
