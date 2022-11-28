@@ -2528,7 +2528,8 @@ http://127.0.0.1:5500/confirmacao-pucHostel/index.html
 ```
 
 ```js
-// function img01 (){
+
+function img01 (){
     document.getElementById("trocarimg").src="trocaimg01.jpg";
 }
 function img02 (){
@@ -2584,9 +2585,6 @@ http://127.0.0.1:5500/Index.html
 ### Artefatos da funcionalidade:
 - header.html
 - style.css
-- função.js
-- .jpg
-- .svg
 
 ```css
 .imgcamas {
@@ -2673,7 +2671,8 @@ http://127.0.0.1:5500/Index.html
 .imgcamas img:hover::after {
     opacity: 1;
 }
-</html>
+/* - Fim do Zoom dinamico - */
+
 ```
 ### Instruções de acesso
 Página para visualização das fotos das acomodações;
