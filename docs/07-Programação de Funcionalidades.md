@@ -3,7 +3,7 @@
 ### Desenvolvedor(a): Danrley G M Paula 
 - Funcionalidade tradução e links redes sociais 
 
-![home](https://user-images.githubusercontent.com/112135999/204169598-451c07aa-5b13-4139-967e-8618c149c1a7.png)
+![home](https://user-images.githubusercontent.com/112135999/204169651-7893b440-fa43-424e-ba3b-908003ed5004.png)
 
 ### Requisito atendido:
 - RF-011 - O sistema será traduzido em três línguas: português, espanhol e inglês
