@@ -1,0 +1,368 @@
+*{
+    margin:0;
+    box-sizing:border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.center{
+    max-width: 1980px;
+    padding: 0 2%;
+    display: flex;
+    margin:0 auto;
+}
+
+.button{
+    text-decoration: none;
+}
+
+.btn-enter a{
+padding: 3px 10px;
+background: #fff;
+height: 30px;
+border: none;
+text-decoration: none;
+border-radius:10px;
+}
+
+.btn-cad a{
+    padding: 3px 10px;
+    background: #fff;
+    height: 20px;
+    border: none;
+    text-decoration: none;
+    border-radius:7px;
+}
+
+.btn {
+    position: absolute;
+    right: 280px;
+    top: 15px;
+    border: none;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+.btn-enter{ 
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    border: none;
+    color:#fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 0%;
+}
+
+
+.btn-cad { 
+    position: absolute;
+    right:295px;
+    top:70px;
+    border: none;
+    color:#fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 0%;
+}
+
+.hostal{
+    padding-top: 30px;
+    width: 10%;
+    color: #fff;
+}
+
+header{
+    padding: 0px 0;
+    background-color: #9e2fba;
+    height: 99px;
+}
+.menu-container{
+    justify-self: space-between;
+    text-align: right;
+    width: 50%;
+}
+
+.menu-container a.active-menu{
+    background-color: #D9D9D9;
+
+}
+
+.menu-container a{
+    display: inline-block;
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    padding: 30px 10px;
+    line-height: 40px;
+    transition: 0.8s;
+    padding-top: 30px;
+}
+
+.menu-container a:hover{
+    color:#9e2fba
+}
+
+.translate{
+    position: absolute;
+    right: 153px;
+    top: -10px;
+}
+
+.translate1{
+    position: absolute;
+    right: 92px;
+    top: -10px;
+}
+
+.translate2{
+    position: absolute;
+    right: 32px;
+    top: -10px;
+}
+
+.translate img{
+    display: block;
+    width: 30px;
+    margin: 35px 0;
+}
+
+.translate1 img{
+    display: block;
+    width: 30px;
+    margin: 35px 0;
+}
+
+.translate2 img{
+    display: block;
+    width: 30px;
+    margin: 35px 0;
+}
+/*fim do header*/
+
+/*inicio do quadro cinza*/
+.list-group-item-dados-pessoais {
+    width: 500px;
+    height: 135px;
+    list-style: none;
+    padding: 2.0rem 1rem;
+    margin-top: 0.5rem;
+    margin-left: -25px;
+    background-color: lightgray;
+    
+    }
+    
+    .list-group-item-reservas {
+    width: 500px;
+    height: 135px;
+    display: block;
+    list-style: none;
+    padding: 2.0rem 1rem;
+    margin-top: 0.5rem;
+    margin-left: -25px;
+    background-color: lightgray; 
+    
+    }
+    
+    .list-group-item-avaliacoes {
+    width: 500px;
+    height: 135px;
+    list-style: none;
+    padding: 1.5rem 1rem;
+    margin-top: 0.5rem;
+    margin-left: -25px;
+    background-color: lightgray; 
+    
+    }
+    
+    .list-group-item-reclamacoes {
+    width: 500px;
+    height: 135px;
+    list-style: none;
+    padding: 2.0rem 1rem;
+    margin-top: 0.5rem;
+    margin-left: -25px;
+    background-color: lightgray;
+    
+    }
+/*fim do quadro cinza*/
+
+/*inicio da foto de perfil*/
+input[type='file']{
+    display: none;
+    
+    }
+    
+    .max-width{
+    max-width: 500px;
+    width: 100%;
+    }
+    
+    .selecaoimagem{
+    max-width: 130px;
+    margin-top: -90%; 
+    padding-left: 900px;
+    }
+    
+    #imgphoto{
+    margin-top: 10%;
+    width: 150px;
+    height: 150px;
+    padding: 4%;
+    background-color: rgb(207, 202, 202);
+    border: 5px solid #a6a0a0; 
+    border-radius: 350%;
+    cursor: pointer;
+    transition: background .3s;
+    }
+    
+    #imgphoto:hover{
+    background-color: #a6a0a0;
+    border: 5px solid #a6a0a0
+    }
+/*fim da foto de perfil*/
+
+/*formulario*/
+.box{
+    color: rgb(16, 16, 16);
+    position:absolute;
+    top: 83%;
+    left: 51%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(238, 232, 232, 0.936);
+    padding: 20px;
+    border-radius: 15px;
+    width: 40%;
+
+}
+
+fieldset{
+    border: 3px solid rgb(131, 20, 121);
+}
+
+legend{
+    border: 1px solid rgba(238, 232, 232, 0.936);
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(204, 67, 200);
+    border-radius: 8px;
+    color: white;
+}
+.inputBox{
+    position: relative;
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(204, 67, 200);
+    outline: none;
+    color: black;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput{
+    top: -20px;
+    font-size: 12px;
+    color:rgb(204, 67, 200);
+}
+#data_nascimento{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
+#submit{
+    background-image: linear-gradient(to right,rgb(204, 67, 200), rgb(204, 67, 200));
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#submit:hover{
+    background: #59429d;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+/*formulario*/  
+
+/*footer*/
+.footer {
+display: flex;
+align-items: center;
+justify-content: space-between;
+background: #9e2fba;
+color: #fff;
+width: 100%;
+
+bottom: 0;
+left: 0;
+position:fixed;
+}
+
+.footerSide {
+display: flex;
+align-items: center;
+}
+.footer-logo {
+width: 7rem;
+}
+.text-copyright {
+margin-right: 5.5rem;
+font-size: 16px;
+}
+
+.footer-logo {
+width: 8rem;
+margin-left: 1rem;
+padding-left: 1rem;
+border-left: 1px solid #fff;
+}
+
+a {
+color: #fff;
+padding-left: 1rem;
+text-decoration: none;
+margin-bottom: 0;
+}
+
+@media (max-width: 720px) {
+.footer {
+display: flex;
+flex-direction: column;
+font-size: 87.5%;
+}
+}
+.formulario {
+top: 150PX;
+left: 840PX;
+position: absolute;
+
+}
+
+#titulo-dados-pessoais {
+font-family: "Poppins", sans-serif;
+text-decoration: underline #9e2fba 5px;
+color:#818181;
+
+
+}
+
+
+
+
