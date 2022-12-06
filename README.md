@@ -45,7 +45,10 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 # Hospedagem
 
 * Insira o endereço eletrônico público de acesso ao conteúdo publicado.
-https://docs.google.com/document/d/1mVxuc7Acsyz67KX7SQFmKibPA7D_GCvk/edit
+https://icei-puc-minas-pmv-ads.github.io/elAlebrije-hostel/
+Hostal El Alebrije
+
+
 
 # Armazenamento do Código-Fonte
 
